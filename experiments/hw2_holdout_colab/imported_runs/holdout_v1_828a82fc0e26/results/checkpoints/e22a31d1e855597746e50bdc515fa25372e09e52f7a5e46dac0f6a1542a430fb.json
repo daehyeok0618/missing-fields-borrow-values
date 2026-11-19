@@ -1,0 +1,42 @@
+{
+  "key": "e22a31d1e855597746e50bdc515fa25372e09e52f7a5e46dac0f6a1542a430fb",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Quillumkel Wynfengil Institute\n\nTarget document:\nQuillumkel Wynfengil Institute specializes in acoustic research and operates in the northern district.\n\nQuestion: What is the recorded founding year for Quillumkel Wynfengil Institute?\nCandidate value: 1975"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    88673,
+    61140,
+    151645
+  ],
+  "raw_output": "UNSUPPORTED",
+  "input_tokens": 138,
+  "output_tokens": 3,
+  "generation_seconds": 0.13420552400020824,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:26:57.395462+00:00",
+  "system_error": null,
+  "record_hash": "b9ca68ab0a28b1c26506a01961376177151327b184b2474b62d949b235ed465f"
+}

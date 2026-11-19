@@ -1,0 +1,8 @@
+{
+  "known_factorial_positive_and_negative_checks": true,
+  "parser_cases": 14,
+  "pass": true,
+  "source_provenance_and_target_donor_mapping_checks": true,
+  "taxonomy_cases": 8,
+  "v1_v2_only_document_currency_notation_changed": true
+}

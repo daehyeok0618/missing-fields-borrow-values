@@ -1,0 +1,420 @@
+{
+  "context_absent_numeric": 66,
+  "context_absent_primary": 66,
+  "context_absent_sparse_under_20": false,
+  "controls": [
+    {
+      "ci95_high": 0.06554904513888883,
+      "ci95_low": 0.03211805555555555,
+      "correct_n": 109,
+      "estimate": 0.04730902777777778,
+      "family": "MISSING",
+      "n": 2304,
+      "policy": "STRICT"
+    },
+    {
+      "ci95_high": 0.6562717013888888,
+      "ci95_low": 0.6058810763888888,
+      "correct_n": 727,
+      "estimate": 0.631076388888889,
+      "family": "N0",
+      "n": 1152,
+      "policy": "STRICT"
+    },
+    {
+      "ci95_high": 1.0,
+      "ci95_low": 0.99609375,
+      "correct_n": 2300,
+      "estimate": 0.998263888888889,
+      "family": "PRESENT",
+      "n": 2304,
+      "policy": "STRICT"
+    },
+    {
+      "ci95_high": 1.0,
+      "ci95_low": 1.0,
+      "correct_n": 288,
+      "estimate": 1.0,
+      "family": "T0",
+      "n": 288,
+      "policy": "STRICT"
+    },
+    {
+      "ci95_high": 1.0,
+      "ci95_low": 1.0,
+      "correct_n": 288,
+      "estimate": 1.0,
+      "family": "T1",
+      "n": 288,
+      "policy": "STRICT"
+    },
+    {
+      "ci95_high": 0.1488715277777778,
+      "ci95_low": 0.10111762152777777,
+      "correct_n": 287,
+      "estimate": 0.12456597222222221,
+      "family": "MISSING",
+      "n": 2304,
+      "policy": "SEMANTIC"
+    },
+    {
+      "ci95_high": 0.6579861111111112,
+      "ci95_low": 0.6067708333333334,
+      "correct_n": 729,
+      "estimate": 0.6328125,
+      "family": "N0",
+      "n": 1152,
+      "policy": "SEMANTIC"
+    },
+    {
+      "ci95_high": 1.0,
+      "ci95_low": 0.99609375,
+      "correct_n": 2300,
+      "estimate": 0.998263888888889,
+      "family": "PRESENT",
+      "n": 2304,
+      "policy": "SEMANTIC"
+    },
+    {
+      "ci95_high": 1.0,
+      "ci95_low": 1.0,
+      "correct_n": 288,
+      "estimate": 1.0,
+      "family": "T0",
+      "n": 288,
+      "policy": "SEMANTIC"
+    },
+    {
+      "ci95_high": 1.0,
+      "ci95_low": 1.0,
+      "correct_n": 288,
+      "estimate": 1.0,
+      "family": "T1",
+      "n": 288,
+      "policy": "SEMANTIC"
+    },
+    {
+      "ci95_high": 0.1488715277777778,
+      "ci95_low": 0.10111762152777777,
+      "correct_n": 287,
+      "estimate": 0.12456597222222221,
+      "family": "MISSING",
+      "n": 2304,
+      "policy": "NULL_NA"
+    },
+    {
+      "ci95_high": 0.6579861111111112,
+      "ci95_low": 0.6067708333333334,
+      "correct_n": 729,
+      "estimate": 0.6328125,
+      "family": "N0",
+      "n": 1152,
+      "policy": "NULL_NA"
+    },
+    {
+      "ci95_high": 1.0,
+      "ci95_low": 0.99609375,
+      "correct_n": 2300,
+      "estimate": 0.998263888888889,
+      "family": "PRESENT",
+      "n": 2304,
+      "policy": "NULL_NA"
+    },
+    {
+      "ci95_high": 1.0,
+      "ci95_low": 1.0,
+      "correct_n": 288,
+      "estimate": 1.0,
+      "family": "T0",
+      "n": 288,
+      "policy": "NULL_NA"
+    },
+    {
+      "ci95_high": 1.0,
+      "ci95_low": 1.0,
+      "correct_n": 288,
+      "estimate": 1.0,
+      "family": "T1",
+      "n": 288,
+      "policy": "NULL_NA"
+    }
+  ],
+  "cross_task_comparison_is_descriptive": true,
+  "decisions": {
+    "NULL_NA": {
+      "effects": {
+        "delta_C": {
+          "ci95_high": -0.18142361111111113,
+          "ci95_low": -0.2578125,
+          "estimate": -0.21961805555555558,
+          "metric": "delta_C",
+          "n_base": 96,
+          "policy": "NULL_NA",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        },
+        "delta_U": {
+          "ci95_high": 0.059895833333333336,
+          "ci95_low": 0.02517361111111111,
+          "estimate": 0.041666666666666664,
+          "metric": "delta_U",
+          "n_base": 96,
+          "policy": "NULL_NA",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        },
+        "delta_attr": {
+          "ci95_high": 0.7465386284722222,
+          "ci95_low": 0.6744683159722222,
+          "estimate": 0.7113715277777777,
+          "metric": "delta_attr",
+          "n_base": 96,
+          "policy": "NULL_NA",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        },
+        "delta_type": {
+          "ci95_high": -0.21354166666666666,
+          "ci95_low": -0.3116319444444444,
+          "estimate": -0.2612847222222222,
+          "metric": "delta_type",
+          "n_base": 96,
+          "policy": "NULL_NA",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        },
+        "forward_switch": {
+          "ci95_high": 0.6545138888888888,
+          "ci95_low": 0.5607638888888888,
+          "estimate": 0.607638888888889,
+          "metric": "forward_switch",
+          "n_base": 96,
+          "policy": "NULL_NA",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        },
+        "reverse_switch": {
+          "ci95_high": 0.0,
+          "ci95_low": 0.0,
+          "estimate": 0.0,
+          "metric": "reverse_switch",
+          "n_base": 96,
+          "policy": "NULL_NA",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        }
+      },
+      "h1_supported": true,
+      "h2_supported": false
+    },
+    "SEMANTIC": {
+      "effects": {
+        "delta_C": {
+          "ci95_high": -0.18142361111111113,
+          "ci95_low": -0.2578125,
+          "estimate": -0.21961805555555558,
+          "metric": "delta_C",
+          "n_base": 96,
+          "policy": "SEMANTIC",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        },
+        "delta_U": {
+          "ci95_high": 0.059895833333333336,
+          "ci95_low": 0.02517361111111111,
+          "estimate": 0.041666666666666664,
+          "metric": "delta_U",
+          "n_base": 96,
+          "policy": "SEMANTIC",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        },
+        "delta_attr": {
+          "ci95_high": 0.7465386284722222,
+          "ci95_low": 0.6744683159722222,
+          "estimate": 0.7113715277777777,
+          "metric": "delta_attr",
+          "n_base": 96,
+          "policy": "SEMANTIC",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        },
+        "delta_type": {
+          "ci95_high": -0.21354166666666666,
+          "ci95_low": -0.3116319444444444,
+          "estimate": -0.2612847222222222,
+          "metric": "delta_type",
+          "n_base": 96,
+          "policy": "SEMANTIC",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        },
+        "forward_switch": {
+          "ci95_high": 0.6545138888888888,
+          "ci95_low": 0.5607638888888888,
+          "estimate": 0.607638888888889,
+          "metric": "forward_switch",
+          "n_base": 96,
+          "policy": "SEMANTIC",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        },
+        "reverse_switch": {
+          "ci95_high": 0.0,
+          "ci95_low": 0.0,
+          "estimate": 0.0,
+          "metric": "reverse_switch",
+          "n_base": 96,
+          "policy": "SEMANTIC",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        }
+      },
+      "h1_supported": true,
+      "h2_supported": false
+    },
+    "STRICT": {
+      "effects": {
+        "delta_C": {
+          "ci95_high": -0.18142361111111113,
+          "ci95_low": -0.2578125,
+          "estimate": -0.21961805555555558,
+          "metric": "delta_C",
+          "n_base": 96,
+          "policy": "STRICT",
+          "role": "PRIMARY",
+          "subset": "ALL"
+        },
+        "delta_U": {
+          "ci95_high": 0.059895833333333336,
+          "ci95_low": 0.02517361111111111,
+          "estimate": 0.041666666666666664,
+          "metric": "delta_U",
+          "n_base": 96,
+          "policy": "STRICT",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        },
+        "delta_attr": {
+          "ci95_high": 0.7465386284722222,
+          "ci95_low": 0.6744683159722222,
+          "estimate": 0.7113715277777777,
+          "metric": "delta_attr",
+          "n_base": 96,
+          "policy": "STRICT",
+          "role": "PRIMARY",
+          "subset": "ALL"
+        },
+        "delta_type": {
+          "ci95_high": -0.21354166666666666,
+          "ci95_low": -0.3116319444444444,
+          "estimate": -0.2612847222222222,
+          "metric": "delta_type",
+          "n_base": 96,
+          "policy": "STRICT",
+          "role": "PRIMARY",
+          "subset": "ALL"
+        },
+        "forward_switch": {
+          "ci95_high": 0.6545138888888888,
+          "ci95_low": 0.5607638888888888,
+          "estimate": 0.607638888888889,
+          "metric": "forward_switch",
+          "n_base": 96,
+          "policy": "STRICT",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        },
+        "reverse_switch": {
+          "ci95_high": 0.0,
+          "ci95_low": 0.0,
+          "estimate": 0.0,
+          "metric": "reverse_switch",
+          "n_base": 96,
+          "policy": "STRICT",
+          "role": "PRESPECIFIED_SECONDARY",
+          "subset": "ALL"
+        }
+      },
+      "h1_supported": true,
+      "h2_supported": false
+    }
+  },
+  "main_calls": 6336,
+  "n_base": 96,
+  "parser_replay_mismatches": 0,
+  "pilot": {
+    "behavioral_effects_not_used_for_selection": true,
+    "capability_pass": true,
+    "complete": 792,
+    "controls": {
+      "PRESENT": {
+        "accuracy": 1.0,
+        "correct": 288,
+        "n": 288,
+        "semantic_accuracy": 1.0,
+        "semantic_correct": 288
+      },
+      "T0": {
+        "accuracy": 1.0,
+        "correct": 36,
+        "n": 36,
+        "semantic_accuracy": 1.0,
+        "semantic_correct": 36
+      },
+      "T1": {
+        "accuracy": 1.0,
+        "correct": 36,
+        "n": 36,
+        "semantic_accuracy": 1.0,
+        "semantic_correct": 36
+      }
+    },
+    "main_allowed": true,
+    "note": "T0 semantic and T1 strict capability gates fixed before inference; no selection by donor effects, and no automatic repair after failure.",
+    "projected_main_seconds": 2658.3064883520055,
+    "protocol_changed": false,
+    "strict_valid": 791,
+    "technical_pass": true,
+    "truncated": 0,
+    "under_two_hours": true
+  },
+  "primary_calls": 2304,
+  "protocol_unchanged": true,
+  "quoted_null_primary": 178,
+  "runtime": {
+    "completed": 6336,
+    "cuda_build": "13.0",
+    "device": "cuda:0",
+    "finished_utc": "2026-11-13T06:37:18.155083+00:00",
+    "generation_seconds": 2659.2512676219994,
+    "generation_seconds_this_process": 2659.2512676219994,
+    "gpu": "Tesla T4",
+    "gpu_total_bytes": 15637086208,
+    "input_tokens": 12706702,
+    "model_load_seconds": 9.255364579000343,
+    "new_requests": 6336,
+    "output_tokens": 66190,
+    "parse_errors": {
+      "value_type_or_empty": 17
+    },
+    "peak_allocated_bytes": 6231354368,
+    "peak_reserved_bytes": 10051649536,
+    "process_seconds": 2720.59178171,
+    "python": "3.13.16",
+    "requests": 6336,
+    "setup_hash": "8f30550afe3cfd02e5b83039bda234b8e733792fa3ffd40b7d4e4ca38ee9b448",
+    "split": "main",
+    "started_utc": "2026-11-13T05:51:57.564776+00:00",
+    "status": "COMPLETE",
+    "strict_valid": 6319,
+    "system_errors": 0,
+    "torch": "2.14.1+cu130",
+    "transformers": "4.57.6",
+    "truncated": 0
+  },
+  "status": "COMPLETE",
+  "strict_valid": 6319,
+  "truncated": 0,
+  "zero_event_base_any_event_95_upper": 0.03072367683353283
+}

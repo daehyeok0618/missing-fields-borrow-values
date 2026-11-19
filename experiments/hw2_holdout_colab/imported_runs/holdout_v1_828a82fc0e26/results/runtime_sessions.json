@@ -1,0 +1,10 @@
+[
+  {
+    "finished_utc": "2026-11-10T05:46:25.899846+00:00",
+    "model_load_seconds": 4.607490518999839,
+    "session_seconds": 1173.843272266,
+    "new_calls": 2794,
+    "peak_allocated_bytes": 3288867840,
+    "peak_reserved_bytes": 3533701120
+  }
+]

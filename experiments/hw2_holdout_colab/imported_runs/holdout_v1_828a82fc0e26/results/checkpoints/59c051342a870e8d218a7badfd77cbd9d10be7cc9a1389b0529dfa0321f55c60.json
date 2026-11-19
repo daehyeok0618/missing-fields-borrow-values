@@ -1,0 +1,42 @@
+{
+  "key": "59c051342a870e8d218a7badfd77cbd9d10be7cc9a1389b0529dfa0321f55c60",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Mercorpor Selbelpor Institute\n\nTarget document:\nOrganization memo: Mercorpor Selbelpor Institute\n- Activity: acoustic research\n- Region: northern district\n\nQuestion: In which year was Mercorpor Selbelpor Institute founded?\nCandidate value: 1999"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    88673,
+    61140,
+    151645
+  ],
+  "raw_output": "UNSUPPORTED",
+  "input_tokens": 138,
+  "output_tokens": 3,
+  "generation_seconds": 0.09153817199876357,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:37:24.352349+00:00",
+  "system_error": null,
+  "record_hash": "e4f6c3cb22d25e44a05cf790b6b8cf0efecab731a93aeb894acca820725c03ec"
+}

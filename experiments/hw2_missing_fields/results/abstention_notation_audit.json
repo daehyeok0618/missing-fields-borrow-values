@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "quoted_null_and_na_as_abstain": {
+      "changed_outputs_all_families": 1597
+    },
+    "quoted_null_as_abstain": {
+      "changed_outputs_all_families": 1596
+    },
+    "strict_primary": {
+      "changed_outputs_all_families": 0
+    }
+  },
+  "ci_scope": "Same 2,000 base-cluster bootstrap resamples as primary; post-hoc only.",
+  "context_absent_primary": [
+    {
+      "placement": "ADJACENT",
+      "raw_output": "{\"value\": \"23456\"}",
+      "request_id": "HW2M014_BULLET_MISSING_S2_BA_ADJACENT"
+    },
+    {
+      "placement": "ADJACENT",
+      "raw_output": "{\"value\": \"10600\"}",
+      "request_id": "HW2M028_BULLET_MISSING_S2_BA_ADJACENT"
+    },
+    {
+      "placement": "MIDDLE",
+      "raw_output": "{\"value\": \"n/a\"}",
+      "request_id": "HW2M034_BULLET_MISSING_S2_BA_MIDDLE"
+    },
+    {
+      "placement": "ADJACENT",
+      "raw_output": "{\"value\": \"20586\"}",
+      "request_id": "HW2M051_KV_MISSING_S1_AB_ADJACENT"
+    },
+    {
+      "placement": "ADJACENT",
+      "raw_output": "{\"value\": \"20586\"}",
+      "request_id": "HW2M051_BULLET_MISSING_S1_AB_ADJACENT"
+    },
+    {
+      "placement": "ADJACENT",
+      "raw_output": "{\"value\": \"2390\"}",
+      "request_id": "HW2M052_BULLET_MISSING_S2_BA_ADJACENT"
+    },
+    {
+      "placement": "ADJACENT",
+      "raw_output": "{\"value\": \"20960\"}",
+      "request_id": "HW2M081_KV_MISSING_S1_AB_ADJACENT"
+    }
+  ],
+  "other_in_context_primary_n": 1561,
+  "primary_changed": false,
+  "quoted_null_primary_n": 1560,
+  "quoted_null_reclassification_preserves_all_primary_base_effects": true,
+  "status": "POST_HOC_DIAGNOSTIC"
+}

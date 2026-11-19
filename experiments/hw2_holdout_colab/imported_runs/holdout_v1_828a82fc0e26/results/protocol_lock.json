@@ -1,0 +1,177 @@
+{
+  "signature": "3456b315a6d78422fbdcc166b348ec8fa801909106fc84068873de9ed7fd4fca",
+  "material": {
+    "protocol": {
+      "version": "hw2-target-only-holdout-v1",
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "transformers": "4.57.6",
+      "tokenizers": "0.22.2",
+      "seed": 2026111001,
+      "data_seed": 2026111011,
+      "bootstrap_seed": 2026111012,
+      "bootstrap_repetitions": 2000,
+      "dtype": "float16",
+      "attention": "sdpa",
+      "batch_size": 1,
+      "generation": {
+        "do_sample": false,
+        "num_beams": 1,
+        "num_return_sequences": 1,
+        "repetition_penalty": 1.1,
+        "max_new_tokens": 96,
+        "use_cache": true
+      },
+      "pointer_max_new_tokens": 16,
+      "relation_max_new_tokens": 12,
+      "max_prompt_tokens": 2304,
+      "max_calls_reuse": 6000,
+      "max_calls_refresh": 7000,
+      "holdout_bases_per_task": 8,
+      "expected_development_inputs": 480,
+      "expected_holdout_inputs": 1152,
+      "expected_holdout_bases": 16,
+      "methods": [
+        "standard",
+        "target_only",
+        "target_only_presence",
+        "id_selection",
+        "standard_gate_constrained",
+        "target_only_gate_constrained",
+        "id_gate_constrained",
+        "target_only_routed_gate_constrained",
+        "field_parser",
+        "alias_field_parser",
+        "always_abstain"
+      ],
+      "holdout_design": "Every new base has all six conditions, 3 templates, 2 placements, and matched canonical/paraphrase styles. Each style has 576 inputs; do not treat styles as independent bases.",
+      "holdout_scope": "Frozen synthetic holdout after development, not a natural-document or unseen-model evaluation. Same attribute concepts; prescribed wording shift.",
+      "split_isolation": "Development and holdout tables remain separate. No tuning, retry for bad answers, or selection of a best prompt after holdout.",
+      "candidate_and_gate": "Three unchanged frozen candidate prompts. Same unchanged target-only relation prompt, canonical numeric candidate, SUPPORTED/UNSUPPORTED token mask. Valid null/invalid upstream decisions are preserved.",
+      "primary_control": "ID+gate versus target-only-routed+gate: both return CPU null with zero method calls if the target has no numbers. Also retain ordinary target-only+gate to show the shortcut effect. The matched control adds no new physical requests.",
+      "parser_policy": "Keep original literal parser and a stronger schema-aware parser covering all declared positive paraphrases, fixed before inference. Do not claim novelty from beating a literal parser on aliases.",
+      "aliases": {
+        "salary": {
+          "requested": [
+            "salary",
+            "annual pay",
+            "yearly compensation",
+            "annual remuneration"
+          ],
+          "competing": [
+            "budget",
+            "operating budget",
+            "annual operating budget"
+          ],
+          "third": [
+            "revenue",
+            "annual revenue",
+            "yearly revenue"
+          ]
+        },
+        "year": {
+          "requested": [
+            "founding year",
+            "year of establishment",
+            "establishment year",
+            "year of founding"
+          ],
+          "competing": [
+            "audit year",
+            "year of the audit",
+            "year of audit"
+          ],
+          "third": [
+            "review year",
+            "year of the review",
+            "year of review"
+          ]
+        }
+      },
+      "year_values": "Individual years may repeat; entities and year value-pairs/triples are excluded from historical inventories. Salary values are individually excluded.",
+      "reuse": "Exact authenticated pointer/gate requests only, in the identical recorded runtime. REUSE_PARENT=False refreshes development. No historical holdout request is allowed.",
+      "invalid": "Primary decisions retain INVALID as error. Separate service outputs map invalid to null.",
+      "cost": "Report split-specific unique-request sums and logical per-input dependency sums. Parent and current generations distinguished; no end-to-end speedup claim."
+    },
+    "sources": {
+      "AI_USAGE.md": "39129e1f3a2359ef82f53b477674a574b974310cee165ca18d0e128bca08a22d",
+      "README.md": "ac053242362bbfdf1fadbccf420ec0928a8c0c57a5988ca365b0b7bd74fab290",
+      "__init__.py": "dd43b3d76ccde08c2ac0858457b8fd3962d1ab436205b3f1479a86399d3415e5",
+      "analysis.py": "2cda773f150e5c6bc7345e75a2fc8c596c070ad73e0de3d5e27e33ea1327e94b",
+      "build_notebook.py": "215f09ffcf4854a4eafb6809e6395051e35dc10694ea5f494222291214963ae9",
+      "common.py": "7b53889dd1a672fa59017065c580a85f8051225df47fdc8034e105d9b08fa6ec",
+      "core.py": "975b538572ce0ab863076cca85acb3d28fab0efc8d52563d6f26fc1ff0400e0e",
+      "data.py": "6eb5511cc72cc076411ab116e0a4fb3be873d942cb530633fafa9b2541997d61",
+      "engine.py": "245f2a7815ee47c44355b55fa0aa35737985e4a0fb471676b0914e59fecfd949",
+      "history.py": "9a376c6026b079020d5ecae9d58e555f439ecc059cc1df011b91218113786ad0",
+      "parent_source/AI_USAGE.md": "c0d142f778432030a6e1f75cde46c31df19688834c75515eb09327e4ef458422",
+      "parent_source/README.md": "254e3096b2b05218c822287d3f59042042ea39820d9af529317d25b2017bdb44",
+      "parent_source/__init__.py": "3f3d3acdd475362cf6524e82f4f02e03783c5c7d1b5d7c76f85ffd86e2db3fff",
+      "parent_source/analysis.py": "70c0f728f2e258cebbc873eff209c76e945b7fa2afe1ffa98e1f6dd596b09016",
+      "parent_source/build_notebook.py": "6408cb1af36607714eea414164b1ea9054ee87dc93a8e7d00c9baec05095226a",
+      "parent_source/common.py": "fc5469149a29f20c83f356273a30826331316196ff6b4602e2241aeea2131f71",
+      "parent_source/core.py": "fe6edeb773c5503dcb89b9c976856bb7fd5bc2ab340facc97a04c0d90f46459b",
+      "parent_source/engine.py": "74bc56fd814268e5ae0db52ee3a49bf9fe32aa4c1f533e92c519da3dc2ac989f",
+      "parent_source/parent.py": "a764646ff1994c491ce08a3801c090e70fc006170117b785602b7c48344957fa",
+      "parent_source/protocol.py": "80a5d68f3ed8b3141e682b8831b30670876b41ee4071fe482a72edebf64f1db1",
+      "parent_source/requirements-colab.txt": "d619b8f60a4662025f0c95dc6d52d2254a6bea00630824f45d22ad3f98680be4",
+      "parent_source/runner.py": "c8ceb9deba7700a7ac22237ea60a9e98d7683dd1a0e12f579d1e20f7d8a5cf5e",
+      "parent_source/source/parent_checkpoints_compact.json": "43c3b70334e1e5eb6c5608f5a6f8c7c02c9f48066104b0853fd6b9230539aa15",
+      "parent_source/source/parent_costs.json": "4f3a1c2343ce98f85a3518537e64f763ad940cdac4160b9dd7f3fc94105fb7ad",
+      "parent_source/source/parent_decisions.jsonl": "e61ade81186fd780a6a2aca012ed565f7e6c0e57a47f6018bb7e7c7cd10ab15b",
+      "parent_source/source/parent_gold.json": "eab7ea6a69364d46a3b3c531129a375a4eaa847fd5da697b48a59777c1eed3f0",
+      "parent_source/source/parent_lock.json": "e19257049edf20b75953fa754161c7908f5939edfa57038365cd727f065cfed3",
+      "parent_source/source/parent_samples_compact.jsonl": "975dc9791a7656dc9bee8ac868a8420c26addf2ad7366a4361ed70f143ab760c",
+      "parent_source/source/parent_setup.json": "2b88b6877122c0cd509263e8d034885279b32acba9b35c740b03c056d9f44a75",
+      "parent_source/source/provenance.json": "5f4da9efe1f544720b698780e6e4489b1d019650d0f29a0912930ac1b359a7a7",
+      "parent_source/statistics.py": "574dee1bba8e6e1e70d2f22c43537990919309f7f7e161dfdee58aa64932e92d",
+      "parent_source/tests/__init__.py": "60f207ccd96dd0e41d28bf0d682841693c989742d1fdb4969fac43ee2b00478c",
+      "parent_source/tests/cpu_smoke.py": "b6fdab0f36205a4ab718a64dd6e967646a9afd3bf52992ffd044b0af7f900997",
+      "parent_source/tests/test_gate_protocol.py": "326d179d8b16b7b9ece8a6ef65fd983376bf903c7b3198c0e3027564933c7dee",
+      "parent_source/upstream/__init__.py": "a252715947d668664ff3239ddf07a8c063dabd497501b321cfa826247c996af3",
+      "parent_source/upstream/core.py": "869f645c5b4db0557423a1a1d67e3fc6cb55aa1d99be7ea80ed727e09624a8cb",
+      "parent_source/upstream/legacy_core.py": "4cc4157491aad626638cc074f82094f91f9ad58f34ee8551a7d8d71e97b10532",
+      "parent_source/upstream/protocol.py": "dc1c185314a27658353b5fe7948723cbf3e1362c754d44503d6b5e72f7d9e2c9",
+      "protocol.py": "83f569be92285d46f22d7e2364b8737cd125c2f3ae10733d60bcd4b78bd9ce38",
+      "requirements-colab.txt": "d619b8f60a4662025f0c95dc6d52d2254a6bea00630824f45d22ad3f98680be4",
+      "runner.py": "f0c9c3d7a6de78fda4043b0a7a8f28e1812147442e414a96700ebc752286be15",
+      "source/alice_gutenberg_11.txt": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+      "source/gate_artifact_manifest.json": "db406ba367b53649054709b6bc7a29dfc3d4ff5a88e99588b11adab9cc77ffee",
+      "source/gate_checkpoints.json": "f35e9ab76b2efb606488e3ed15bf231b35993fbe2787146e384bfff41104436f",
+      "source/gate_decisions.jsonl": "37f04e1cdc44d8ad08258203b8ef927527335abae3a078606522aca1614c96ce",
+      "source/gate_protocol_lock.json": "f10887e3bd5f34cc23eb8f2c226e37f5d891655652232335594de0cffada5fea",
+      "source/gate_setup.json": "95ca0e0d32eec60b0ee39eba521eacf290a22f08da69c110132487246149e2b0",
+      "source/prior_inventory.json": "5478b09d96951d242af0f2f45c7b55fda6b3b904e04f2c4690214a5bbb39ce51",
+      "source/provenance.json": "c2f8f44d332754ebb4d8f335467b8935df2cf19d2a05ddbf55e80963350519cb",
+      "statistics.py": "6a9793715555d4ab505f22cbdde95f8ba331d82cf72f541c8ff2d2425ffba443",
+      "tests/__init__.py": "6f9b75c02d971f76a1c23a3b01c499584ccb3b0e6a9ebdd6db125fb950c434a7",
+      "tests/cpu_smoke.py": "5c1c1e84a32a9075a1e054d285a56e8790d71858dbb5b7964e8a350a93021f96",
+      "tests/test_holdout_protocol.py": "000040a1eaa19283becbedbc04bf9de06c0ac029177143813aefc4507dca1e7d"
+    },
+    "samples": "5e6493acacc14ea2e5eee5b39434c6fb1149b7a0dba61c0982613f4286f1aa5f",
+    "gold": "9369c55bb99d72b2e63b68574ab5877e8561cd342d40d182bd1c944a9e2e3c88",
+    "reuse_parent": true,
+    "chat_template": "2e2d2512cfe46af53dc1eed45368ecaab26ac4461c480e6b69fe571cf0ceaa75",
+    "label_sequences": {
+      "SUPPORTED": [
+        50,
+        61140,
+        151645
+      ],
+      "UNSUPPORTED": [
+        88673,
+        61140,
+        151645
+      ]
+    }
+  },
+  "files": {
+    "protocol.json": "0f9e042044805a8a450ffad8443f4d498cfd96ef4fc1f6b6069bbe3a822abc8f",
+    "public_samples.jsonl": "c5e35836c15cfa1f66778cb678c1efb32a2d620342631fc65f5edd1ecbd24512",
+    "gold.json": "608c7950c3fd9aec3788b5392ddf2ab52972538d5dd0709a86db271595caec09",
+    "holdout_data_audit.json": "33ab8ab9400427ad5b9cfc5abaf1e96bb1585b0f3778677d2fb8485f47a796cc",
+    "historical_replay_audit.json": "41c2a5e34e1f9e9b3d3165aa3598cd668c97319eed5742bd0c3862195553caf3",
+    "call_plan.json": "d68c644aadfcefe014a9cb28b4f4b9951406bcd0dc3ce1b2b4dcbe3914a4c0ba"
+  },
+  "frozen_utc": "2026-11-10T05:26:51.646925+00:00"
+}

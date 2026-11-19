@@ -1,0 +1,35 @@
+{
+  "key": "7b170adc5939df40048d516a13c9aa148544d220e234a52bfdf730c8d30369fd",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested founding year for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated year as digits. Do not infer, estimate, or invent a missing year. Return only the JSON object, without explanation or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Documents and background:\n\n<document id=\"Merhorzor Porzormer Institute\">\nOrganization: Merhorzor Porzormer Institute\nActivity: acoustic research\nRegion: northern district\nRecorded review year: 1901\nRecorded audit year: 1979\n</document>\n\nQuestion: What is the recorded founding year for Merhorzor Porzormer Institute?"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 96,
+  "generated_token_ids": [
+    4913,
+    957,
+    788,
+    330,
+    2921,
+    9207,
+    151645
+  ],
+  "raw_output": "{\"value\": \"null\"}",
+  "input_tokens": 208,
+  "output_tokens": 7,
+  "generation_seconds": 0.2638254439989396,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:39:21.992945+00:00",
+  "system_error": null,
+  "record_hash": "2ddd891139d89ce241a2049bb2ee75b262bf74d898d320501ca238e1833ae19a"
+}

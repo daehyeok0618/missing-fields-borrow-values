@@ -1,0 +1,42 @@
+{
+  "key": "7a8b3c40ba2d81029d62da0b01fe07505d78a3190723c413b82f7234256176ee",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Xelgilzor Kelselzor Institute\n\nTarget document:\nOrganization memo: Xelgilzor Kelselzor Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded audit year: 2021\n- Recorded review year: 1913\n\nQuestion: What is the recorded founding year for Xelgilzor Kelselzor Institute?\nCandidate value: 2021"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    88673,
+    61140,
+    151645
+  ],
+  "raw_output": "UNSUPPORTED",
+  "input_tokens": 174,
+  "output_tokens": 3,
+  "generation_seconds": 0.10208883499944932,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:41:26.929696+00:00",
+  "system_error": null,
+  "record_hash": "4166c04ba22678733a4f31ba44d8c91ed2a84048e30ac51b1b271133179d83c1"
+}

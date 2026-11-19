@@ -1,0 +1,39 @@
+{
+  "key": "335ec5135500e0e5d6f354fff3416335a2b5987472f6c7f32a73584233f241b5",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested founding year for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated year as digits. Do not infer, estimate, or invent a missing year. Return only the JSON object, without explanation or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Documents and background:\n\n<document id=\"Lumzorwyn Xeltorpor Institute\">\nLumzorwyn Xeltorpor Institute specializes in acoustic research and operates in the northern district. Its recorded year of establishment is 1982.\n</document>\n\nQuestion: In which year was Lumzorwyn Xeltorpor Institute founded?"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 96,
+  "generated_token_ids": [
+    515,
+    63307,
+    788,
+    330,
+    16,
+    24,
+    23,
+    17,
+    698,
+    92,
+    151645
+  ],
+  "raw_output": "{\n\"value\": \"1982\"\n}",
+  "input_tokens": 193,
+  "output_tokens": 11,
+  "generation_seconds": 0.3261233399989578,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:43:15.813103+00:00",
+  "system_error": null,
+  "record_hash": "2b6b045dc956e178e6f43b4e33d31fa72ce12e72a121b669e1e68408f3561dc0"
+}

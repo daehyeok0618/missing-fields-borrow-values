@@ -1,0 +1,13 @@
+{
+  "author": "Lewis Carroll",
+  "catalog_url": "https://www.gutenberg.org/ebooks/11",
+  "download_provenance": "original_download_manifest.json",
+  "download_url": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
+  "filter": "\\d|\\b(founding|audit|review|salary|budget|revenue|usd)\\b",
+  "filtered_paragraphs": 545,
+  "prepared_utc": "2026-11-01T21:43:54.753475+00:00",
+  "reused_existing_download": true,
+  "sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+  "title": "Alice's Adventures in Wonderland",
+  "transform": "collapse whitespace; final excerpt may stop at a word boundary"
+}

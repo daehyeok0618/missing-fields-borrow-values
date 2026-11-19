@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "decisions_replayed": 1632,
+  "development_inputs": 480,
+  "heldout_inputs": 1152,
+  "current_raw_records": 2794,
+  "tokens_and_grammar_verified": true,
+  "costs_and_no_orphans_verified": true,
+  "holdout_never_used_historical_outputs": true,
+  "new_model_calls": 0
+}

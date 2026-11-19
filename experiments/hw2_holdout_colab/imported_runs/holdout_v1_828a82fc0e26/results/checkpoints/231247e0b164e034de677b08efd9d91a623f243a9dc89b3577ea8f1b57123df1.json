@@ -1,0 +1,42 @@
+{
+  "key": "231247e0b164e034de677b08efd9d91a623f243a9dc89b3577ea8f1b57123df1",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Horrinlum Belgilwyn Institute\n\nTarget document:\nOrganization memo: Horrinlum Belgilwyn Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded salary: $144844\n\nQuestion: What is the recorded salary for Horrinlum Belgilwyn Institute?\nCandidate value: 144844"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    50,
+    61140,
+    151645
+  ],
+  "raw_output": "SUPPORTED",
+  "input_tokens": 156,
+  "output_tokens": 3,
+  "generation_seconds": 0.12207080500047596,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:35:06.348082+00:00",
+  "system_error": null,
+  "record_hash": "92ee5b09df0813bcd25fd21776b3a54c6bd1889f44c5266ea2dba063b80a219e"
+}

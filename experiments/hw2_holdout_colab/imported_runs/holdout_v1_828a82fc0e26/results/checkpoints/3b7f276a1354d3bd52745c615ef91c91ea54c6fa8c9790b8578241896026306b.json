@@ -1,0 +1,42 @@
+{
+  "key": "3b7f276a1354d3bd52745c615ef91c91ea54c6fa8c9790b8578241896026306b",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Velselpor Zorvelpor Institute\n\nTarget document:\nOrganization: Velselpor Zorvelpor Institute\nActivity: acoustic research\nRegion: northern district\nRecorded salary: $132094\n\nQuestion: What is the recorded salary for Velselpor Zorvelpor Institute?\nCandidate value: 132094"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    50,
+    61140,
+    151645
+  ],
+  "raw_output": "SUPPORTED",
+  "input_tokens": 156,
+  "output_tokens": 3,
+  "generation_seconds": 0.09511167800155818,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:33:00.359466+00:00",
+  "system_error": null,
+  "record_hash": "6dd66882ad1dfa28f1b95ac0856dcc9d75146a71004fea947fd2f78fd01a5c27"
+}

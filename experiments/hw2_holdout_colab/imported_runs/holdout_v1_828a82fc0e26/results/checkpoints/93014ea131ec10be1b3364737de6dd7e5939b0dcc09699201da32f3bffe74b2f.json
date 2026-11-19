@@ -1,0 +1,30 @@
+{
+  "key": "93014ea131ec10be1b3364737de6dd7e5939b0dcc09699201da32f3bffe74b2f",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Merjorcor Xelgilvel Institute\n\nTarget document:\nOrganization memo: Merjorcor Xelgilvel Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded audit year: [n01]2021\n\nQuestion: What is the recorded founding year for Merjorcor Xelgilvel Institute?\nAllowed outputs: n01, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    45425,
+    151645
+  ],
+  "raw_output": "NONE",
+  "input_tokens": 170,
+  "output_tokens": 2,
+  "generation_seconds": 0.06327245099964784,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:46:15.144875+00:00",
+  "system_error": null,
+  "record_hash": "053dd218f5cbc812dd59620b8569e67e66693cb9e58be7135e511d73673e5c16"
+}

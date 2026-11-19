@@ -1,0 +1,390 @@
+[
+  {
+    "assignment": "S2",
+    "background_id": "HW2M000_PROSE",
+    "base_id": "HW2M000",
+    "batch_index": 15,
+    "batch_seconds": 6.876054123000017,
+    "batch_size": 16,
+    "block_multiset_hash": "9930562a33ce6a4218a9b7662f1fb4d53ae81669eb6d1b429ec20bae3a95a449",
+    "category": "ABSTAIN",
+    "correct": true,
+    "data_seed": 2026103102,
+    "donor1_domain": "cultural archiving",
+    "donor1_name": "Keltorxel Fenlum Institute",
+    "donor1_region": "northern district",
+    "donor2_domain": "water monitoring",
+    "donor2_name": "Delwynkel Fenxel Institute",
+    "donor2_region": "eastern district",
+    "donor_midpoint_fraction": 0.97125,
+    "donor_query_distance": 0,
+    "family": "MISSING",
+    "finished_utc": "2026-11-13T03:58:32.901683+00:00",
+    "generated_token_ids": [
+      4913,
+      957,
+      788,
+      845,
+      92,
+      151645
+    ],
+    "gold_value": null,
+    "index": 0,
+    "input_hash": "b00e078648481c1d0aa905782d76a0d748fc43f416dccf0eb57f1f4593e5ddab",
+    "input_token_count": 2000,
+    "messages": [
+      {
+        "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested salary for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated amount in USD as digits without currency symbols or separators. Do not infer, estimate, or invent a missing amount. Return only the JSON object, without explanation or Markdown.",
+        "role": "system"
+      },
+      {
+        "content": "Documents and background:\n\n<document>\nLumwynpor Wynquil Institute specializes in water monitoring and operates in the eastern district.\n</document>\n\n<background>\nThe Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on: “—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?”\n\nBut her sister sat still just as she left her, leaning her head on her hand, watching the setting sun, and thinking of little Alice and all her wonderful Adventures, till she too began dreaming after a fashion, and this was her dream:—\n\n“It’s—it’s a very fine day!” said a timid voice at her side. She was walking by the White Rabbit, who was peeping anxiously into her face.\n\n“As wet as ever,” said Alice in a melancholy tone: “it doesn’t seem to dry me at all.”\n\n“I don’t believe it,” said the Pigeon; “but if they do, why then they’re a kind of serpent, that’s all I can say.”\n\n“Oh, a song, please, if the Mock Turtle would be so kind,” Alice replied, so eagerly that the Gryphon said, in a rather offended tone, “Hm! No accounting for tastes! Sing her ‘_Turtle Soup_,’ will you, old fellow?”\n\n“I’m sure those are not the right words,” said poor Alice, and her eyes filled with tears again as she went on, “I must be Mabel after all, and I shall have to go and live in that poky little house, and have next to no toys to play with, and oh! ever so many lessons to learn! No, I’ve made up my mind about it; if I’m Mabel, I’ll stay down here! It’ll be no use their putting their heads down and saying ‘Come up again, dear!’ I shall only look up and say ‘Who am I then? Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else’—but, oh dear!” cried Alice, with a sudden burst of tears, “I do wish they _would_ put their heads down! I am so _very_ tired of being all alone here!”\n\n“I could tell you my adventures—beginning from this morning,” said Alice a little timidly: “but it’s no use going back to yesterday, because I was a different person then.”\n\nAlice said nothing; she had sat down with her face in her hands, wondering if anything would _ever_ happen in a natural way again.\n\n“Well, be off, then!” said the Pigeon in a sulky tone, as it settled down again into its nest. Alice crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it. After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until she had succeeded in bringing herself down to her usual height.\n\n“I shall do nothing of the sort,” said the Mouse, getting up and walking away. “You insult me by talking such nonsense!”\n\n“If everybody minded their own business,” the Duchess said in a hoarse growl, “the world would go round a deal faster than it does.”\n\n“In _that_ direction,” the Cat said, waving its right paw round, “lives a Hatter: and in _that_ direction,” waving the other paw, “lives a March Hare. Visit either you like: they’re both mad.”\n\n“Well, if I\n</background>\n\n<background>\n“Perhaps not,” Alice cautiously replied: “but I know I have to beat time when I learn music.”\n\nAt this moment the King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”\n\n“What a pity it wouldn’t stay!” sighed the Lory, as soon as it was quite out of sight; and an old Crab took the opportunity of saying to her daughter “Ah, my dear! Let this be a lesson to you never to lose _your_ temper!” “Hold your tongue, Ma!” said the young Crab, a little snappishly. “You’re enough to try the patience of an oyster!”\n\n“Right, as usual,” said the Duchess: “what a clear way you have of putting things!”\n\n“And who are _these?_” said the Queen, pointing to the three gardeners who were lying round the rose-tree; for, you see, as they were lying on their faces, and the pattern on their backs was the same as the rest of the pack, she could not tell whether they were gardeners, or soldiers, or courtiers, or three of her own children.\n\n“How are you getting on?” said the Cat, as soon as there was mouth enough for it to speak with.\n\nAll the time they were playing the Queen never left off quarrelling with the other players, and shouting “Off with his head!” or “Off with her head!” Those whom she sentenced were taken into custody by the soldiers, who of course had to leave off being arches to do this, so that by the end of half an hour or so there were no arches left, and all the players, except the King, the Queen, and Alice, were in custody and under sentence of execution.\n\nThe White Rabbit put on his spectacles. “Where shall I begin, please your Majesty?” he asked.\n\n“An arm, you goose! Who ever saw one that size? Why, it fills the whole window!”\n\nAs she said these words her foot slipped, and in another moment, splash! she was up to her chin in salt water. Her first idea was that she had somehow fallen into the sea, “and in that case I can go back by railway,” she said to herself. (Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station.) However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high.\n\n“What _is_ the use of repeating all that stuff,” the Mock Turtle interrupted, “if you don’t explain it as you go on? It’s by far the most confusing thing _I_ ever heard!”\n\n“As if it wasn’t trouble enough hatching the eggs,” said the Pigeon; “but I must be on the look-out for serpents night and day! Why, I haven’t had a wink of sleep these three weeks!”\n\n“Tut, tut, child!” said the Duchess. “Everything’s got a moral, if only you can find it.” And she squeezed herself up closer to Alice’s side as she spoke.\n\n“Ah! then yours wasn’t a really good school,” said the Mock Turtle in a tone of great relief. “Now at _ours_ they had at the end of the bill, ‘French, music, _and washing_—extra.’”\n\nAlice caught the baby with some difficulty, as it was a queer-shaped little creature, and held out its arms and legs in all directions, “just like a star-fish,” thought Alice. The poor little thing was snorting like a steam-engine when she caught it, and kept doubling itself up and straightening itself out again, so that altogether, for the first minute or two, it was as much as she could do to hold it.\n\n[later editions continued as follows When the sands are all dry, he is gay as a lark, And will talk in contemptuous tones of the Shark, But, when the tide rises and sharks are around, His voice has a timid and tremulous sound.]\n\n“What I was going to say,” said the Dodo in an offended tone, “was, that the best thing to get us dry would be a\n</background>\n\n<document>\nKeltorxel Fenlum Institute specializes in cultural archiving and operates in the northern district. Its recorded budget is $104782.\n</document>\n\n<document>\nDelwynkel Fenxel Institute specializes in water monitoring and operates in the eastern district. Its recorded salary is $166764.\n</document>\n\nQuestion: What is the recorded salary for Lumwynpor Wynquil Institute?",
+        "role": "user"
+      }
+    ],
+    "order": "AB",
+    "output_token_count": 6,
+    "parse": {
+      "error": null,
+      "normalized_value": null,
+      "valid": true,
+      "value": null
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": null}",
+    "request_id": "HW2M000_PROSE_MISSING_S2_AB_ADJACENT",
+    "retry_count": 0,
+    "setup_hash": "46349299e98a770fb87b41df867b65dc394d2ddecba247210dc5a8f83e6d13de",
+    "split": "main",
+    "state": "MISSING",
+    "system_error": null,
+    "target_domain": "water monitoring",
+    "target_name": "Lumwynpor Wynquil Institute",
+    "target_region": "eastern district",
+    "target_value": 101345,
+    "template": "PROSE",
+    "token_spans": {
+      "donor1": [
+        1905,
+        1944
+      ],
+      "donor2": [
+        1944,
+        1980
+      ],
+      "question": [
+        1980,
+        1995
+      ],
+      "target": [
+        129,
+        153
+      ],
+      "v1": [
+        1934,
+        1940
+      ],
+      "v2": [
+        1970,
+        1976
+      ]
+    },
+    "truncated": false,
+    "v1": 104782,
+    "v2": 166764
+  },
+  {
+    "assignment": "S1",
+    "background_id": "HW2M000_BULLET",
+    "base_id": "HW2M000",
+    "batch_index": 14,
+    "batch_seconds": 8.224395909000009,
+    "batch_size": 16,
+    "block_multiset_hash": "79d5271952d92ce27fec7a661554398067df32b64f7e019cbc5e881db034bd0f",
+    "category": "DONOR_MATCH",
+    "correct": false,
+    "data_seed": 2026103102,
+    "donor1_domain": "cultural archiving",
+    "donor1_name": "Keltorxel Fenlum Institute",
+    "donor1_region": "northern district",
+    "donor2_domain": "water monitoring",
+    "donor2_name": "Delwynkel Fenxel Institute",
+    "donor2_region": "eastern district",
+    "donor_midpoint_fraction": 0.96925,
+    "donor_query_distance": 0,
+    "family": "MISSING",
+    "finished_utc": "2026-11-13T03:58:25.920651+00:00",
+    "generated_token_ids": [
+      4913,
+      957,
+      788,
+      330,
+      16,
+      15,
+      19,
+      22,
+      23,
+      17,
+      9207,
+      151645
+    ],
+    "gold_value": null,
+    "index": 0,
+    "input_hash": "a561eb6126c95166512d1f9952c9db80239ac25b2b9283555f2b24cbdc2fb31c",
+    "input_token_count": 2000,
+    "messages": [
+      {
+        "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested salary for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated amount in USD as digits without currency symbols or separators. Do not infer, estimate, or invent a missing amount. Return only the JSON object, without explanation or Markdown.",
+        "role": "system"
+      },
+      {
+        "content": "Documents and background:\n\n<document>\nOrganization memo: Lumwynpor Wynquil Institute\n- Activity: water monitoring\n- Region: eastern district\n</document>\n\n<background>\nThe Footman seemed to think this a good opportunity for repeating his remark, with variations. “I shall sit here,” he said, “on and off, for days and days.”\n\n“Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began. Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches.\n\n“Don’t be impertinent,” said the King, “and don’t look at me like that!” He got behind Alice as he spoke.\n\n“You’re wrong about the crumbs,” said the Mock Turtle: “crumbs would all wash off in the sea. But they _have_ their tails in their mouths; and the reason is—” here the Mock Turtle yawned and shut his eyes.—“Tell her about the reason and all that,” he said to the Gryphon.\n\n“That would be grand, certainly,” said Alice thoughtfully: “but then—I shouldn’t be hungry for it, you know.”\n\nThe judge, by the way, was the King; and as he wore his crown over the wig, (look at the frontispiece if you want to see how he did it,) he did not look at all comfortable, and it was certainly not becoming.\n\n“Of course not,” Alice replied very readily: “but that’s because it stays the same year for such a long time together.”\n\n“The Queen of Hearts, she made some tarts, All on a summer day: The Knave of Hearts, he stole those tarts, And took them quite away!”\n\nDon’t let him know she liked them best, For this must ever be A secret, kept from all the rest, Between yourself and me.”\n\n“Well, then,” the Gryphon went on, “if you don’t know what to uglify is, you _are_ a simpleton.”\n\n“Of course twinkling begins with a T!” said the King sharply. “Do you take me for a dunce? Go on!”\n\nOn which Seven looked up and said, “That’s right, Five! Always lay the blame on others!”\n\n“Begin at the beginning,” the King said gravely, “and go on till you come to the end: then stop.”\n\n“Reeling and Writhing, of course, to begin with,” the Mock Turtle replied; “and then the different branches of Arithmetic—Ambition, Distraction, Uglification, and Derision.”\n\nSome of the jury wrote it down “important,” and some “unimportant.” Alice could see this, as she was near enough to look over their slates; “but it doesn’t matter a bit,” she thought to herself.\n\nThe rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well.\n\n“Now, I give you fair warning,” shouted the Queen, stamping on the ground as she spoke; “either you or your head must be off, and that in about half no time! Take your choice!”\n\n“You’ll get used to it in time,” said the Caterpillar; and it put the hookah into its mouth and began smoking again.\n\n“I never went to him,” the Mock Turtle said with a sigh: “he taught Laughing and Grief, they used to say.”\n\n“The game’s going on rather better now,” she said, by way of keeping up the conversation a little.\n\nThe Hatter was the first to break the silence. “What day of the month\n</background>\n\n<background>\nThis was not an encouraging opening for a conversation. Alice replied, rather shyly, “I—I hardly know, sir, just at present—at least I know who I _was_ when I got up this morning, but I think I must have been changed several times since then.”\n\n“There’s certainly too much pepper in that soup!” Alice said to herself, as well as she could for sneezing.\n\nBut here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral,’ and the arm that was linked into hers began to tremble. Alice looked up, and there stood the Queen in front of them, with her arms folded, frowning like a thunderstorm.\n\n“Please your Majesty,” said the Knave, “I didn’t write it, and they can’t prove I did: there’s no name signed at the end.”\n\n“Digging for apples, indeed!” said the Rabbit angrily. “Here! Come and help me out of _this!_” (Sounds of more broken glass.)\n\n“Hadn’t time,” said the Gryphon: “I went to the Classics master, though. He was an old crab, _he_ was.”\n\n“All right,” said the Cat; and this time it vanished quite slowly, beginning with the end of the tail, and ending with the grin, which remained some time after the rest of it had gone.\n\nThere was a long silence after this, and Alice could only hear whispers now and then; such as, “Sure, I don’t like it, yer honour, at all, at all!” “Do as I tell you, you coward!” and at last she spread out her hand again, and made another snatch in the air. This time there were _two_ little shrieks, and more sounds of broken glass. “What a number of cucumber-frames there must be!” thought Alice. “I wonder what they’ll do next! As for pulling me out of the window, I only wish they _could!_ I’m sure _I_ don’t want to stay in here any longer!”\n\n“But then,” thought Alice, “shall I _never_ get any older than I am now? That’ll be a comfort, one way—never to be an old woman—but then—always to have lessons to learn! Oh, I shouldn’t like _that!_”\n\nThe jury all wrote down on their slates, “_She_ doesn’t believe there’s an atom of meaning in it,” but none of them attempted to explain the paper.\n\n“I’m afraid I can’t put it more clearly,” Alice replied very politely, “for I can’t understand it myself to begin with; and being so many different sizes in a day is very confusing.”\n\n“Collar that Dormouse,” the Queen shrieked out. “Behead that Dormouse! Turn that Dormouse out of court! Suppress him! Pinch him! Off with his whiskers!”\n\n“Well, I never heard it before,” said the Mock Turtle; “but it sounds uncommon nonsense.”\n\n“Oh, you foolish Alice!” she answered herself. “How can you learn lessons in here? Why, there’s hardly room for _you_, and no room at all for any lesson-books!”\n\nA large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red. Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them she heard one of them say, “Look out now, Five! Don’t go splashing paint over me like that!”\n\nDown, down, down. Would the fall _never_ come to an end? “I wonder how many miles I’ve fallen by this time?” she said aloud. “I must be getting somewhere near the centre of the earth. Let me see: that would be four thousand miles down, I think—” (for, you see, Alice had learnt several things of this sort in her lessons in the schoolroom, and though this was not a _very_ good opportunity for showing off her knowledge, as there was no one to listen to her, still it was good practice to say it over) “—yes, that’s about the right distance—but then I wonder what Latitude or Longitude I’ve got to?” (Alice had no idea what Latitude was, or Longitude either, but thought they were nice grand words to say.)\n\n“I speak severely to my boy, I beat him when he\n</background>\n\n<document>\nOrganization memo: Keltorxel Fenlum Institute\n- Activity: cultural archiving\n- Region: northern district\n- Salary: $104782\n</document>\n\n<document>\nOrganization memo: Delwynkel Fenxel Institute\n- Activity: water monitoring\n- Region: eastern district\n- Budget: $166764\n</document>\n\nQuestion: What is the recorded salary for Lumwynpor Wynquil Institute?",
+        "role": "user"
+      }
+    ],
+    "order": "AB",
+    "output_token_count": 12,
+    "parse": {
+      "error": null,
+      "normalized_value": "104782",
+      "valid": true,
+      "value": "104782"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"104782\"}",
+    "request_id": "HW2M000_BULLET_MISSING_S1_AB_ADJACENT",
+    "retry_count": 0,
+    "setup_hash": "46349299e98a770fb87b41df867b65dc394d2ddecba247210dc5a8f83e6d13de",
+    "split": "main",
+    "state": "MISSING",
+    "system_error": null,
+    "target_domain": "water monitoring",
+    "target_name": "Lumwynpor Wynquil Institute",
+    "target_region": "eastern district",
+    "target_value": 101345,
+    "template": "BULLET",
+    "token_spans": {
+      "donor1": [
+        1897,
+        1940
+      ],
+      "donor2": [
+        1940,
+        1980
+      ],
+      "question": [
+        1980,
+        1995
+      ],
+      "target": [
+        129,
+        157
+      ],
+      "v1": [
+        1930,
+        1936
+      ],
+      "v2": [
+        1970,
+        1976
+      ]
+    },
+    "truncated": false,
+    "v1": 104782,
+    "v2": 166764
+  },
+  {
+    "assignment": "S1",
+    "background_id": "HW2M000_BULLET",
+    "base_id": "HW2M000",
+    "batch_index": 14,
+    "batch_seconds": 8.224395909000009,
+    "batch_size": 16,
+    "block_multiset_hash": "79d5271952d92ce27fec7a661554398067df32b64f7e019cbc5e881db034bd0f",
+    "category": "OTHER_IN_CONTEXT",
+    "correct": false,
+    "data_seed": 2026103102,
+    "donor1_domain": "cultural archiving",
+    "donor1_name": "Keltorxel Fenlum Institute",
+    "donor1_region": "northern district",
+    "donor2_domain": "water monitoring",
+    "donor2_name": "Delwynkel Fenxel Institute",
+    "donor2_region": "eastern district",
+    "donor_midpoint_fraction": 0.50075,
+    "donor_query_distance": 937,
+    "family": "MISSING",
+    "finished_utc": "2026-11-13T03:58:25.920687+00:00",
+    "generated_token_ids": [
+      4913,
+      957,
+      788,
+      330,
+      2921,
+      9207,
+      151645
+    ],
+    "gold_value": null,
+    "index": 0,
+    "input_hash": "cec909dbcc215ca427d789efd9f865e14003377e8d7b57003c85face9789079f",
+    "input_token_count": 2000,
+    "messages": [
+      {
+        "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested salary for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated amount in USD as digits without currency symbols or separators. Do not infer, estimate, or invent a missing amount. Return only the JSON object, without explanation or Markdown.",
+        "role": "system"
+      },
+      {
+        "content": "Documents and background:\n\n<document>\nOrganization memo: Lumwynpor Wynquil Institute\n- Activity: water monitoring\n- Region: eastern district\n</document>\n\n<background>\nThe Footman seemed to think this a good opportunity for repeating his remark, with variations. “I shall sit here,” he said, “on and off, for days and days.”\n\n“Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began. Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches.\n\n“Don’t be impertinent,” said the King, “and don’t look at me like that!” He got behind Alice as he spoke.\n\n“You’re wrong about the crumbs,” said the Mock Turtle: “crumbs would all wash off in the sea. But they _have_ their tails in their mouths; and the reason is—” here the Mock Turtle yawned and shut his eyes.—“Tell her about the reason and all that,” he said to the Gryphon.\n\n“That would be grand, certainly,” said Alice thoughtfully: “but then—I shouldn’t be hungry for it, you know.”\n\nThe judge, by the way, was the King; and as he wore his crown over the wig, (look at the frontispiece if you want to see how he did it,) he did not look at all comfortable, and it was certainly not becoming.\n\n“Of course not,” Alice replied very readily: “but that’s because it stays the same year for such a long time together.”\n\n“The Queen of Hearts, she made some tarts, All on a summer day: The Knave of Hearts, he stole those tarts, And took them quite away!”\n\nDon’t let him know she liked them best, For this must ever be A secret, kept from all the rest, Between yourself and me.”\n\n“Well, then,” the Gryphon went on, “if you don’t know what to uglify is, you _are_ a simpleton.”\n\n“Of course twinkling begins with a T!” said the King sharply. “Do you take me for a dunce? Go on!”\n\nOn which Seven looked up and said, “That’s right, Five! Always lay the blame on others!”\n\n“Begin at the beginning,” the King said gravely, “and go on till you come to the end: then stop.”\n\n“Reeling and Writhing, of course, to begin with,” the Mock Turtle replied; “and then the different branches of Arithmetic—Ambition, Distraction, Uglification, and Derision.”\n\nSome of the jury wrote it down “important,” and some “unimportant.” Alice could see this, as she was near enough to look over their slates; “but it doesn’t matter a bit,” she thought to herself.\n\nThe rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well.\n\n“Now, I give you fair warning,” shouted the Queen, stamping on the ground as she spoke; “either you or your head must be off, and that in about half no time! Take your choice!”\n\n“You’ll get used to it in time,” said the Caterpillar; and it put the hookah into its mouth and began smoking again.\n\n“I never went to him,” the Mock Turtle said with a sigh: “he taught Laughing and Grief, they used to say.”\n\n“The game’s going on rather better now,” she said, by way of keeping up the conversation a little.\n\nThe Hatter was the first to break the silence. “What day of the month\n</background>\n\n<document>\nOrganization memo: Keltorxel Fenlum Institute\n- Activity: cultural archiving\n- Region: northern district\n- Salary: $104782\n</document>\n\n<document>\nOrganization memo: Delwynkel Fenxel Institute\n- Activity: water monitoring\n- Region: eastern district\n- Budget: $166764\n</document>\n\n<background>\nThis was not an encouraging opening for a conversation. Alice replied, rather shyly, “I—I hardly know, sir, just at present—at least I know who I _was_ when I got up this morning, but I think I must have been changed several times since then.”\n\n“There’s certainly too much pepper in that soup!” Alice said to herself, as well as she could for sneezing.\n\nBut here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral,’ and the arm that was linked into hers began to tremble. Alice looked up, and there stood the Queen in front of them, with her arms folded, frowning like a thunderstorm.\n\n“Please your Majesty,” said the Knave, “I didn’t write it, and they can’t prove I did: there’s no name signed at the end.”\n\n“Digging for apples, indeed!” said the Rabbit angrily. “Here! Come and help me out of _this!_” (Sounds of more broken glass.)\n\n“Hadn’t time,” said the Gryphon: “I went to the Classics master, though. He was an old crab, _he_ was.”\n\n“All right,” said the Cat; and this time it vanished quite slowly, beginning with the end of the tail, and ending with the grin, which remained some time after the rest of it had gone.\n\nThere was a long silence after this, and Alice could only hear whispers now and then; such as, “Sure, I don’t like it, yer honour, at all, at all!” “Do as I tell you, you coward!” and at last she spread out her hand again, and made another snatch in the air. This time there were _two_ little shrieks, and more sounds of broken glass. “What a number of cucumber-frames there must be!” thought Alice. “I wonder what they’ll do next! As for pulling me out of the window, I only wish they _could!_ I’m sure _I_ don’t want to stay in here any longer!”\n\n“But then,” thought Alice, “shall I _never_ get any older than I am now? That’ll be a comfort, one way—never to be an old woman—but then—always to have lessons to learn! Oh, I shouldn’t like _that!_”\n\nThe jury all wrote down on their slates, “_She_ doesn’t believe there’s an atom of meaning in it,” but none of them attempted to explain the paper.\n\n“I’m afraid I can’t put it more clearly,” Alice replied very politely, “for I can’t understand it myself to begin with; and being so many different sizes in a day is very confusing.”\n\n“Collar that Dormouse,” the Queen shrieked out. “Behead that Dormouse! Turn that Dormouse out of court! Suppress him! Pinch him! Off with his whiskers!”\n\n“Well, I never heard it before,” said the Mock Turtle; “but it sounds uncommon nonsense.”\n\n“Oh, you foolish Alice!” she answered herself. “How can you learn lessons in here? Why, there’s hardly room for _you_, and no room at all for any lesson-books!”\n\nA large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red. Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them she heard one of them say, “Look out now, Five! Don’t go splashing paint over me like that!”\n\nDown, down, down. Would the fall _never_ come to an end? “I wonder how many miles I’ve fallen by this time?” she said aloud. “I must be getting somewhere near the centre of the earth. Let me see: that would be four thousand miles down, I think—” (for, you see, Alice had learnt several things of this sort in her lessons in the schoolroom, and though this was not a _very_ good opportunity for showing off her knowledge, as there was no one to listen to her, still it was good practice to say it over) “—yes, that’s about the right distance—but then I wonder what Latitude or Longitude I’ve got to?” (Alice had no idea what Latitude was, or Longitude either, but thought they were nice grand words to say.)\n\n“I speak severely to my boy, I beat him when he\n</background>\n\nQuestion: What is the recorded salary for Lumwynpor Wynquil Institute?",
+        "role": "user"
+      }
+    ],
+    "order": "AB",
+    "output_token_count": 7,
+    "parse": {
+      "error": null,
+      "normalized_value": "null",
+      "valid": true,
+      "value": "null"
+    },
+    "placement": "MIDDLE",
+    "raw_output": "{\"value\": \"null\"}",
+    "request_id": "HW2M000_BULLET_MISSING_S1_AB_MIDDLE",
+    "retry_count": 0,
+    "setup_hash": "46349299e98a770fb87b41df867b65dc394d2ddecba247210dc5a8f83e6d13de",
+    "split": "main",
+    "state": "MISSING",
+    "system_error": null,
+    "target_domain": "water monitoring",
+    "target_name": "Lumwynpor Wynquil Institute",
+    "target_region": "eastern district",
+    "target_value": 101345,
+    "template": "BULLET",
+    "token_spans": {
+      "donor1": [
+        960,
+        1003
+      ],
+      "donor2": [
+        1003,
+        1043
+      ],
+      "question": [
+        1980,
+        1995
+      ],
+      "target": [
+        129,
+        157
+      ],
+      "v1": [
+        993,
+        999
+      ],
+      "v2": [
+        1033,
+        1039
+      ]
+    },
+    "truncated": false,
+    "v1": 104782,
+    "v2": 166764
+  },
+  {
+    "assignment": "S2",
+    "background_id": "HW2M014_BULLET",
+    "base_id": "HW2M014",
+    "batch_index": 151,
+    "batch_seconds": 6.629226554999832,
+    "batch_size": 16,
+    "block_multiset_hash": "6457453feaa9557f13def7d9bfe702bfc149befcc6c78a509ea207c16821bea9",
+    "category": "CONTEXT_ABSENT",
+    "correct": false,
+    "data_seed": 2026103102,
+    "donor1_domain": "cultural archiving",
+    "donor1_name": "Seljordel Nelcor Institute",
+    "donor1_region": "eastern district",
+    "donor2_domain": "botanical imaging",
+    "donor2_name": "Jorzorcor Torjor Institute",
+    "donor2_region": "eastern district",
+    "donor_midpoint_fraction": 0.9690309690309691,
+    "donor_query_distance": 0,
+    "family": "MISSING",
+    "finished_utc": "2026-11-13T04:13:48.274030+00:00",
+    "generated_token_ids": [
+      4913,
+      957,
+      788,
+      330,
+      17,
+      18,
+      19,
+      20,
+      21,
+      9207,
+      151645
+    ],
+    "gold_value": null,
+    "index": 14,
+    "input_hash": "92059ea7b36737adb25da368f0aa7aa3eabc76a1352783ac109fa6c8739f252a",
+    "input_token_count": 2002,
+    "messages": [
+      {
+        "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested salary for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated amount in USD as digits without currency symbols or separators. Do not infer, estimate, or invent a missing amount. Return only the JSON object, without explanation or Markdown.",
+        "role": "system"
+      },
+      {
+        "content": "Documents and background:\n\n<document>\nOrganization memo: Hortorvel Seltor Institute\n- Activity: acoustic research\n- Region: western district\n</document>\n\n<background>\nFirst, she dreamed of little Alice herself, and once again the tiny hands were clasped upon her knee, and the bright eager eyes were looking up into hers—she could hear the very tones of her voice, and see that queer little toss of her head to keep back the wandering hair that _would_ always get into her eyes—and still as she listened, or seemed to listen, the whole place around her became alive with the strange creatures of her little sister’s dream.\n\n“I said pig,” replied Alice; “and I wish you wouldn’t keep appearing and vanishing so suddenly: you make one quite giddy.”\n\n“You can draw water out of a water-well,” said the Hatter; “so I should think you could draw treacle out of a treacle-well—eh, stupid?”\n\nSo she swallowed one of the cakes, and was delighted to find that she began shrinking directly. As soon as she was small enough to get through the door, she ran out of the house, and found quite a crowd of little animals and birds waiting outside. The poor little Lizard, Bill, was in the middle, being held up by two guinea-pigs, who were giving it something out of a bottle. They all made a rush at Alice the moment she appeared; but she ran off as hard as she could, and soon found herself safe in a thick wood.\n\n“I have answered three questions, and that is enough,” Said his father; “don’t give yourself airs! Do you think I can listen all day to such stuff? Be off, or I’ll kick you down stairs!”\n\nAt last the Mouse, who seemed to be a person of authority among them, called out, “Sit down, all of you, and listen to me! _I’ll_ soon make you dry enough!” They all sat down at once, in a large ring, with the Mouse in the middle. Alice kept her eyes anxiously fixed on it, for she felt sure she would catch a bad cold if she did not get dry very soon.\n\nAll this time the Queen had never left off staring at the Hatter, and, just as the Dormouse crossed the court, she said to one of the officers of the court, “Bring me the list of the singers in the last concert!” on which the wretched Hatter trembled so, that he shook both his shoes off.\n\n“Call the first witness,” said the King; and the White Rabbit blew three blasts on the trumpet, and called out, “First witness!”\n\nThere was a long silence after this, and Alice could only hear whispers now and then; such as, “Sure, I don’t like it, yer honour, at all, at all!” “Do as I tell you, you coward!” and at last she spread out her hand again, and made another snatch in the air. This time there were _two_ little shrieks, and more sounds of broken glass. “What a number of cucumber-frames there must be!” thought Alice. “I wonder what they’ll do next! As for pulling me out of the window, I only wish they _could!_ I’m sure _I_ don’t want to stay in here any longer!”\n\n“As if it wasn’t trouble enough hatching the eggs,” said the Pigeon; “but I must be on the look-out for serpents night and day! Why, I haven’t had a wink of sleep these three weeks!”\n\nAlice was rather doubtful whether she ought not to lie down on her face like the three gardeners, but she could not remember ever having heard of such a rule at processions; “and besides, what would be the use of a procession,” thought she, “if people had all to lie down upon their faces, so that they couldn’t see it?” So she stood still where she was, and waited.\n\n“How doth the little crocodile Improve\n</background>\n\n<background>\nOnce more she found herself in the long hall, and close to the little glass table. “Now, I’ll manage better this time,” she said to herself, and began by taking the little golden key, and unlocking the door that led into the garden. Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and _then_—she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains.\n\n“Perhaps it doesn’t understand English,” thought Alice; “I daresay it’s a French mouse, come over with William the Conqueror.” (For, with all her knowledge of history, Alice had no very clear notion how long ago anything had happened.) So she began again: “Où est ma chatte?” which was the first sentence in her French lesson-book. The Mouse gave a sudden leap out of the water, and seemed to quiver all over with fright. “Oh, I beg your pardon!” cried Alice hastily, afraid that she had hurt the poor animal’s feelings. “I quite forgot you didn’t like cats.”\n\n“I never went to him,” the Mock Turtle said with a sigh: “he taught Laughing and Grief, they used to say.”\n\nIt was all very well to say “Drink me,” but the wise little Alice was not going to do _that_ in a hurry. “No, I’ll look first,” she said, “and see whether it’s marked ‘_poison_’ or not”; for she had read several nice little histories about children who had got burnt, and eaten up by wild beasts and other unpleasant things, all because they _would_ not remember the simple rules their friends had taught them: such as, that a red-hot poker will burn you if you hold it too long; and that if you cut your finger _very_ deeply with a knife, it usually bleeds; and she had never forgotten that, if you drink much from a bottle marked “poison,” it is almost certain to disagree with you, sooner or later.\n\n“Of course,” the Dodo replied very gravely. “What else have you got in your pocket?” he went on, turning to Alice.\n\n“You’re wrong about the crumbs,” said the Mock Turtle: “crumbs would all wash off in the sea. But they _have_ their tails in their mouths; and the reason is—” here the Mock Turtle yawned and shut his eyes.—“Tell her about the reason and all that,” he said to the Gryphon.\n\nSo they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:—\n\n“If you didn’t sign it,” said the King, “that only makes the matter worse. You _must_ have meant some mischief, or else you’d have signed your name like an honest man.”\n\nLast came a little feeble, squeaking voice, (“That’s Bill,” thought Alice,) “Well, I hardly know—No more, thank ye; I’m better now—but I’m a deal too flustered to tell you—all I know is, something comes at me like a Jack-in-the-box, and up I goes like a sky-rocket!”\n\nOn which Seven looked up and said, “That’s right, Five! Always lay the blame on others!”\n\n“Not at first, perhaps,” said the Hatter: “but you could keep it to half-past one as long as you liked.”\n\n“I keep them to sell,” the Hatter added as an explanation; “I’ve none of my own. I’m a hatter.”\n\nThe Hatter looked at the March Hare, who had followed him into the court, arm-in-arm with the Dormouse. “Fourteenth of March, I _think_ it was,” he said.\n\nShe ate a little bit, and said anxiously to herself, “Which way? Which way?”, holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way.\n\nAs\n</background>\n\n<document>\nOrganization memo: Jorzorcor Torjor Institute\n- Activity: botanical imaging\n- Region: eastern district\n- Salary: $195964\n</document>\n\n<document>\nOrganization memo: Seljordel Nelcor Institute\n- Activity: cultural archiving\n- Region: eastern district\n- Budget: $109978\n</document>\n\nQuestion: What is the recorded salary for Hortorvel Seltor Institute?",
+        "role": "user"
+      }
+    ],
+    "order": "BA",
+    "output_token_count": 11,
+    "parse": {
+      "error": null,
+      "normalized_value": "23456",
+      "valid": true,
+      "value": "23456"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"23456\"}",
+    "request_id": "HW2M014_BULLET_MISSING_S2_BA_ADJACENT",
+    "retry_count": 0,
+    "setup_hash": "46349299e98a770fb87b41df867b65dc394d2ddecba247210dc5a8f83e6d13de",
+    "split": "main",
+    "state": "MISSING",
+    "system_error": null,
+    "target_domain": "acoustic research",
+    "target_name": "Hortorvel Seltor Institute",
+    "target_region": "western district",
+    "target_value": 148749,
+    "template": "BULLET",
+    "token_spans": {
+      "donor1": [
+        1940,
+        1981
+      ],
+      "donor2": [
+        1899,
+        1940
+      ],
+      "question": [
+        1981,
+        1997
+      ],
+      "target": [
+        129,
+        158
+      ],
+      "v1": [
+        1971,
+        1977
+      ],
+      "v2": [
+        1930,
+        1936
+      ]
+    },
+    "truncated": false,
+    "v1": 109978,
+    "v2": 195964
+  }
+]

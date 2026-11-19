@@ -1,0 +1,42 @@
+{
+  "key": "093aa909cc6f2b2ef3fdb04555771a20afb24299ec272765ae1b2bf390731ad0",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Corvelkel Deltorxel Institute\n\nTarget document:\nCorvelkel Deltorxel Institute specializes in acoustic research and operates in the northern district. Its recorded review year is 2000. Its recorded audit year is 1982.\n\nQuestion: What is the recorded founding year for Corvelkel Deltorxel Institute?\nCandidate value: 1982"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    88673,
+    61140,
+    151645
+  ],
+  "raw_output": "UNSUPPORTED",
+  "input_tokens": 163,
+  "output_tokens": 3,
+  "generation_seconds": 0.09643162999964261,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:26:59.124031+00:00",
+  "system_error": null,
+  "record_hash": "ceb1c982f67ed7e08c54da8e911cfc9dc3b2ca110e3f030d8278b835703c52f3"
+}

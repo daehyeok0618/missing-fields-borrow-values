@@ -1,0 +1,42 @@
+{
+  "key": "5c165d44199fb934127aefa42cee6c7acd96b8e5a82a062d7f97e26976bbacb7",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Merhorzor Porzormer Institute\n\nTarget document:\nOrganization memo: Merhorzor Porzormer Institute\n- Activity: acoustic research\n- Region: northern district\n\nQuestion: In which year was Merhorzor Porzormer Institute founded?\nCandidate value: 1901"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    88673,
+    61140,
+    151645
+  ],
+  "raw_output": "UNSUPPORTED",
+  "input_tokens": 144,
+  "output_tokens": 3,
+  "generation_seconds": 0.09624496699871088,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:39:53.245652+00:00",
+  "system_error": null,
+  "record_hash": "604a4e43e9b82c5b3deb29fd9a7fddebddf66a3ee0a9985b63dac97ff82a008a"
+}

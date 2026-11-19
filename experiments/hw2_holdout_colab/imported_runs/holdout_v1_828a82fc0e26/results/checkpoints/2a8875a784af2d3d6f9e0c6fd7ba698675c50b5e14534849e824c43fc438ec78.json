@@ -1,0 +1,30 @@
+{
+  "key": "2a8875a784af2d3d6f9e0c6fd7ba698675c50b5e14534849e824c43fc438ec78",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Torlumxel Merkellum Institute\n\nTarget document:\nTorlumxel Merkellum Institute specializes in acoustic research and operates in the northern district. Its recorded budget is $[n01]129256.\n\nQuestion: What is the recorded salary for Torlumxel Merkellum Institute?\nAllowed outputs: n01, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    45425,
+    151645
+  ],
+  "raw_output": "NONE",
+  "input_tokens": 169,
+  "output_tokens": 2,
+  "generation_seconds": 0.07770579299904057,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:27:35.934965+00:00",
+  "system_error": null,
+  "record_hash": "4c9bcdf1c287e167ea0a813dcfc2f0f40313ad222646370c994c39e8efe701bb"
+}

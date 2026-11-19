@@ -1,0 +1,32 @@
+{
+  "key": "e72ce4228a121c9d390726417d034bf7b9b0449a50b5e48f9201ac8ad5e8e18f",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Fenwynquil Zorporlum Institute\n\nTarget document:\nOrganization: Fenwynquil Zorporlum Institute\nActivity: acoustic research\nRegion: northern district\nRecorded establishment year: [n01]1927\n\nQuestion: In which year was Fenwynquil Zorporlum Institute founded?\nAllowed outputs: n01, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    77,
+    15,
+    16,
+    151645
+  ],
+  "raw_output": "n01",
+  "input_tokens": 162,
+  "output_tokens": 4,
+  "generation_seconds": 0.12466251499972714,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:37:53.308694+00:00",
+  "system_error": null,
+  "record_hash": "edf24079f2e2db60d08a5dcacc9617d3fbe33f0d4ab982c053da30bb3a6a53a7"
+}

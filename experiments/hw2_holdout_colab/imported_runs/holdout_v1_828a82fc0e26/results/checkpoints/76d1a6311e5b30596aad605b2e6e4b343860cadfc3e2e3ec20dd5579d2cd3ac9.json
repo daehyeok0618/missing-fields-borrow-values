@@ -1,0 +1,42 @@
+{
+  "key": "76d1a6311e5b30596aad605b2e6e4b343860cadfc3e2e3ec20dd5579d2cd3ac9",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Merjorcor Xelgilvel Institute\n\nTarget document:\nOrganization memo: Merjorcor Xelgilvel Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded year of audit: 2021\n- Recorded year of establishment: 1989\n\nQuestion: In which year was Merjorcor Xelgilvel Institute founded?\nCandidate value: 1989"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    50,
+    61140,
+    151645
+  ],
+  "raw_output": "SUPPORTED",
+  "input_tokens": 168,
+  "output_tokens": 3,
+  "generation_seconds": 0.09467831300025864,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:46:20.845082+00:00",
+  "system_error": null,
+  "record_hash": "1cf6c3a1f2b3fdc3a46cb2ffee6e4c0bf09108d563c9be113036a441a237daf2"
+}

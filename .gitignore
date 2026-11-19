@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.mplconfig/
+.cache/
+.built_by_build_release
+# restored by restore_data.py from the .jsonl.gz files
+experiments/hw2_missing_fields/data/*_requests.jsonl
+experiments/hw2_year_generalization/data/*_requests.jsonl
+# written by the analysis scripts; not part of the release
+experiments/*/final_report_ko.md
+experiments/*/completion_manifest.json
+experiments/hw2_missing_fields/audit/primary_report_before_null_diagnostic.md
+experiments/hw2_year_generalization/results/salary_year_comparison.csv
+experiments/hw2_year_generalization/figures/salary_year_comparison.*
+paper/figures/*_preview.png

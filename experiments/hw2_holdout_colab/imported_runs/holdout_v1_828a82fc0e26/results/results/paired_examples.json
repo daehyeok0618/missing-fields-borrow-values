@@ -1,0 +1,4351 @@
+{
+  "development/salary/both_correct": {
+    "n": 240,
+    "all_ids": [
+      "VTP_SALARY_000_KV_basic_missing_MIDDLE",
+      "VTP_SALARY_000_KV_basic_missing_ADJACENT",
+      "VTP_SALARY_000_KV_basic_present_MIDDLE",
+      "VTP_SALARY_000_KV_basic_present_ADJACENT",
+      "VTP_SALARY_000_PROSE_basic_missing_MIDDLE",
+      "VTP_SALARY_000_PROSE_basic_missing_ADJACENT",
+      "VTP_SALARY_000_PROSE_basic_present_MIDDLE",
+      "VTP_SALARY_000_PROSE_basic_present_ADJACENT",
+      "VTP_SALARY_000_BULLET_basic_missing_MIDDLE",
+      "VTP_SALARY_000_BULLET_basic_missing_ADJACENT",
+      "VTP_SALARY_000_BULLET_basic_present_MIDDLE",
+      "VTP_SALARY_000_BULLET_basic_present_ADJACENT",
+      "VTP_SALARY_001_KV_basic_missing_MIDDLE",
+      "VTP_SALARY_001_KV_basic_missing_ADJACENT",
+      "VTP_SALARY_001_KV_basic_present_MIDDLE",
+      "VTP_SALARY_001_KV_basic_present_ADJACENT",
+      "VTP_SALARY_001_PROSE_basic_missing_MIDDLE",
+      "VTP_SALARY_001_PROSE_basic_missing_ADJACENT",
+      "VTP_SALARY_001_PROSE_basic_present_MIDDLE",
+      "VTP_SALARY_001_PROSE_basic_present_ADJACENT",
+      "VTP_SALARY_001_BULLET_basic_missing_MIDDLE",
+      "VTP_SALARY_001_BULLET_basic_missing_ADJACENT",
+      "VTP_SALARY_001_BULLET_basic_present_MIDDLE",
+      "VTP_SALARY_001_BULLET_basic_present_ADJACENT",
+      "VTP_SALARY_002_KV_basic_missing_MIDDLE",
+      "VTP_SALARY_002_KV_basic_missing_ADJACENT",
+      "VTP_SALARY_002_KV_basic_present_MIDDLE",
+      "VTP_SALARY_002_KV_basic_present_ADJACENT",
+      "VTP_SALARY_002_PROSE_basic_missing_MIDDLE",
+      "VTP_SALARY_002_PROSE_basic_missing_ADJACENT",
+      "VTP_SALARY_002_PROSE_basic_present_MIDDLE",
+      "VTP_SALARY_002_PROSE_basic_present_ADJACENT",
+      "VTP_SALARY_002_BULLET_basic_missing_MIDDLE",
+      "VTP_SALARY_002_BULLET_basic_missing_ADJACENT",
+      "VTP_SALARY_002_BULLET_basic_present_MIDDLE",
+      "VTP_SALARY_002_BULLET_basic_present_ADJACENT",
+      "VTP_SALARY_003_KV_basic_missing_MIDDLE",
+      "VTP_SALARY_003_KV_basic_missing_ADJACENT",
+      "VTP_SALARY_003_KV_basic_present_MIDDLE",
+      "VTP_SALARY_003_KV_basic_present_ADJACENT",
+      "VTP_SALARY_003_PROSE_basic_missing_MIDDLE",
+      "VTP_SALARY_003_PROSE_basic_missing_ADJACENT",
+      "VTP_SALARY_003_PROSE_basic_present_MIDDLE",
+      "VTP_SALARY_003_PROSE_basic_present_ADJACENT",
+      "VTP_SALARY_003_BULLET_basic_missing_MIDDLE",
+      "VTP_SALARY_003_BULLET_basic_missing_ADJACENT",
+      "VTP_SALARY_003_BULLET_basic_present_MIDDLE",
+      "VTP_SALARY_003_BULLET_basic_present_ADJACENT",
+      "VTP_SALARY_004_KV_basic_missing_MIDDLE",
+      "VTP_SALARY_004_KV_basic_missing_ADJACENT",
+      "VTP_SALARY_004_KV_basic_present_MIDDLE",
+      "VTP_SALARY_004_KV_basic_present_ADJACENT",
+      "VTP_SALARY_004_PROSE_basic_missing_MIDDLE",
+      "VTP_SALARY_004_PROSE_basic_missing_ADJACENT",
+      "VTP_SALARY_004_PROSE_basic_present_MIDDLE",
+      "VTP_SALARY_004_PROSE_basic_present_ADJACENT",
+      "VTP_SALARY_004_BULLET_basic_missing_MIDDLE",
+      "VTP_SALARY_004_BULLET_basic_missing_ADJACENT",
+      "VTP_SALARY_004_BULLET_basic_present_MIDDLE",
+      "VTP_SALARY_004_BULLET_basic_present_ADJACENT",
+      "VTP_SALARY_005_KV_basic_missing_MIDDLE",
+      "VTP_SALARY_005_KV_basic_missing_ADJACENT",
+      "VTP_SALARY_005_KV_basic_present_MIDDLE",
+      "VTP_SALARY_005_KV_basic_present_ADJACENT",
+      "VTP_SALARY_005_PROSE_basic_missing_MIDDLE",
+      "VTP_SALARY_005_PROSE_basic_missing_ADJACENT",
+      "VTP_SALARY_005_PROSE_basic_present_MIDDLE",
+      "VTP_SALARY_005_PROSE_basic_present_ADJACENT",
+      "VTP_SALARY_005_BULLET_basic_missing_MIDDLE",
+      "VTP_SALARY_005_BULLET_basic_missing_ADJACENT",
+      "VTP_SALARY_005_BULLET_basic_present_MIDDLE",
+      "VTP_SALARY_005_BULLET_basic_present_ADJACENT",
+      "VTP_SALARY_006_KV_basic_missing_MIDDLE",
+      "VTP_SALARY_006_KV_basic_missing_ADJACENT",
+      "VTP_SALARY_006_KV_basic_present_MIDDLE",
+      "VTP_SALARY_006_KV_basic_present_ADJACENT",
+      "VTP_SALARY_006_PROSE_basic_missing_MIDDLE",
+      "VTP_SALARY_006_PROSE_basic_missing_ADJACENT",
+      "VTP_SALARY_006_PROSE_basic_present_MIDDLE",
+      "VTP_SALARY_006_PROSE_basic_present_ADJACENT",
+      "VTP_SALARY_006_BULLET_basic_missing_MIDDLE",
+      "VTP_SALARY_006_BULLET_basic_missing_ADJACENT",
+      "VTP_SALARY_006_BULLET_basic_present_MIDDLE",
+      "VTP_SALARY_006_BULLET_basic_present_ADJACENT",
+      "VTP_SALARY_007_KV_basic_missing_MIDDLE",
+      "VTP_SALARY_007_KV_basic_missing_ADJACENT",
+      "VTP_SALARY_007_KV_basic_present_MIDDLE",
+      "VTP_SALARY_007_KV_basic_present_ADJACENT",
+      "VTP_SALARY_007_PROSE_basic_missing_MIDDLE",
+      "VTP_SALARY_007_PROSE_basic_missing_ADJACENT",
+      "VTP_SALARY_007_PROSE_basic_present_MIDDLE",
+      "VTP_SALARY_007_PROSE_basic_present_ADJACENT",
+      "VTP_SALARY_007_BULLET_basic_missing_MIDDLE",
+      "VTP_SALARY_007_BULLET_basic_missing_ADJACENT",
+      "VTP_SALARY_007_BULLET_basic_present_MIDDLE",
+      "VTP_SALARY_007_BULLET_basic_present_ADJACENT",
+      "VTP_SALARY_008_KV_basic_missing_MIDDLE",
+      "VTP_SALARY_008_KV_basic_missing_ADJACENT",
+      "VTP_SALARY_008_KV_basic_present_MIDDLE",
+      "VTP_SALARY_008_KV_basic_present_ADJACENT",
+      "VTP_SALARY_008_PROSE_basic_missing_MIDDLE",
+      "VTP_SALARY_008_PROSE_basic_missing_ADJACENT",
+      "VTP_SALARY_008_PROSE_basic_present_MIDDLE",
+      "VTP_SALARY_008_PROSE_basic_present_ADJACENT",
+      "VTP_SALARY_008_BULLET_basic_missing_MIDDLE",
+      "VTP_SALARY_008_BULLET_basic_missing_ADJACENT",
+      "VTP_SALARY_008_BULLET_basic_present_MIDDLE",
+      "VTP_SALARY_008_BULLET_basic_present_ADJACENT",
+      "VTP_SALARY_009_KV_basic_missing_MIDDLE",
+      "VTP_SALARY_009_KV_basic_missing_ADJACENT",
+      "VTP_SALARY_009_KV_basic_present_MIDDLE",
+      "VTP_SALARY_009_KV_basic_present_ADJACENT",
+      "VTP_SALARY_009_PROSE_basic_missing_MIDDLE",
+      "VTP_SALARY_009_PROSE_basic_missing_ADJACENT",
+      "VTP_SALARY_009_PROSE_basic_present_MIDDLE",
+      "VTP_SALARY_009_PROSE_basic_present_ADJACENT",
+      "VTP_SALARY_009_BULLET_basic_missing_MIDDLE",
+      "VTP_SALARY_009_BULLET_basic_missing_ADJACENT",
+      "VTP_SALARY_009_BULLET_basic_present_MIDDLE",
+      "VTP_SALARY_009_BULLET_basic_present_ADJACENT",
+      "VTP_SALARY_010_KV_basic_missing_MIDDLE",
+      "VTP_SALARY_010_KV_basic_missing_ADJACENT",
+      "VTP_SALARY_010_KV_basic_present_MIDDLE",
+      "VTP_SALARY_010_KV_basic_present_ADJACENT",
+      "VTP_SALARY_010_PROSE_basic_missing_MIDDLE",
+      "VTP_SALARY_010_PROSE_basic_missing_ADJACENT",
+      "VTP_SALARY_010_PROSE_basic_present_MIDDLE",
+      "VTP_SALARY_010_PROSE_basic_present_ADJACENT",
+      "VTP_SALARY_010_BULLET_basic_missing_MIDDLE",
+      "VTP_SALARY_010_BULLET_basic_missing_ADJACENT",
+      "VTP_SALARY_010_BULLET_basic_present_MIDDLE",
+      "VTP_SALARY_010_BULLET_basic_present_ADJACENT",
+      "VTP_SALARY_011_KV_basic_missing_MIDDLE",
+      "VTP_SALARY_011_KV_basic_missing_ADJACENT",
+      "VTP_SALARY_011_KV_basic_present_MIDDLE",
+      "VTP_SALARY_011_KV_basic_present_ADJACENT",
+      "VTP_SALARY_011_PROSE_basic_missing_MIDDLE",
+      "VTP_SALARY_011_PROSE_basic_missing_ADJACENT",
+      "VTP_SALARY_011_PROSE_basic_present_MIDDLE",
+      "VTP_SALARY_011_PROSE_basic_present_ADJACENT",
+      "VTP_SALARY_011_BULLET_basic_missing_MIDDLE",
+      "VTP_SALARY_011_BULLET_basic_missing_ADJACENT",
+      "VTP_SALARY_011_BULLET_basic_present_MIDDLE",
+      "VTP_SALARY_011_BULLET_basic_present_ADJACENT",
+      "VTP_SALARY_012_KV_collision_present_MIDDLE",
+      "VTP_SALARY_012_KV_collision_present_ADJACENT",
+      "VTP_SALARY_012_PROSE_collision_present_MIDDLE",
+      "VTP_SALARY_012_PROSE_collision_present_ADJACENT",
+      "VTP_SALARY_012_BULLET_collision_present_MIDDLE",
+      "VTP_SALARY_012_BULLET_collision_present_ADJACENT",
+      "VTP_SALARY_013_KV_collision_present_MIDDLE",
+      "VTP_SALARY_013_KV_collision_present_ADJACENT",
+      "VTP_SALARY_013_PROSE_collision_present_MIDDLE",
+      "VTP_SALARY_013_PROSE_collision_present_ADJACENT",
+      "VTP_SALARY_013_BULLET_collision_present_MIDDLE",
+      "VTP_SALARY_013_BULLET_collision_present_ADJACENT",
+      "VTP_SALARY_014_KV_collision_present_MIDDLE",
+      "VTP_SALARY_014_KV_collision_present_ADJACENT",
+      "VTP_SALARY_014_PROSE_collision_present_MIDDLE",
+      "VTP_SALARY_014_PROSE_collision_present_ADJACENT",
+      "VTP_SALARY_014_BULLET_collision_present_MIDDLE",
+      "VTP_SALARY_014_BULLET_collision_present_ADJACENT",
+      "VTP_SALARY_015_KV_collision_present_MIDDLE",
+      "VTP_SALARY_015_KV_collision_present_ADJACENT",
+      "VTP_SALARY_015_PROSE_collision_present_MIDDLE",
+      "VTP_SALARY_015_PROSE_collision_present_ADJACENT",
+      "VTP_SALARY_015_BULLET_collision_present_MIDDLE",
+      "VTP_SALARY_015_BULLET_collision_present_ADJACENT",
+      "VTP_SALARY_016_KV_otherfield_missing_MIDDLE",
+      "VTP_SALARY_016_KV_otherfield_missing_ADJACENT",
+      "VTP_SALARY_016_PROSE_otherfield_missing_MIDDLE",
+      "VTP_SALARY_016_PROSE_otherfield_missing_ADJACENT",
+      "VTP_SALARY_016_BULLET_otherfield_missing_MIDDLE",
+      "VTP_SALARY_016_BULLET_otherfield_missing_ADJACENT",
+      "VTP_SALARY_017_KV_otherfield_missing_MIDDLE",
+      "VTP_SALARY_017_KV_otherfield_missing_ADJACENT",
+      "VTP_SALARY_017_PROSE_otherfield_missing_MIDDLE",
+      "VTP_SALARY_017_PROSE_otherfield_missing_ADJACENT",
+      "VTP_SALARY_017_BULLET_otherfield_missing_MIDDLE",
+      "VTP_SALARY_017_BULLET_otherfield_missing_ADJACENT",
+      "VTP_SALARY_018_KV_otherfield_missing_MIDDLE",
+      "VTP_SALARY_018_KV_otherfield_missing_ADJACENT",
+      "VTP_SALARY_018_PROSE_otherfield_missing_MIDDLE",
+      "VTP_SALARY_018_PROSE_otherfield_missing_ADJACENT",
+      "VTP_SALARY_018_BULLET_otherfield_missing_MIDDLE",
+      "VTP_SALARY_018_BULLET_otherfield_missing_ADJACENT",
+      "VTP_SALARY_019_KV_otherfield_missing_MIDDLE",
+      "VTP_SALARY_019_KV_otherfield_missing_ADJACENT",
+      "VTP_SALARY_019_PROSE_otherfield_missing_MIDDLE",
+      "VTP_SALARY_019_PROSE_otherfield_missing_ADJACENT",
+      "VTP_SALARY_019_BULLET_otherfield_missing_MIDDLE",
+      "VTP_SALARY_019_BULLET_otherfield_missing_ADJACENT",
+      "PTR_SALARY_000_KV_multi_present_MIDDLE",
+      "PTR_SALARY_000_KV_multi_present_ADJACENT",
+      "PTR_SALARY_000_KV_multi_missing_MIDDLE",
+      "PTR_SALARY_000_KV_multi_missing_ADJACENT",
+      "PTR_SALARY_000_PROSE_multi_present_MIDDLE",
+      "PTR_SALARY_000_PROSE_multi_present_ADJACENT",
+      "PTR_SALARY_000_PROSE_multi_missing_MIDDLE",
+      "PTR_SALARY_000_PROSE_multi_missing_ADJACENT",
+      "PTR_SALARY_000_BULLET_multi_present_MIDDLE",
+      "PTR_SALARY_000_BULLET_multi_present_ADJACENT",
+      "PTR_SALARY_000_BULLET_multi_missing_MIDDLE",
+      "PTR_SALARY_000_BULLET_multi_missing_ADJACENT",
+      "PTR_SALARY_001_KV_multi_present_MIDDLE",
+      "PTR_SALARY_001_KV_multi_present_ADJACENT",
+      "PTR_SALARY_001_KV_multi_missing_MIDDLE",
+      "PTR_SALARY_001_KV_multi_missing_ADJACENT",
+      "PTR_SALARY_001_PROSE_multi_present_MIDDLE",
+      "PTR_SALARY_001_PROSE_multi_present_ADJACENT",
+      "PTR_SALARY_001_PROSE_multi_missing_MIDDLE",
+      "PTR_SALARY_001_PROSE_multi_missing_ADJACENT",
+      "PTR_SALARY_001_BULLET_multi_present_MIDDLE",
+      "PTR_SALARY_001_BULLET_multi_present_ADJACENT",
+      "PTR_SALARY_001_BULLET_multi_missing_MIDDLE",
+      "PTR_SALARY_001_BULLET_multi_missing_ADJACENT",
+      "PTR_SALARY_002_KV_multi_present_MIDDLE",
+      "PTR_SALARY_002_KV_multi_present_ADJACENT",
+      "PTR_SALARY_002_KV_multi_missing_MIDDLE",
+      "PTR_SALARY_002_KV_multi_missing_ADJACENT",
+      "PTR_SALARY_002_PROSE_multi_present_MIDDLE",
+      "PTR_SALARY_002_PROSE_multi_present_ADJACENT",
+      "PTR_SALARY_002_PROSE_multi_missing_MIDDLE",
+      "PTR_SALARY_002_PROSE_multi_missing_ADJACENT",
+      "PTR_SALARY_002_BULLET_multi_present_MIDDLE",
+      "PTR_SALARY_002_BULLET_multi_present_ADJACENT",
+      "PTR_SALARY_002_BULLET_multi_missing_MIDDLE",
+      "PTR_SALARY_002_BULLET_multi_missing_ADJACENT",
+      "PTR_SALARY_003_KV_multi_present_MIDDLE",
+      "PTR_SALARY_003_KV_multi_present_ADJACENT",
+      "PTR_SALARY_003_KV_multi_missing_MIDDLE",
+      "PTR_SALARY_003_KV_multi_missing_ADJACENT",
+      "PTR_SALARY_003_PROSE_multi_present_MIDDLE",
+      "PTR_SALARY_003_PROSE_multi_present_ADJACENT",
+      "PTR_SALARY_003_PROSE_multi_missing_MIDDLE",
+      "PTR_SALARY_003_PROSE_multi_missing_ADJACENT",
+      "PTR_SALARY_003_BULLET_multi_present_MIDDLE",
+      "PTR_SALARY_003_BULLET_multi_present_ADJACENT",
+      "PTR_SALARY_003_BULLET_multi_missing_MIDDLE",
+      "PTR_SALARY_003_BULLET_multi_missing_ADJACENT"
+    ],
+    "examples": [
+      {
+        "id": "VTP_SALARY_009_PROSE_basic_missing_MIDDLE",
+        "base_id": "VTP_SALARY_009",
+        "group": "basic_missing",
+        "gold": null,
+        "target": "Quilxelvel Nelxelsel Institute specializes in acoustic research and operates in the northern district.",
+        "question": "Question: What is the recorded salary for Quilxelvel Nelxelsel Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "122828",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "unsupported",
+            "ref": "gate:b56e7bdb00f3e4aca6dd732c8ff8046d5db591b1e942693c5135778520ad2b37",
+            "candidate": "122828"
+          },
+          "target_only_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "id_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "no_candidate_cpu",
+            "ref": null,
+            "candidate": null
+          }
+        },
+        "selection": {
+          "status": "no_candidate",
+          "raw": null,
+          "candidates": [],
+          "selected": null
+        }
+      },
+      {
+        "id": "VTP_SALARY_015_KV_collision_present_MIDDLE",
+        "base_id": "VTP_SALARY_015",
+        "group": "collision_present",
+        "gold": "169996",
+        "target": "Organization: Horjordel Jormerkel Institute\nActivity: acoustic research\nRegion: northern district\nRecorded salary: $169996",
+        "question": "Question: What is the recorded salary for Horjordel Jormerkel Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "$169996",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "$169996",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "$169996",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "169996",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "$169996",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "$169996",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "169996",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "$169996",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": "169996",
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": "169996",
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:81451fe4a6b633b40c8c260794e9b77a623c9f3d8f8f654b46782034daa38f25",
+            "candidate": "169996"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:81451fe4a6b633b40c8c260794e9b77a623c9f3d8f8f654b46782034daa38f25",
+            "candidate": "169996"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:81451fe4a6b633b40c8c260794e9b77a623c9f3d8f8f654b46782034daa38f25",
+            "candidate": "169996"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:81451fe4a6b633b40c8c260794e9b77a623c9f3d8f8f654b46782034daa38f25",
+            "candidate": "169996"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 116,
+              "end": 122,
+              "text": "169996",
+              "value": "169996"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 116,
+            "end": 122,
+            "text": "169996",
+            "value": "169996"
+          }
+        }
+      },
+      {
+        "id": "VTP_SALARY_011_BULLET_basic_present_MIDDLE",
+        "base_id": "VTP_SALARY_011",
+        "group": "basic_present",
+        "gold": "177790",
+        "target": "Organization memo: Wynmerlum Beltorkel Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded salary: $177790",
+        "question": "Question: What is the recorded salary for Wynmerlum Beltorkel Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "$177790",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "$177790",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "$177790",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "177790",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "$177790",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "$177790",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "177790",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "$177790",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": "177790",
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": "177790",
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:815fd1a0ae920eff15476bbed9e3e57aa01c546d629a83f76b8fa49475943359",
+            "candidate": "177790"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:815fd1a0ae920eff15476bbed9e3e57aa01c546d629a83f76b8fa49475943359",
+            "candidate": "177790"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:815fd1a0ae920eff15476bbed9e3e57aa01c546d629a83f76b8fa49475943359",
+            "candidate": "177790"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:815fd1a0ae920eff15476bbed9e3e57aa01c546d629a83f76b8fa49475943359",
+            "candidate": "177790"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 127,
+              "end": 133,
+              "text": "177790",
+              "value": "177790"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 127,
+            "end": 133,
+            "text": "177790",
+            "value": "177790"
+          }
+        }
+      }
+    ]
+  },
+  "development/year/both_correct": {
+    "n": 236,
+    "all_ids": [
+      "VTP_YEAR_000_KV_basic_missing_MIDDLE",
+      "VTP_YEAR_000_KV_basic_missing_ADJACENT",
+      "VTP_YEAR_000_KV_basic_present_MIDDLE",
+      "VTP_YEAR_000_KV_basic_present_ADJACENT",
+      "VTP_YEAR_000_PROSE_basic_missing_MIDDLE",
+      "VTP_YEAR_000_PROSE_basic_missing_ADJACENT",
+      "VTP_YEAR_000_PROSE_basic_present_MIDDLE",
+      "VTP_YEAR_000_PROSE_basic_present_ADJACENT",
+      "VTP_YEAR_000_BULLET_basic_missing_MIDDLE",
+      "VTP_YEAR_000_BULLET_basic_missing_ADJACENT",
+      "VTP_YEAR_000_BULLET_basic_present_MIDDLE",
+      "VTP_YEAR_000_BULLET_basic_present_ADJACENT",
+      "VTP_YEAR_001_KV_basic_missing_MIDDLE",
+      "VTP_YEAR_001_KV_basic_missing_ADJACENT",
+      "VTP_YEAR_001_KV_basic_present_MIDDLE",
+      "VTP_YEAR_001_KV_basic_present_ADJACENT",
+      "VTP_YEAR_001_PROSE_basic_missing_MIDDLE",
+      "VTP_YEAR_001_PROSE_basic_missing_ADJACENT",
+      "VTP_YEAR_001_PROSE_basic_present_MIDDLE",
+      "VTP_YEAR_001_PROSE_basic_present_ADJACENT",
+      "VTP_YEAR_001_BULLET_basic_missing_MIDDLE",
+      "VTP_YEAR_001_BULLET_basic_missing_ADJACENT",
+      "VTP_YEAR_001_BULLET_basic_present_MIDDLE",
+      "VTP_YEAR_001_BULLET_basic_present_ADJACENT",
+      "VTP_YEAR_002_KV_basic_missing_MIDDLE",
+      "VTP_YEAR_002_KV_basic_missing_ADJACENT",
+      "VTP_YEAR_002_KV_basic_present_MIDDLE",
+      "VTP_YEAR_002_KV_basic_present_ADJACENT",
+      "VTP_YEAR_002_PROSE_basic_missing_MIDDLE",
+      "VTP_YEAR_002_PROSE_basic_missing_ADJACENT",
+      "VTP_YEAR_002_PROSE_basic_present_MIDDLE",
+      "VTP_YEAR_002_PROSE_basic_present_ADJACENT",
+      "VTP_YEAR_002_BULLET_basic_missing_MIDDLE",
+      "VTP_YEAR_002_BULLET_basic_missing_ADJACENT",
+      "VTP_YEAR_002_BULLET_basic_present_MIDDLE",
+      "VTP_YEAR_002_BULLET_basic_present_ADJACENT",
+      "VTP_YEAR_003_KV_basic_missing_MIDDLE",
+      "VTP_YEAR_003_KV_basic_missing_ADJACENT",
+      "VTP_YEAR_003_KV_basic_present_MIDDLE",
+      "VTP_YEAR_003_KV_basic_present_ADJACENT",
+      "VTP_YEAR_003_PROSE_basic_missing_MIDDLE",
+      "VTP_YEAR_003_PROSE_basic_missing_ADJACENT",
+      "VTP_YEAR_003_PROSE_basic_present_MIDDLE",
+      "VTP_YEAR_003_PROSE_basic_present_ADJACENT",
+      "VTP_YEAR_003_BULLET_basic_missing_MIDDLE",
+      "VTP_YEAR_003_BULLET_basic_missing_ADJACENT",
+      "VTP_YEAR_003_BULLET_basic_present_MIDDLE",
+      "VTP_YEAR_003_BULLET_basic_present_ADJACENT",
+      "VTP_YEAR_004_KV_basic_missing_MIDDLE",
+      "VTP_YEAR_004_KV_basic_missing_ADJACENT",
+      "VTP_YEAR_004_KV_basic_present_MIDDLE",
+      "VTP_YEAR_004_KV_basic_present_ADJACENT",
+      "VTP_YEAR_004_PROSE_basic_missing_MIDDLE",
+      "VTP_YEAR_004_PROSE_basic_missing_ADJACENT",
+      "VTP_YEAR_004_PROSE_basic_present_MIDDLE",
+      "VTP_YEAR_004_PROSE_basic_present_ADJACENT",
+      "VTP_YEAR_004_BULLET_basic_missing_MIDDLE",
+      "VTP_YEAR_004_BULLET_basic_missing_ADJACENT",
+      "VTP_YEAR_004_BULLET_basic_present_MIDDLE",
+      "VTP_YEAR_004_BULLET_basic_present_ADJACENT",
+      "VTP_YEAR_005_KV_basic_missing_MIDDLE",
+      "VTP_YEAR_005_KV_basic_missing_ADJACENT",
+      "VTP_YEAR_005_KV_basic_present_MIDDLE",
+      "VTP_YEAR_005_KV_basic_present_ADJACENT",
+      "VTP_YEAR_005_PROSE_basic_missing_MIDDLE",
+      "VTP_YEAR_005_PROSE_basic_missing_ADJACENT",
+      "VTP_YEAR_005_PROSE_basic_present_MIDDLE",
+      "VTP_YEAR_005_PROSE_basic_present_ADJACENT",
+      "VTP_YEAR_005_BULLET_basic_missing_MIDDLE",
+      "VTP_YEAR_005_BULLET_basic_missing_ADJACENT",
+      "VTP_YEAR_005_BULLET_basic_present_MIDDLE",
+      "VTP_YEAR_005_BULLET_basic_present_ADJACENT",
+      "VTP_YEAR_006_KV_basic_missing_MIDDLE",
+      "VTP_YEAR_006_KV_basic_missing_ADJACENT",
+      "VTP_YEAR_006_KV_basic_present_MIDDLE",
+      "VTP_YEAR_006_KV_basic_present_ADJACENT",
+      "VTP_YEAR_006_PROSE_basic_missing_MIDDLE",
+      "VTP_YEAR_006_PROSE_basic_missing_ADJACENT",
+      "VTP_YEAR_006_PROSE_basic_present_MIDDLE",
+      "VTP_YEAR_006_PROSE_basic_present_ADJACENT",
+      "VTP_YEAR_006_BULLET_basic_missing_MIDDLE",
+      "VTP_YEAR_006_BULLET_basic_missing_ADJACENT",
+      "VTP_YEAR_006_BULLET_basic_present_MIDDLE",
+      "VTP_YEAR_006_BULLET_basic_present_ADJACENT",
+      "VTP_YEAR_007_KV_basic_missing_MIDDLE",
+      "VTP_YEAR_007_KV_basic_missing_ADJACENT",
+      "VTP_YEAR_007_KV_basic_present_MIDDLE",
+      "VTP_YEAR_007_KV_basic_present_ADJACENT",
+      "VTP_YEAR_007_PROSE_basic_missing_MIDDLE",
+      "VTP_YEAR_007_PROSE_basic_missing_ADJACENT",
+      "VTP_YEAR_007_PROSE_basic_present_MIDDLE",
+      "VTP_YEAR_007_PROSE_basic_present_ADJACENT",
+      "VTP_YEAR_007_BULLET_basic_missing_MIDDLE",
+      "VTP_YEAR_007_BULLET_basic_missing_ADJACENT",
+      "VTP_YEAR_007_BULLET_basic_present_MIDDLE",
+      "VTP_YEAR_007_BULLET_basic_present_ADJACENT",
+      "VTP_YEAR_008_KV_basic_missing_MIDDLE",
+      "VTP_YEAR_008_KV_basic_missing_ADJACENT",
+      "VTP_YEAR_008_KV_basic_present_MIDDLE",
+      "VTP_YEAR_008_KV_basic_present_ADJACENT",
+      "VTP_YEAR_008_PROSE_basic_missing_MIDDLE",
+      "VTP_YEAR_008_PROSE_basic_missing_ADJACENT",
+      "VTP_YEAR_008_PROSE_basic_present_MIDDLE",
+      "VTP_YEAR_008_PROSE_basic_present_ADJACENT",
+      "VTP_YEAR_008_BULLET_basic_missing_MIDDLE",
+      "VTP_YEAR_008_BULLET_basic_missing_ADJACENT",
+      "VTP_YEAR_008_BULLET_basic_present_MIDDLE",
+      "VTP_YEAR_008_BULLET_basic_present_ADJACENT",
+      "VTP_YEAR_009_KV_basic_missing_MIDDLE",
+      "VTP_YEAR_009_KV_basic_missing_ADJACENT",
+      "VTP_YEAR_009_KV_basic_present_MIDDLE",
+      "VTP_YEAR_009_KV_basic_present_ADJACENT",
+      "VTP_YEAR_009_PROSE_basic_missing_MIDDLE",
+      "VTP_YEAR_009_PROSE_basic_missing_ADJACENT",
+      "VTP_YEAR_009_PROSE_basic_present_MIDDLE",
+      "VTP_YEAR_009_PROSE_basic_present_ADJACENT",
+      "VTP_YEAR_009_BULLET_basic_missing_MIDDLE",
+      "VTP_YEAR_009_BULLET_basic_missing_ADJACENT",
+      "VTP_YEAR_009_BULLET_basic_present_MIDDLE",
+      "VTP_YEAR_009_BULLET_basic_present_ADJACENT",
+      "VTP_YEAR_010_KV_basic_missing_MIDDLE",
+      "VTP_YEAR_010_KV_basic_missing_ADJACENT",
+      "VTP_YEAR_010_KV_basic_present_MIDDLE",
+      "VTP_YEAR_010_KV_basic_present_ADJACENT",
+      "VTP_YEAR_010_PROSE_basic_missing_MIDDLE",
+      "VTP_YEAR_010_PROSE_basic_missing_ADJACENT",
+      "VTP_YEAR_010_PROSE_basic_present_MIDDLE",
+      "VTP_YEAR_010_PROSE_basic_present_ADJACENT",
+      "VTP_YEAR_010_BULLET_basic_missing_MIDDLE",
+      "VTP_YEAR_010_BULLET_basic_missing_ADJACENT",
+      "VTP_YEAR_010_BULLET_basic_present_MIDDLE",
+      "VTP_YEAR_010_BULLET_basic_present_ADJACENT",
+      "VTP_YEAR_011_KV_basic_missing_MIDDLE",
+      "VTP_YEAR_011_KV_basic_missing_ADJACENT",
+      "VTP_YEAR_011_KV_basic_present_MIDDLE",
+      "VTP_YEAR_011_KV_basic_present_ADJACENT",
+      "VTP_YEAR_011_PROSE_basic_missing_MIDDLE",
+      "VTP_YEAR_011_PROSE_basic_missing_ADJACENT",
+      "VTP_YEAR_011_PROSE_basic_present_MIDDLE",
+      "VTP_YEAR_011_PROSE_basic_present_ADJACENT",
+      "VTP_YEAR_011_BULLET_basic_missing_MIDDLE",
+      "VTP_YEAR_011_BULLET_basic_missing_ADJACENT",
+      "VTP_YEAR_011_BULLET_basic_present_MIDDLE",
+      "VTP_YEAR_011_BULLET_basic_present_ADJACENT",
+      "VTP_YEAR_012_KV_collision_present_MIDDLE",
+      "VTP_YEAR_012_KV_collision_present_ADJACENT",
+      "VTP_YEAR_012_PROSE_collision_present_MIDDLE",
+      "VTP_YEAR_012_PROSE_collision_present_ADJACENT",
+      "VTP_YEAR_012_BULLET_collision_present_MIDDLE",
+      "VTP_YEAR_012_BULLET_collision_present_ADJACENT",
+      "VTP_YEAR_013_KV_collision_present_MIDDLE",
+      "VTP_YEAR_013_KV_collision_present_ADJACENT",
+      "VTP_YEAR_013_PROSE_collision_present_MIDDLE",
+      "VTP_YEAR_013_PROSE_collision_present_ADJACENT",
+      "VTP_YEAR_013_BULLET_collision_present_MIDDLE",
+      "VTP_YEAR_013_BULLET_collision_present_ADJACENT",
+      "VTP_YEAR_014_KV_collision_present_MIDDLE",
+      "VTP_YEAR_014_KV_collision_present_ADJACENT",
+      "VTP_YEAR_014_PROSE_collision_present_MIDDLE",
+      "VTP_YEAR_014_PROSE_collision_present_ADJACENT",
+      "VTP_YEAR_014_BULLET_collision_present_MIDDLE",
+      "VTP_YEAR_014_BULLET_collision_present_ADJACENT",
+      "VTP_YEAR_015_KV_collision_present_MIDDLE",
+      "VTP_YEAR_015_KV_collision_present_ADJACENT",
+      "VTP_YEAR_015_PROSE_collision_present_MIDDLE",
+      "VTP_YEAR_015_PROSE_collision_present_ADJACENT",
+      "VTP_YEAR_015_BULLET_collision_present_MIDDLE",
+      "VTP_YEAR_015_BULLET_collision_present_ADJACENT",
+      "VTP_YEAR_016_KV_otherfield_missing_MIDDLE",
+      "VTP_YEAR_016_KV_otherfield_missing_ADJACENT",
+      "VTP_YEAR_016_PROSE_otherfield_missing_MIDDLE",
+      "VTP_YEAR_016_PROSE_otherfield_missing_ADJACENT",
+      "VTP_YEAR_016_BULLET_otherfield_missing_MIDDLE",
+      "VTP_YEAR_016_BULLET_otherfield_missing_ADJACENT",
+      "VTP_YEAR_017_KV_otherfield_missing_MIDDLE",
+      "VTP_YEAR_017_KV_otherfield_missing_ADJACENT",
+      "VTP_YEAR_017_PROSE_otherfield_missing_MIDDLE",
+      "VTP_YEAR_017_PROSE_otherfield_missing_ADJACENT",
+      "VTP_YEAR_017_BULLET_otherfield_missing_MIDDLE",
+      "VTP_YEAR_017_BULLET_otherfield_missing_ADJACENT",
+      "VTP_YEAR_018_KV_otherfield_missing_MIDDLE",
+      "VTP_YEAR_018_KV_otherfield_missing_ADJACENT",
+      "VTP_YEAR_018_PROSE_otherfield_missing_MIDDLE",
+      "VTP_YEAR_018_PROSE_otherfield_missing_ADJACENT",
+      "VTP_YEAR_018_BULLET_otherfield_missing_MIDDLE",
+      "VTP_YEAR_018_BULLET_otherfield_missing_ADJACENT",
+      "VTP_YEAR_019_KV_otherfield_missing_MIDDLE",
+      "VTP_YEAR_019_KV_otherfield_missing_ADJACENT",
+      "VTP_YEAR_019_PROSE_otherfield_missing_MIDDLE",
+      "VTP_YEAR_019_PROSE_otherfield_missing_ADJACENT",
+      "VTP_YEAR_019_BULLET_otherfield_missing_MIDDLE",
+      "VTP_YEAR_019_BULLET_otherfield_missing_ADJACENT",
+      "PTR_YEAR_000_KV_multi_present_MIDDLE",
+      "PTR_YEAR_000_KV_multi_present_ADJACENT",
+      "PTR_YEAR_000_KV_multi_missing_MIDDLE",
+      "PTR_YEAR_000_KV_multi_missing_ADJACENT",
+      "PTR_YEAR_000_PROSE_multi_present_MIDDLE",
+      "PTR_YEAR_000_PROSE_multi_present_ADJACENT",
+      "PTR_YEAR_000_PROSE_multi_missing_MIDDLE",
+      "PTR_YEAR_000_PROSE_multi_missing_ADJACENT",
+      "PTR_YEAR_000_BULLET_multi_present_MIDDLE",
+      "PTR_YEAR_000_BULLET_multi_present_ADJACENT",
+      "PTR_YEAR_000_BULLET_multi_missing_MIDDLE",
+      "PTR_YEAR_000_BULLET_multi_missing_ADJACENT",
+      "PTR_YEAR_001_KV_multi_present_MIDDLE",
+      "PTR_YEAR_001_KV_multi_present_ADJACENT",
+      "PTR_YEAR_001_KV_multi_missing_MIDDLE",
+      "PTR_YEAR_001_KV_multi_missing_ADJACENT",
+      "PTR_YEAR_001_PROSE_multi_present_MIDDLE",
+      "PTR_YEAR_001_PROSE_multi_present_ADJACENT",
+      "PTR_YEAR_001_PROSE_multi_missing_MIDDLE",
+      "PTR_YEAR_001_PROSE_multi_missing_ADJACENT",
+      "PTR_YEAR_001_BULLET_multi_present_MIDDLE",
+      "PTR_YEAR_001_BULLET_multi_present_ADJACENT",
+      "PTR_YEAR_001_BULLET_multi_missing_MIDDLE",
+      "PTR_YEAR_001_BULLET_multi_missing_ADJACENT",
+      "PTR_YEAR_002_KV_multi_present_MIDDLE",
+      "PTR_YEAR_002_KV_multi_present_ADJACENT",
+      "PTR_YEAR_002_KV_multi_missing_MIDDLE",
+      "PTR_YEAR_002_KV_multi_missing_ADJACENT",
+      "PTR_YEAR_002_PROSE_multi_present_MIDDLE",
+      "PTR_YEAR_002_PROSE_multi_present_ADJACENT",
+      "PTR_YEAR_002_PROSE_multi_missing_MIDDLE",
+      "PTR_YEAR_002_PROSE_multi_missing_ADJACENT",
+      "PTR_YEAR_002_BULLET_multi_present_MIDDLE",
+      "PTR_YEAR_002_BULLET_multi_present_ADJACENT",
+      "PTR_YEAR_002_BULLET_multi_missing_MIDDLE",
+      "PTR_YEAR_002_BULLET_multi_missing_ADJACENT",
+      "PTR_YEAR_003_KV_multi_present_MIDDLE",
+      "PTR_YEAR_003_KV_multi_present_ADJACENT",
+      "PTR_YEAR_003_PROSE_multi_present_MIDDLE",
+      "PTR_YEAR_003_PROSE_multi_present_ADJACENT",
+      "PTR_YEAR_003_BULLET_multi_present_MIDDLE",
+      "PTR_YEAR_003_BULLET_multi_present_ADJACENT",
+      "PTR_YEAR_003_BULLET_multi_missing_MIDDLE",
+      "PTR_YEAR_003_BULLET_multi_missing_ADJACENT"
+    ],
+    "examples": [
+      {
+        "id": "VTP_YEAR_006_PROSE_basic_present_ADJACENT",
+        "base_id": "VTP_YEAR_006",
+        "group": "basic_present",
+        "gold": "1978",
+        "target": "Fenbelgil Wynpordel Institute specializes in acoustic research and operates in the northern district. Its recorded founding year is 1978.",
+        "question": "Question: What is the recorded founding year for Fenbelgil Wynpordel Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1978",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1978",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1978",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "1978",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "1978",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "1978",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "1978",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "1978",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": "1978",
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": "1978",
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:f54404cfd2abe74abc45ecd754ec8f99aa4108f70e87dd448cecab64077ba1c4",
+            "candidate": "1978"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:f54404cfd2abe74abc45ecd754ec8f99aa4108f70e87dd448cecab64077ba1c4",
+            "candidate": "1978"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:f54404cfd2abe74abc45ecd754ec8f99aa4108f70e87dd448cecab64077ba1c4",
+            "candidate": "1978"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:f54404cfd2abe74abc45ecd754ec8f99aa4108f70e87dd448cecab64077ba1c4",
+            "candidate": "1978"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 132,
+              "end": 136,
+              "text": "1978",
+              "value": "1978"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 132,
+            "end": 136,
+            "text": "1978",
+            "value": "1978"
+          }
+        }
+      },
+      {
+        "id": "VTP_YEAR_002_PROSE_basic_present_ADJACENT",
+        "base_id": "VTP_YEAR_002",
+        "group": "basic_present",
+        "gold": "1960",
+        "target": "Torselvel Fenporsel Institute specializes in acoustic research and operates in the northern district. Its recorded founding year is 1960.",
+        "question": "Question: What is the recorded founding year for Torselvel Fenporsel Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1960",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1960",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1960",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "1960",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "1960",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "1960",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "1960",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "1960",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": "1960",
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": "1960",
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:ea6e8f7ae8e79e4e2d8c42c23ae3448fd6d0331b6cfc47b26f41149f307bb027",
+            "candidate": "1960"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:ea6e8f7ae8e79e4e2d8c42c23ae3448fd6d0331b6cfc47b26f41149f307bb027",
+            "candidate": "1960"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:ea6e8f7ae8e79e4e2d8c42c23ae3448fd6d0331b6cfc47b26f41149f307bb027",
+            "candidate": "1960"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:ea6e8f7ae8e79e4e2d8c42c23ae3448fd6d0331b6cfc47b26f41149f307bb027",
+            "candidate": "1960"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 132,
+              "end": 136,
+              "text": "1960",
+              "value": "1960"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 132,
+            "end": 136,
+            "text": "1960",
+            "value": "1960"
+          }
+        }
+      },
+      {
+        "id": "VTP_YEAR_011_KV_basic_missing_MIDDLE",
+        "base_id": "VTP_YEAR_011",
+        "group": "basic_missing",
+        "gold": null,
+        "target": "Organization: Delgilpor Jorkelmer Institute\nActivity: acoustic research\nRegion: northern district",
+        "question": "Question: What is the recorded founding year for Delgilpor Jorkelmer Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1955",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1970",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "unsupported",
+            "ref": "gate:657ee8c37ed08e06fa3a44851c7ec716de1f03c55c0d1bd9f0b4d9d62e2419ab",
+            "candidate": "1955"
+          },
+          "target_only_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:931510181985971364f6d1fb4963a818da76f790439718ba1b406e57cb205b3b",
+            "candidate": "1970"
+          },
+          "id_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "no_candidate_cpu",
+            "ref": null,
+            "candidate": null
+          }
+        },
+        "selection": {
+          "status": "no_candidate",
+          "raw": null,
+          "candidates": [],
+          "selected": null
+        }
+      }
+    ]
+  },
+  "development/year/both_wrong": {
+    "n": 4,
+    "all_ids": [
+      "PTR_YEAR_003_KV_multi_missing_MIDDLE",
+      "PTR_YEAR_003_KV_multi_missing_ADJACENT",
+      "PTR_YEAR_003_PROSE_multi_missing_MIDDLE",
+      "PTR_YEAR_003_PROSE_multi_missing_ADJACENT"
+    ],
+    "examples": [
+      {
+        "id": "PTR_YEAR_003_PROSE_multi_missing_ADJACENT",
+        "base_id": "PTR_YEAR_003",
+        "group": "multi_missing",
+        "gold": null,
+        "target": "Xelzorjor Veltorfen Institute specializes in acoustic research and operates in the northern district. Its recorded audit year is 1935. Its recorded review year is 1958.",
+        "question": "Question: What is the recorded founding year for Xelzorjor Veltorfen Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:10f3805a2b1876492452c884606881acbc80eb3429e4d17f536963a672a3bc84",
+            "candidate": "1935"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:10f3805a2b1876492452c884606881acbc80eb3429e4d17f536963a672a3bc84",
+            "candidate": "1935"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:10f3805a2b1876492452c884606881acbc80eb3429e4d17f536963a672a3bc84",
+            "candidate": "1935"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:10f3805a2b1876492452c884606881acbc80eb3429e4d17f536963a672a3bc84",
+            "candidate": "1935"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 129,
+              "end": 133,
+              "text": "1935",
+              "value": "1935"
+            },
+            {
+              "id": "n02",
+              "start": 163,
+              "end": 167,
+              "text": "1958",
+              "value": "1958"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 129,
+            "end": 133,
+            "text": "1935",
+            "value": "1935"
+          }
+        }
+      },
+      {
+        "id": "PTR_YEAR_003_KV_multi_missing_ADJACENT",
+        "base_id": "PTR_YEAR_003",
+        "group": "multi_missing",
+        "gold": null,
+        "target": "Organization: Xelzorjor Veltorfen Institute\nActivity: acoustic research\nRegion: northern district\nRecorded audit year: 1935\nRecorded review year: 1958",
+        "question": "Question: What is the recorded founding year for Xelzorjor Veltorfen Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:e7108081869eaa7ba90d35e1b6c6e550453425479e11303ea26f10b29007e958",
+            "candidate": "1935"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:e7108081869eaa7ba90d35e1b6c6e550453425479e11303ea26f10b29007e958",
+            "candidate": "1935"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:e7108081869eaa7ba90d35e1b6c6e550453425479e11303ea26f10b29007e958",
+            "candidate": "1935"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:e7108081869eaa7ba90d35e1b6c6e550453425479e11303ea26f10b29007e958",
+            "candidate": "1935"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 119,
+              "end": 123,
+              "text": "1935",
+              "value": "1935"
+            },
+            {
+              "id": "n02",
+              "start": 146,
+              "end": 150,
+              "text": "1958",
+              "value": "1958"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 119,
+            "end": 123,
+            "text": "1935",
+            "value": "1935"
+          }
+        }
+      },
+      {
+        "id": "PTR_YEAR_003_PROSE_multi_missing_MIDDLE",
+        "base_id": "PTR_YEAR_003",
+        "group": "multi_missing",
+        "gold": null,
+        "target": "Xelzorjor Veltorfen Institute specializes in acoustic research and operates in the northern district. Its recorded audit year is 1935. Its recorded review year is 1958.",
+        "question": "Question: What is the recorded founding year for Xelzorjor Veltorfen Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "1935",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:10f3805a2b1876492452c884606881acbc80eb3429e4d17f536963a672a3bc84",
+            "candidate": "1935"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:10f3805a2b1876492452c884606881acbc80eb3429e4d17f536963a672a3bc84",
+            "candidate": "1935"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:10f3805a2b1876492452c884606881acbc80eb3429e4d17f536963a672a3bc84",
+            "candidate": "1935"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "gate:10f3805a2b1876492452c884606881acbc80eb3429e4d17f536963a672a3bc84",
+            "candidate": "1935"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 129,
+              "end": 133,
+              "text": "1935",
+              "value": "1935"
+            },
+            {
+              "id": "n02",
+              "start": 163,
+              "end": 167,
+              "text": "1958",
+              "value": "1958"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 129,
+            "end": 133,
+            "text": "1935",
+            "value": "1935"
+          }
+        }
+      }
+    ]
+  },
+  "holdout_canonical/salary/both_correct": {
+    "n": 288,
+    "all_ids": [
+      "HLD_SALARY_000_canonical_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_000_canonical_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_000_canonical_KV_basic_present_MIDDLE",
+      "HLD_SALARY_000_canonical_KV_basic_present_ADJACENT",
+      "HLD_SALARY_000_canonical_KV_collision_present_MIDDLE",
+      "HLD_SALARY_000_canonical_KV_collision_present_ADJACENT",
+      "HLD_SALARY_000_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_000_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_000_canonical_KV_multi_present_MIDDLE",
+      "HLD_SALARY_000_canonical_KV_multi_present_ADJACENT",
+      "HLD_SALARY_000_canonical_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_000_canonical_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_000_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_000_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_000_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_000_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_000_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_000_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_000_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_000_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_000_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_000_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_000_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_000_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_000_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_000_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_000_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_000_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_000_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_000_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_000_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_000_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_000_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_000_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_000_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_000_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_001_canonical_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_001_canonical_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_001_canonical_KV_basic_present_MIDDLE",
+      "HLD_SALARY_001_canonical_KV_basic_present_ADJACENT",
+      "HLD_SALARY_001_canonical_KV_collision_present_MIDDLE",
+      "HLD_SALARY_001_canonical_KV_collision_present_ADJACENT",
+      "HLD_SALARY_001_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_001_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_001_canonical_KV_multi_present_MIDDLE",
+      "HLD_SALARY_001_canonical_KV_multi_present_ADJACENT",
+      "HLD_SALARY_001_canonical_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_001_canonical_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_001_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_001_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_001_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_001_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_001_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_001_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_001_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_001_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_001_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_001_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_001_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_001_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_001_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_001_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_001_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_001_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_001_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_001_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_001_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_001_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_001_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_001_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_001_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_001_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_002_canonical_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_002_canonical_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_002_canonical_KV_basic_present_MIDDLE",
+      "HLD_SALARY_002_canonical_KV_basic_present_ADJACENT",
+      "HLD_SALARY_002_canonical_KV_collision_present_MIDDLE",
+      "HLD_SALARY_002_canonical_KV_collision_present_ADJACENT",
+      "HLD_SALARY_002_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_002_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_002_canonical_KV_multi_present_MIDDLE",
+      "HLD_SALARY_002_canonical_KV_multi_present_ADJACENT",
+      "HLD_SALARY_002_canonical_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_002_canonical_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_002_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_002_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_002_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_002_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_002_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_002_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_002_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_002_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_002_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_002_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_002_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_002_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_002_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_002_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_002_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_002_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_002_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_002_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_002_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_002_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_002_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_002_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_002_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_002_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_003_canonical_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_003_canonical_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_003_canonical_KV_basic_present_MIDDLE",
+      "HLD_SALARY_003_canonical_KV_basic_present_ADJACENT",
+      "HLD_SALARY_003_canonical_KV_collision_present_MIDDLE",
+      "HLD_SALARY_003_canonical_KV_collision_present_ADJACENT",
+      "HLD_SALARY_003_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_003_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_003_canonical_KV_multi_present_MIDDLE",
+      "HLD_SALARY_003_canonical_KV_multi_present_ADJACENT",
+      "HLD_SALARY_003_canonical_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_003_canonical_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_003_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_003_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_003_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_003_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_003_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_003_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_003_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_003_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_003_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_003_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_003_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_003_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_003_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_003_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_003_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_003_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_003_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_003_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_003_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_003_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_003_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_003_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_003_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_003_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_004_canonical_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_004_canonical_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_004_canonical_KV_basic_present_MIDDLE",
+      "HLD_SALARY_004_canonical_KV_basic_present_ADJACENT",
+      "HLD_SALARY_004_canonical_KV_collision_present_MIDDLE",
+      "HLD_SALARY_004_canonical_KV_collision_present_ADJACENT",
+      "HLD_SALARY_004_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_004_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_004_canonical_KV_multi_present_MIDDLE",
+      "HLD_SALARY_004_canonical_KV_multi_present_ADJACENT",
+      "HLD_SALARY_004_canonical_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_004_canonical_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_004_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_004_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_004_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_004_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_004_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_004_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_004_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_004_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_004_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_004_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_004_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_004_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_004_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_004_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_004_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_004_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_004_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_004_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_004_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_004_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_004_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_004_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_004_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_004_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_005_canonical_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_005_canonical_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_005_canonical_KV_basic_present_MIDDLE",
+      "HLD_SALARY_005_canonical_KV_basic_present_ADJACENT",
+      "HLD_SALARY_005_canonical_KV_collision_present_MIDDLE",
+      "HLD_SALARY_005_canonical_KV_collision_present_ADJACENT",
+      "HLD_SALARY_005_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_005_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_005_canonical_KV_multi_present_MIDDLE",
+      "HLD_SALARY_005_canonical_KV_multi_present_ADJACENT",
+      "HLD_SALARY_005_canonical_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_005_canonical_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_005_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_005_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_005_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_005_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_005_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_005_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_005_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_005_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_005_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_005_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_005_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_005_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_005_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_005_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_005_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_005_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_005_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_005_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_005_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_005_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_005_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_005_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_005_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_005_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_006_canonical_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_006_canonical_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_006_canonical_KV_basic_present_MIDDLE",
+      "HLD_SALARY_006_canonical_KV_basic_present_ADJACENT",
+      "HLD_SALARY_006_canonical_KV_collision_present_MIDDLE",
+      "HLD_SALARY_006_canonical_KV_collision_present_ADJACENT",
+      "HLD_SALARY_006_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_006_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_006_canonical_KV_multi_present_MIDDLE",
+      "HLD_SALARY_006_canonical_KV_multi_present_ADJACENT",
+      "HLD_SALARY_006_canonical_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_006_canonical_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_006_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_006_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_006_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_006_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_006_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_006_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_006_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_006_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_006_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_006_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_006_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_006_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_006_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_006_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_006_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_006_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_006_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_006_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_006_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_006_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_006_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_006_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_006_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_006_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_007_canonical_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_007_canonical_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_007_canonical_KV_basic_present_MIDDLE",
+      "HLD_SALARY_007_canonical_KV_basic_present_ADJACENT",
+      "HLD_SALARY_007_canonical_KV_collision_present_MIDDLE",
+      "HLD_SALARY_007_canonical_KV_collision_present_ADJACENT",
+      "HLD_SALARY_007_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_007_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_007_canonical_KV_multi_present_MIDDLE",
+      "HLD_SALARY_007_canonical_KV_multi_present_ADJACENT",
+      "HLD_SALARY_007_canonical_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_007_canonical_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_007_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_007_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_007_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_007_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_007_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_007_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_007_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_007_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_007_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_007_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_007_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_007_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_007_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_007_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_007_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_007_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_007_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_007_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_007_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_007_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_007_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_007_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_007_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_007_canonical_BULLET_multi_missing_ADJACENT"
+    ],
+    "examples": [
+      {
+        "id": "HLD_SALARY_000_canonical_PROSE_multi_missing_ADJACENT",
+        "base_id": "HLD_SALARY_000",
+        "group": "multi_missing",
+        "gold": null,
+        "target": "Torlumxel Merkellum Institute specializes in acoustic research and operates in the northern district. Its recorded revenue is $129256. Its recorded budget is $121979.",
+        "question": "Question: What is the recorded salary for Torlumxel Merkellum Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "129256",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:8a87acd6517dd107ff3b2d2b87d300d847e1c04cc695804b5bb7a51916a00a5e",
+            "candidate": "129256"
+          },
+          "target_only_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "id_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          }
+        },
+        "selection": {
+          "status": "model_none",
+          "raw": "NONE",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 127,
+              "end": 133,
+              "text": "129256",
+              "value": "129256"
+            },
+            {
+              "id": "n02",
+              "start": 159,
+              "end": 165,
+              "text": "121979",
+              "value": "121979"
+            }
+          ],
+          "selected": null
+        }
+      },
+      {
+        "id": "HLD_SALARY_002_canonical_BULLET_multi_missing_ADJACENT",
+        "base_id": "HLD_SALARY_002",
+        "group": "multi_missing",
+        "gold": null,
+        "target": "Organization memo: Hordelwyn Zortornel Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded revenue: $123729\n- Recorded budget: $179031",
+        "question": "Question: What is the recorded salary for Hordelwyn Zortornel Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "123729",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:58ded9681fcc319c01d89ec5d133fc4c5811d20fc84c2455a6090ca7b6f9fab6",
+            "candidate": "123729"
+          },
+          "target_only_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "id_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          }
+        },
+        "selection": {
+          "status": "model_none",
+          "raw": "NONE",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 128,
+              "end": 134,
+              "text": "123729",
+              "value": "123729"
+            },
+            {
+              "id": "n02",
+              "start": 155,
+              "end": 161,
+              "text": "179031",
+              "value": "179031"
+            }
+          ],
+          "selected": null
+        }
+      },
+      {
+        "id": "HLD_SALARY_004_canonical_KV_collision_present_MIDDLE",
+        "base_id": "HLD_SALARY_004",
+        "group": "collision_present",
+        "gold": "196146",
+        "target": "Organization: Selnelkel Jornelzor Institute\nActivity: acoustic research\nRegion: northern district\nRecorded salary: $196146",
+        "question": "Question: What is the recorded salary for Selnelkel Jornelzor Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "$196146",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "$196146",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "$196146",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "196146",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "$196146",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "$196146",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "196146",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "$196146",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": "196146",
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": "196146",
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "current:1484f82fb6315b8b1dfb982b408da64aa43473bd2f488d1d27d1f0bfc4c415c0",
+            "candidate": "196146"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "current:1484f82fb6315b8b1dfb982b408da64aa43473bd2f488d1d27d1f0bfc4c415c0",
+            "candidate": "196146"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "current:1484f82fb6315b8b1dfb982b408da64aa43473bd2f488d1d27d1f0bfc4c415c0",
+            "candidate": "196146"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "current:1484f82fb6315b8b1dfb982b408da64aa43473bd2f488d1d27d1f0bfc4c415c0",
+            "candidate": "196146"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 116,
+              "end": 122,
+              "text": "196146",
+              "value": "196146"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 116,
+            "end": 122,
+            "text": "196146",
+            "value": "196146"
+          }
+        }
+      }
+    ]
+  },
+  "holdout_canonical/year/both_correct": {
+    "n": 286,
+    "all_ids": [
+      "HLD_YEAR_000_canonical_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_000_canonical_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_000_canonical_KV_basic_present_MIDDLE",
+      "HLD_YEAR_000_canonical_KV_basic_present_ADJACENT",
+      "HLD_YEAR_000_canonical_KV_collision_present_MIDDLE",
+      "HLD_YEAR_000_canonical_KV_collision_present_ADJACENT",
+      "HLD_YEAR_000_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_000_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_000_canonical_KV_multi_present_MIDDLE",
+      "HLD_YEAR_000_canonical_KV_multi_present_ADJACENT",
+      "HLD_YEAR_000_canonical_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_000_canonical_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_000_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_000_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_000_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_000_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_000_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_000_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_000_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_000_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_000_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_000_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_000_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_000_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_000_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_000_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_000_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_000_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_000_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_000_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_000_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_000_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_000_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_000_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_000_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_000_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_001_canonical_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_001_canonical_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_001_canonical_KV_basic_present_MIDDLE",
+      "HLD_YEAR_001_canonical_KV_basic_present_ADJACENT",
+      "HLD_YEAR_001_canonical_KV_collision_present_MIDDLE",
+      "HLD_YEAR_001_canonical_KV_collision_present_ADJACENT",
+      "HLD_YEAR_001_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_001_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_001_canonical_KV_multi_present_MIDDLE",
+      "HLD_YEAR_001_canonical_KV_multi_present_ADJACENT",
+      "HLD_YEAR_001_canonical_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_001_canonical_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_001_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_001_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_001_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_001_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_001_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_001_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_001_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_001_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_001_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_001_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_001_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_001_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_001_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_001_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_001_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_001_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_001_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_001_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_001_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_001_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_001_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_001_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_001_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_001_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_002_canonical_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_002_canonical_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_002_canonical_KV_basic_present_MIDDLE",
+      "HLD_YEAR_002_canonical_KV_basic_present_ADJACENT",
+      "HLD_YEAR_002_canonical_KV_collision_present_MIDDLE",
+      "HLD_YEAR_002_canonical_KV_collision_present_ADJACENT",
+      "HLD_YEAR_002_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_002_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_002_canonical_KV_multi_present_MIDDLE",
+      "HLD_YEAR_002_canonical_KV_multi_present_ADJACENT",
+      "HLD_YEAR_002_canonical_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_002_canonical_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_002_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_002_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_002_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_002_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_002_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_002_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_002_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_002_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_002_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_002_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_002_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_002_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_002_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_002_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_002_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_002_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_002_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_002_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_002_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_002_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_002_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_002_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_003_canonical_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_003_canonical_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_003_canonical_KV_basic_present_MIDDLE",
+      "HLD_YEAR_003_canonical_KV_basic_present_ADJACENT",
+      "HLD_YEAR_003_canonical_KV_collision_present_MIDDLE",
+      "HLD_YEAR_003_canonical_KV_collision_present_ADJACENT",
+      "HLD_YEAR_003_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_003_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_003_canonical_KV_multi_present_MIDDLE",
+      "HLD_YEAR_003_canonical_KV_multi_present_ADJACENT",
+      "HLD_YEAR_003_canonical_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_003_canonical_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_003_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_003_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_003_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_003_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_003_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_003_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_003_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_003_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_003_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_003_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_003_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_003_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_003_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_003_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_003_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_003_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_003_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_003_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_003_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_003_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_003_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_003_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_003_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_003_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_004_canonical_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_004_canonical_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_004_canonical_KV_basic_present_MIDDLE",
+      "HLD_YEAR_004_canonical_KV_basic_present_ADJACENT",
+      "HLD_YEAR_004_canonical_KV_collision_present_MIDDLE",
+      "HLD_YEAR_004_canonical_KV_collision_present_ADJACENT",
+      "HLD_YEAR_004_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_004_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_004_canonical_KV_multi_present_MIDDLE",
+      "HLD_YEAR_004_canonical_KV_multi_present_ADJACENT",
+      "HLD_YEAR_004_canonical_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_004_canonical_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_004_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_004_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_004_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_004_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_004_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_004_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_004_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_004_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_004_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_004_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_004_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_004_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_004_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_004_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_004_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_004_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_004_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_004_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_004_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_004_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_004_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_004_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_004_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_004_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_005_canonical_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_005_canonical_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_005_canonical_KV_basic_present_MIDDLE",
+      "HLD_YEAR_005_canonical_KV_basic_present_ADJACENT",
+      "HLD_YEAR_005_canonical_KV_collision_present_MIDDLE",
+      "HLD_YEAR_005_canonical_KV_collision_present_ADJACENT",
+      "HLD_YEAR_005_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_005_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_005_canonical_KV_multi_present_MIDDLE",
+      "HLD_YEAR_005_canonical_KV_multi_present_ADJACENT",
+      "HLD_YEAR_005_canonical_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_005_canonical_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_005_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_005_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_005_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_005_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_005_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_005_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_005_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_005_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_005_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_005_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_005_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_005_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_005_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_005_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_005_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_005_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_005_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_005_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_005_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_005_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_005_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_005_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_005_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_005_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_006_canonical_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_006_canonical_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_006_canonical_KV_basic_present_MIDDLE",
+      "HLD_YEAR_006_canonical_KV_basic_present_ADJACENT",
+      "HLD_YEAR_006_canonical_KV_collision_present_MIDDLE",
+      "HLD_YEAR_006_canonical_KV_collision_present_ADJACENT",
+      "HLD_YEAR_006_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_006_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_006_canonical_KV_multi_present_MIDDLE",
+      "HLD_YEAR_006_canonical_KV_multi_present_ADJACENT",
+      "HLD_YEAR_006_canonical_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_006_canonical_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_006_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_006_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_006_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_006_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_006_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_006_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_006_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_006_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_006_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_006_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_006_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_006_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_006_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_006_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_006_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_006_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_006_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_006_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_006_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_006_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_006_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_006_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_006_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_006_canonical_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_007_canonical_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_007_canonical_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_007_canonical_KV_basic_present_MIDDLE",
+      "HLD_YEAR_007_canonical_KV_basic_present_ADJACENT",
+      "HLD_YEAR_007_canonical_KV_collision_present_MIDDLE",
+      "HLD_YEAR_007_canonical_KV_collision_present_ADJACENT",
+      "HLD_YEAR_007_canonical_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_007_canonical_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_007_canonical_KV_multi_present_MIDDLE",
+      "HLD_YEAR_007_canonical_KV_multi_present_ADJACENT",
+      "HLD_YEAR_007_canonical_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_007_canonical_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_007_canonical_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_007_canonical_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_007_canonical_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_007_canonical_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_007_canonical_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_007_canonical_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_007_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_007_canonical_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_007_canonical_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_007_canonical_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_007_canonical_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_007_canonical_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_007_canonical_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_007_canonical_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_007_canonical_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_007_canonical_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_007_canonical_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_007_canonical_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_007_canonical_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_007_canonical_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_007_canonical_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_007_canonical_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_007_canonical_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_007_canonical_BULLET_multi_missing_ADJACENT"
+    ],
+    "examples": [
+      {
+        "id": "HLD_YEAR_000_canonical_PROSE_multi_present_ADJACENT",
+        "base_id": "HLD_YEAR_000",
+        "group": "multi_present",
+        "gold": "1999",
+        "target": "Mercorpor Selbelpor Institute specializes in acoustic research and operates in the northern district. Its recorded founding year is 1999. Its recorded audit year is 1904.",
+        "question": "Question: What is the recorded founding year for Mercorpor Selbelpor Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1999",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1999",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1999",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "1999",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "1999",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "1999",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "1999",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "1999",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": "1999",
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": "1999",
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "current:572eab6857fb6ff8421da41757f32fcc09a14d65f849c5fb2b394a1c04a4b4f6",
+            "candidate": "1999"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "current:572eab6857fb6ff8421da41757f32fcc09a14d65f849c5fb2b394a1c04a4b4f6",
+            "candidate": "1999"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "current:572eab6857fb6ff8421da41757f32fcc09a14d65f849c5fb2b394a1c04a4b4f6",
+            "candidate": "1999"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "current:572eab6857fb6ff8421da41757f32fcc09a14d65f849c5fb2b394a1c04a4b4f6",
+            "candidate": "1999"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 132,
+              "end": 136,
+              "text": "1999",
+              "value": "1999"
+            },
+            {
+              "id": "n02",
+              "start": 165,
+              "end": 169,
+              "text": "1904",
+              "value": "1904"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 132,
+            "end": 136,
+            "text": "1999",
+            "value": "1999"
+          }
+        }
+      },
+      {
+        "id": "HLD_YEAR_000_canonical_BULLET_multi_missing_ADJACENT",
+        "base_id": "HLD_YEAR_000",
+        "group": "multi_missing",
+        "gold": null,
+        "target": "Organization memo: Mercorpor Selbelpor Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded review year: 1999\n- Recorded audit year: 1904",
+        "question": "Question: What is the recorded founding year for Mercorpor Selbelpor Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1999",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1904",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1904",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:041ce919a72d660d50c8a2432cdbe364d94761f795b2e49bfb49e218510402e9",
+            "candidate": "1999"
+          },
+          "target_only_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:a2cc2b3ca14f09e4760d05413ba9b3ff191950ce7bccb0cbdefc19b836ffc7be",
+            "candidate": "1904"
+          },
+          "id_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:a2cc2b3ca14f09e4760d05413ba9b3ff191950ce7bccb0cbdefc19b836ffc7be",
+            "candidate": "1904"
+          }
+        },
+        "selection": {
+          "status": "model_none",
+          "raw": "NONE",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 131,
+              "end": 135,
+              "text": "1999",
+              "value": "1999"
+            },
+            {
+              "id": "n02",
+              "start": 159,
+              "end": 163,
+              "text": "1904",
+              "value": "1904"
+            }
+          ],
+          "selected": null
+        }
+      },
+      {
+        "id": "HLD_YEAR_007_canonical_KV_basic_missing_MIDDLE",
+        "base_id": "HLD_YEAR_007",
+        "group": "basic_missing",
+        "gold": null,
+        "target": "Organization: Merjorcor Xelgilvel Institute\nActivity: acoustic research\nRegion: northern district",
+        "question": "Question: What is the recorded founding year for Merjorcor Xelgilvel Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "target_only_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "id_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "no_candidate_cpu",
+            "ref": null,
+            "candidate": null
+          }
+        },
+        "selection": {
+          "status": "no_candidate",
+          "raw": null,
+          "candidates": [],
+          "selected": null
+        }
+      }
+    ]
+  },
+  "holdout_canonical/year/both_wrong": {
+    "n": 2,
+    "all_ids": [
+      "HLD_YEAR_002_canonical_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_002_canonical_PROSE_otherfield_missing_ADJACENT"
+    ],
+    "examples": [
+      {
+        "id": "HLD_YEAR_002_canonical_PROSE_otherfield_missing_MIDDLE",
+        "base_id": "HLD_YEAR_002",
+        "group": "otherfield_missing",
+        "gold": null,
+        "target": "Merhorzor Porzormer Institute specializes in acoustic research and operates in the northern district. Its recorded audit year is 1901.",
+        "question": "Question: What is the recorded founding year for Merhorzor Porzormer Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "current:367480dde68d65b16034b5981ae2032465116e5dac483acaa827a89c9020d58a",
+            "candidate": "1901"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "current:367480dde68d65b16034b5981ae2032465116e5dac483acaa827a89c9020d58a",
+            "candidate": "1901"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "current:367480dde68d65b16034b5981ae2032465116e5dac483acaa827a89c9020d58a",
+            "candidate": "1901"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "current:367480dde68d65b16034b5981ae2032465116e5dac483acaa827a89c9020d58a",
+            "candidate": "1901"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 129,
+              "end": 133,
+              "text": "1901",
+              "value": "1901"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 129,
+            "end": 133,
+            "text": "1901",
+            "value": "1901"
+          }
+        }
+      },
+      {
+        "id": "HLD_YEAR_002_canonical_PROSE_otherfield_missing_ADJACENT",
+        "base_id": "HLD_YEAR_002",
+        "group": "otherfield_missing",
+        "gold": null,
+        "target": "Merhorzor Porzormer Institute specializes in acoustic research and operates in the northern district. Its recorded audit year is 1901.",
+        "question": "Question: What is the recorded founding year for Merhorzor Porzormer Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "current:367480dde68d65b16034b5981ae2032465116e5dac483acaa827a89c9020d58a",
+            "candidate": "1901"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "current:367480dde68d65b16034b5981ae2032465116e5dac483acaa827a89c9020d58a",
+            "candidate": "1901"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "current:367480dde68d65b16034b5981ae2032465116e5dac483acaa827a89c9020d58a",
+            "candidate": "1901"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "current:367480dde68d65b16034b5981ae2032465116e5dac483acaa827a89c9020d58a",
+            "candidate": "1901"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 129,
+              "end": 133,
+              "text": "1901",
+              "value": "1901"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 129,
+            "end": 133,
+            "text": "1901",
+            "value": "1901"
+          }
+        }
+      }
+    ]
+  },
+  "holdout_paraphrase/salary/both_correct": {
+    "n": 288,
+    "all_ids": [
+      "HLD_SALARY_000_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_000_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_000_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_SALARY_000_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_SALARY_000_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_SALARY_000_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_SALARY_000_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_000_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_000_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_SALARY_000_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_SALARY_000_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_000_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_000_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_000_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_000_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_000_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_000_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_000_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_000_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_000_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_000_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_000_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_000_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_000_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_000_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_000_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_000_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_000_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_000_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_000_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_000_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_000_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_000_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_000_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_000_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_000_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_001_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_001_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_001_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_SALARY_001_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_SALARY_001_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_SALARY_001_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_SALARY_001_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_001_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_001_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_SALARY_001_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_SALARY_001_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_001_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_001_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_001_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_001_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_001_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_001_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_001_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_001_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_001_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_001_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_001_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_001_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_001_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_001_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_001_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_001_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_001_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_001_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_001_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_001_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_001_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_001_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_001_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_001_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_001_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_002_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_002_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_002_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_SALARY_002_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_SALARY_002_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_SALARY_002_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_SALARY_002_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_002_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_002_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_SALARY_002_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_SALARY_002_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_002_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_002_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_002_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_002_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_002_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_002_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_002_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_002_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_002_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_002_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_002_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_002_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_002_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_002_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_002_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_002_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_002_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_002_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_002_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_002_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_002_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_002_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_002_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_002_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_002_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_003_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_003_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_003_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_SALARY_003_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_SALARY_003_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_SALARY_003_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_SALARY_003_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_003_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_003_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_SALARY_003_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_SALARY_003_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_003_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_003_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_003_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_003_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_003_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_003_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_003_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_003_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_003_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_003_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_003_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_003_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_003_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_003_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_003_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_003_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_003_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_003_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_003_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_003_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_003_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_003_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_003_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_003_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_003_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_004_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_004_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_004_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_SALARY_004_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_SALARY_004_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_SALARY_004_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_SALARY_004_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_004_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_004_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_SALARY_004_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_SALARY_004_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_004_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_004_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_004_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_004_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_004_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_004_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_004_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_004_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_004_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_004_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_004_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_004_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_004_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_004_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_004_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_004_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_004_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_004_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_004_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_004_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_004_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_004_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_004_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_004_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_004_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_005_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_005_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_005_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_SALARY_005_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_SALARY_005_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_SALARY_005_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_SALARY_005_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_005_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_005_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_SALARY_005_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_SALARY_005_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_005_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_005_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_005_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_005_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_005_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_005_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_005_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_005_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_005_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_005_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_005_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_005_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_005_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_005_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_005_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_005_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_005_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_005_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_005_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_005_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_005_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_005_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_005_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_005_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_005_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_006_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_006_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_006_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_SALARY_006_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_SALARY_006_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_SALARY_006_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_SALARY_006_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_006_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_006_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_SALARY_006_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_SALARY_006_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_006_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_006_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_006_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_006_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_006_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_006_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_006_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_006_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_006_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_006_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_006_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_006_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_006_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_006_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_006_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_006_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_006_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_006_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_006_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_006_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_006_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_006_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_006_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_006_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_006_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_SALARY_007_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_SALARY_007_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_SALARY_007_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_SALARY_007_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_SALARY_007_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_SALARY_007_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_SALARY_007_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_SALARY_007_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_SALARY_007_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_SALARY_007_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_SALARY_007_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_SALARY_007_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_SALARY_007_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_SALARY_007_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_SALARY_007_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_SALARY_007_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_SALARY_007_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_SALARY_007_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_SALARY_007_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_SALARY_007_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_SALARY_007_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_SALARY_007_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_SALARY_007_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_SALARY_007_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_SALARY_007_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_SALARY_007_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_SALARY_007_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_SALARY_007_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_SALARY_007_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_SALARY_007_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_SALARY_007_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_SALARY_007_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_SALARY_007_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_SALARY_007_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_SALARY_007_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_SALARY_007_paraphrase_BULLET_multi_missing_ADJACENT"
+    ],
+    "examples": [
+      {
+        "id": "HLD_SALARY_006_paraphrase_BULLET_otherfield_missing_ADJACENT",
+        "base_id": "HLD_SALARY_006",
+        "group": "otherfield_missing",
+        "gold": null,
+        "target": "Organization memo: Horrinlum Belgilwyn Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded operating budget: $144844",
+        "question": "Question: What amount is stated as annual pay for Horrinlum Belgilwyn Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "144844",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:d6ee27f28c9e482998ca745ed23b35e1ebce8ff32880069407ba853109ea8e16",
+            "candidate": "144844"
+          },
+          "target_only_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "id_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          }
+        },
+        "selection": {
+          "status": "model_none",
+          "raw": "NONE",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 137,
+              "end": 143,
+              "text": "144844",
+              "value": "144844"
+            }
+          ],
+          "selected": null
+        }
+      },
+      {
+        "id": "HLD_SALARY_001_paraphrase_KV_otherfield_missing_MIDDLE",
+        "base_id": "HLD_SALARY_001",
+        "group": "otherfield_missing",
+        "gold": null,
+        "target": "Organization: Belzorrin Xelnelkel Institute\nActivity: acoustic research\nRegion: northern district\nRecorded annual operating budget: $171053",
+        "question": "Question: What amount is stated as annual pay for Belzorrin Xelnelkel Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "171053",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:bf4b2d3071b120e50d7000d1b4e287c75793c63c0f83374c68f481aec2761791",
+            "candidate": "171053"
+          },
+          "target_only_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "id_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          }
+        },
+        "selection": {
+          "status": "model_none",
+          "raw": "NONE",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 133,
+              "end": 139,
+              "text": "171053",
+              "value": "171053"
+            }
+          ],
+          "selected": null
+        }
+      },
+      {
+        "id": "HLD_SALARY_000_paraphrase_PROSE_multi_present_MIDDLE",
+        "base_id": "HLD_SALARY_000",
+        "group": "multi_present",
+        "gold": "129256",
+        "target": "Torlumxel Merkellum Institute specializes in acoustic research and operates in the northern district. Its recorded yearly compensation is $129256. Its recorded annual operating budget is $121979.",
+        "question": "Question: What amount is stated as annual pay for Torlumxel Merkellum Institute?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "129256",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "129256",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "129256",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "129256",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "129256",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "129256",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "129256",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "129256",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": "129256",
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "current:3ec13cb3aa67985d02636f6932f89dd4efe4c6cde5f2b8c9ea603cfb54987a06",
+            "candidate": "129256"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "current:3ec13cb3aa67985d02636f6932f89dd4efe4c6cde5f2b8c9ea603cfb54987a06",
+            "candidate": "129256"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "current:3ec13cb3aa67985d02636f6932f89dd4efe4c6cde5f2b8c9ea603cfb54987a06",
+            "candidate": "129256"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "current:3ec13cb3aa67985d02636f6932f89dd4efe4c6cde5f2b8c9ea603cfb54987a06",
+            "candidate": "129256"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 139,
+              "end": 145,
+              "text": "129256",
+              "value": "129256"
+            },
+            {
+              "id": "n02",
+              "start": 188,
+              "end": 194,
+              "text": "121979",
+              "value": "121979"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 139,
+            "end": 145,
+            "text": "129256",
+            "value": "129256"
+          }
+        }
+      }
+    ]
+  },
+  "holdout_paraphrase/year/both_correct": {
+    "n": 286,
+    "all_ids": [
+      "HLD_YEAR_000_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_000_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_000_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_YEAR_000_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_YEAR_000_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_YEAR_000_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_YEAR_000_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_000_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_000_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_YEAR_000_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_YEAR_000_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_000_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_000_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_000_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_000_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_000_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_000_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_000_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_000_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_000_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_000_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_000_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_000_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_000_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_000_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_000_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_000_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_000_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_000_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_000_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_000_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_000_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_000_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_000_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_000_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_000_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_001_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_001_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_001_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_YEAR_001_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_YEAR_001_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_YEAR_001_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_YEAR_001_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_001_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_001_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_YEAR_001_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_YEAR_001_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_001_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_001_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_001_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_001_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_001_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_001_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_001_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_001_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_001_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_001_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_001_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_001_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_001_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_001_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_001_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_001_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_001_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_001_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_001_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_001_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_001_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_001_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_001_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_001_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_001_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_002_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_002_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_002_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_YEAR_002_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_YEAR_002_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_YEAR_002_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_YEAR_002_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_YEAR_002_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_YEAR_002_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_002_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_002_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_002_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_002_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_002_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_002_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_002_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_002_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_002_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_002_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_002_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_002_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_002_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_002_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_002_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_002_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_002_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_002_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_002_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_002_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_002_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_002_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_002_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_002_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_002_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_003_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_003_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_003_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_YEAR_003_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_YEAR_003_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_YEAR_003_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_YEAR_003_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_003_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_003_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_YEAR_003_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_YEAR_003_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_003_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_003_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_003_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_003_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_003_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_003_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_003_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_003_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_003_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_003_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_003_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_003_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_003_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_003_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_003_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_003_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_003_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_003_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_003_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_003_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_003_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_003_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_003_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_003_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_003_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_004_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_004_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_004_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_YEAR_004_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_YEAR_004_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_YEAR_004_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_YEAR_004_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_004_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_004_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_YEAR_004_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_YEAR_004_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_004_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_004_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_004_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_004_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_004_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_004_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_004_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_004_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_004_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_004_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_004_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_004_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_004_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_004_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_004_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_004_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_004_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_004_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_004_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_004_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_004_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_004_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_004_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_004_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_004_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_005_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_005_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_005_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_YEAR_005_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_YEAR_005_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_YEAR_005_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_YEAR_005_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_005_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_005_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_YEAR_005_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_YEAR_005_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_005_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_005_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_005_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_005_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_005_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_005_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_005_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_005_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_005_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_005_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_005_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_005_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_005_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_005_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_005_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_005_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_005_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_005_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_005_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_005_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_005_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_005_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_005_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_005_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_005_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_006_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_006_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_006_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_YEAR_006_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_YEAR_006_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_YEAR_006_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_YEAR_006_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_006_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_006_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_YEAR_006_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_YEAR_006_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_006_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_006_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_006_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_006_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_006_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_006_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_006_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_006_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_006_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_006_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_006_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_006_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_006_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_006_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_006_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_006_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_006_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_006_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_006_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_006_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_006_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_006_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_006_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_006_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_006_paraphrase_BULLET_multi_missing_ADJACENT",
+      "HLD_YEAR_007_paraphrase_KV_basic_missing_MIDDLE",
+      "HLD_YEAR_007_paraphrase_KV_basic_missing_ADJACENT",
+      "HLD_YEAR_007_paraphrase_KV_basic_present_MIDDLE",
+      "HLD_YEAR_007_paraphrase_KV_basic_present_ADJACENT",
+      "HLD_YEAR_007_paraphrase_KV_collision_present_MIDDLE",
+      "HLD_YEAR_007_paraphrase_KV_collision_present_ADJACENT",
+      "HLD_YEAR_007_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_007_paraphrase_KV_otherfield_missing_ADJACENT",
+      "HLD_YEAR_007_paraphrase_KV_multi_present_MIDDLE",
+      "HLD_YEAR_007_paraphrase_KV_multi_present_ADJACENT",
+      "HLD_YEAR_007_paraphrase_KV_multi_missing_MIDDLE",
+      "HLD_YEAR_007_paraphrase_KV_multi_missing_ADJACENT",
+      "HLD_YEAR_007_paraphrase_PROSE_basic_missing_MIDDLE",
+      "HLD_YEAR_007_paraphrase_PROSE_basic_missing_ADJACENT",
+      "HLD_YEAR_007_paraphrase_PROSE_basic_present_MIDDLE",
+      "HLD_YEAR_007_paraphrase_PROSE_basic_present_ADJACENT",
+      "HLD_YEAR_007_paraphrase_PROSE_collision_present_MIDDLE",
+      "HLD_YEAR_007_paraphrase_PROSE_collision_present_ADJACENT",
+      "HLD_YEAR_007_paraphrase_PROSE_otherfield_missing_MIDDLE",
+      "HLD_YEAR_007_paraphrase_PROSE_otherfield_missing_ADJACENT",
+      "HLD_YEAR_007_paraphrase_PROSE_multi_present_MIDDLE",
+      "HLD_YEAR_007_paraphrase_PROSE_multi_present_ADJACENT",
+      "HLD_YEAR_007_paraphrase_PROSE_multi_missing_MIDDLE",
+      "HLD_YEAR_007_paraphrase_PROSE_multi_missing_ADJACENT",
+      "HLD_YEAR_007_paraphrase_BULLET_basic_missing_MIDDLE",
+      "HLD_YEAR_007_paraphrase_BULLET_basic_missing_ADJACENT",
+      "HLD_YEAR_007_paraphrase_BULLET_basic_present_MIDDLE",
+      "HLD_YEAR_007_paraphrase_BULLET_basic_present_ADJACENT",
+      "HLD_YEAR_007_paraphrase_BULLET_collision_present_MIDDLE",
+      "HLD_YEAR_007_paraphrase_BULLET_collision_present_ADJACENT",
+      "HLD_YEAR_007_paraphrase_BULLET_otherfield_missing_MIDDLE",
+      "HLD_YEAR_007_paraphrase_BULLET_otherfield_missing_ADJACENT",
+      "HLD_YEAR_007_paraphrase_BULLET_multi_present_MIDDLE",
+      "HLD_YEAR_007_paraphrase_BULLET_multi_present_ADJACENT",
+      "HLD_YEAR_007_paraphrase_BULLET_multi_missing_MIDDLE",
+      "HLD_YEAR_007_paraphrase_BULLET_multi_missing_ADJACENT"
+    ],
+    "examples": [
+      {
+        "id": "HLD_YEAR_006_paraphrase_KV_collision_present_ADJACENT",
+        "base_id": "HLD_YEAR_006",
+        "group": "collision_present",
+        "gold": "1971",
+        "target": "Organization: Mernellum Lumxeltor Institute\nActivity: acoustic research\nRegion: northern district\nRecorded year of establishment: 1971",
+        "question": "Question: In which year was Mernellum Lumxeltor Institute founded?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1971",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1971",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1971",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "1971",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "1971",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "1971",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "1971",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "1971",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": "1971",
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "current:f077bde2aee947ae5358e3b6c8070a83ebb8533f821fa380635b577149e5227a",
+            "candidate": "1971"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "current:f077bde2aee947ae5358e3b6c8070a83ebb8533f821fa380635b577149e5227a",
+            "candidate": "1971"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "current:f077bde2aee947ae5358e3b6c8070a83ebb8533f821fa380635b577149e5227a",
+            "candidate": "1971"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "current:f077bde2aee947ae5358e3b6c8070a83ebb8533f821fa380635b577149e5227a",
+            "candidate": "1971"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 130,
+              "end": 134,
+              "text": "1971",
+              "value": "1971"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 130,
+            "end": 134,
+            "text": "1971",
+            "value": "1971"
+          }
+        }
+      },
+      {
+        "id": "HLD_YEAR_001_paraphrase_PROSE_otherfield_missing_ADJACENT",
+        "base_id": "HLD_YEAR_001",
+        "group": "otherfield_missing",
+        "gold": null,
+        "target": "Fenwynquil Zorporlum Institute specializes in acoustic research and operates in the northern district. Its recorded year of the audit is 1942.",
+        "question": "Question: In which year was Fenwynquil Zorporlum Institute founded?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1942",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1942",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1942",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:db8469e3a2e0bd1570b580480c6fbf7c44a0856576c7049fedb916af6db614cc",
+            "candidate": "1942"
+          },
+          "target_only_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:db8469e3a2e0bd1570b580480c6fbf7c44a0856576c7049fedb916af6db614cc",
+            "candidate": "1942"
+          },
+          "id_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:db8469e3a2e0bd1570b580480c6fbf7c44a0856576c7049fedb916af6db614cc",
+            "candidate": "1942"
+          }
+        },
+        "selection": {
+          "status": "model_none",
+          "raw": "NONE",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 137,
+              "end": 141,
+              "text": "1942",
+              "value": "1942"
+            }
+          ],
+          "selected": null
+        }
+      },
+      {
+        "id": "HLD_YEAR_000_paraphrase_KV_multi_missing_ADJACENT",
+        "base_id": "HLD_YEAR_000",
+        "group": "multi_missing",
+        "gold": null,
+        "target": "Organization: Mercorpor Selbelpor Institute\nActivity: acoustic research\nRegion: northern district\nRecorded year of the review: 1999\nRecorded year of the audit: 1904",
+        "question": "Question: In which year was Mercorpor Selbelpor Institute founded?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1999",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1904",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1904",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:1d3fe06a5cef94ab94a0528b3ad47083dc3f1cabe40e0d66e8297e8314195e5f",
+            "candidate": "1999"
+          },
+          "target_only_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:df141981e89627e565943485c742f1faeacdfb9a6b4acd8eb15eacd01620bf29",
+            "candidate": "1904"
+          },
+          "id_gate_constrained": {
+            "status": "skipped_non_numeric",
+            "ref": null,
+            "candidate": null
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "unsupported",
+            "ref": "current:df141981e89627e565943485c742f1faeacdfb9a6b4acd8eb15eacd01620bf29",
+            "candidate": "1904"
+          }
+        },
+        "selection": {
+          "status": "model_none",
+          "raw": "NONE",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 127,
+              "end": 131,
+              "text": "1999",
+              "value": "1999"
+            },
+            {
+              "id": "n02",
+              "start": 160,
+              "end": 164,
+              "text": "1904",
+              "value": "1904"
+            }
+          ],
+          "selected": null
+        }
+      }
+    ]
+  },
+  "holdout_paraphrase/year/both_wrong": {
+    "n": 2,
+    "all_ids": [
+      "HLD_YEAR_002_paraphrase_KV_otherfield_missing_MIDDLE",
+      "HLD_YEAR_002_paraphrase_KV_otherfield_missing_ADJACENT"
+    ],
+    "examples": [
+      {
+        "id": "HLD_YEAR_002_paraphrase_KV_otherfield_missing_MIDDLE",
+        "base_id": "HLD_YEAR_002",
+        "group": "otherfield_missing",
+        "gold": null,
+        "target": "Organization: Merhorzor Porzormer Institute\nActivity: acoustic research\nRegion: northern district\nRecorded year of the audit: 1901",
+        "question": "Question: In which year was Merhorzor Porzormer Institute founded?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "current:b9bd4587f6c834e16811aa5e52b2a44db7853d67c330381bb55ae8417fabe3f5",
+            "candidate": "1901"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "current:b9bd4587f6c834e16811aa5e52b2a44db7853d67c330381bb55ae8417fabe3f5",
+            "candidate": "1901"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "current:b9bd4587f6c834e16811aa5e52b2a44db7853d67c330381bb55ae8417fabe3f5",
+            "candidate": "1901"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "current:b9bd4587f6c834e16811aa5e52b2a44db7853d67c330381bb55ae8417fabe3f5",
+            "candidate": "1901"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 126,
+              "end": 130,
+              "text": "1901",
+              "value": "1901"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 126,
+            "end": 130,
+            "text": "1901",
+            "value": "1901"
+          }
+        }
+      },
+      {
+        "id": "HLD_YEAR_002_paraphrase_KV_otherfield_missing_ADJACENT",
+        "base_id": "HLD_YEAR_002",
+        "group": "otherfield_missing",
+        "gold": null,
+        "target": "Organization: Merhorzor Porzormer Institute\nActivity: acoustic research\nRegion: northern district\nRecorded year of the audit: 1901",
+        "question": "Question: In which year was Merhorzor Porzormer Institute founded?",
+        "methods": {
+          "standard": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only_presence": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "id_selection": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "standard_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "id_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "target_only_routed_gate_constrained": {
+            "valid": true,
+            "value": "1901",
+            "error": null
+          },
+          "field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "alias_field_parser": {
+            "valid": true,
+            "value": null,
+            "error": null
+          },
+          "always_abstain": {
+            "valid": true,
+            "value": null,
+            "error": null
+          }
+        },
+        "gates": {
+          "standard_gate_constrained": {
+            "status": "supported",
+            "ref": "current:b9bd4587f6c834e16811aa5e52b2a44db7853d67c330381bb55ae8417fabe3f5",
+            "candidate": "1901"
+          },
+          "target_only_gate_constrained": {
+            "status": "supported",
+            "ref": "current:b9bd4587f6c834e16811aa5e52b2a44db7853d67c330381bb55ae8417fabe3f5",
+            "candidate": "1901"
+          },
+          "id_gate_constrained": {
+            "status": "supported",
+            "ref": "current:b9bd4587f6c834e16811aa5e52b2a44db7853d67c330381bb55ae8417fabe3f5",
+            "candidate": "1901"
+          },
+          "target_only_routed_gate_constrained": {
+            "status": "supported",
+            "ref": "current:b9bd4587f6c834e16811aa5e52b2a44db7853d67c330381bb55ae8417fabe3f5",
+            "candidate": "1901"
+          }
+        },
+        "selection": {
+          "status": "selected",
+          "raw": "n01",
+          "candidates": [
+            {
+              "id": "n01",
+              "start": 126,
+              "end": 130,
+              "text": "1901",
+              "value": "1901"
+            }
+          ],
+          "selected": {
+            "id": "n01",
+            "start": 126,
+            "end": 130,
+            "text": "1901",
+            "value": "1901"
+          }
+        }
+      }
+    ]
+  }
+}

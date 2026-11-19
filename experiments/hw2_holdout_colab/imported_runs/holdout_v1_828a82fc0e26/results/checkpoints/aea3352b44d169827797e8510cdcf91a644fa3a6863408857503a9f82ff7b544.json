@@ -1,0 +1,42 @@
+{
+  "key": "aea3352b44d169827797e8510cdcf91a644fa3a6863408857503a9f82ff7b544",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Lumzorwyn Xeltorpor Institute\n\nTarget document:\nOrganization: Lumzorwyn Xeltorpor Institute\nActivity: acoustic research\nRegion: northern district\nRecorded year of audit: 2012\nRecorded year of founding: 1958\n\nQuestion: In which year was Lumzorwyn Xeltorpor Institute founded?\nCandidate value: 1958"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    50,
+    61140,
+    151645
+  ],
+  "raw_output": "SUPPORTED",
+  "input_tokens": 162,
+  "output_tokens": 3,
+  "generation_seconds": 0.09482619300069928,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:43:03.398567+00:00",
+  "system_error": null,
+  "record_hash": "6ec1585bb1c7766759ae5ca971fa87f3797154f014a195391c424df7c26b9f79"
+}

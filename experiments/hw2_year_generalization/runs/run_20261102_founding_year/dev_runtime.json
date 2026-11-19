@@ -1,0 +1,31 @@
+{
+  "completed": 792,
+  "cuda_build": "13.0",
+  "device": "cuda:0",
+  "finished_utc": "2026-11-13T05:51:46.758161+00:00",
+  "generation_seconds": 332.2883110440007,
+  "generation_seconds_this_process": 332.2883110440007,
+  "gpu": "Tesla T4",
+  "gpu_total_bytes": 15637086208,
+  "input_tokens": 1588254,
+  "model_load_seconds": 10.153147170000011,
+  "new_requests": 792,
+  "output_tokens": 8179,
+  "parse_errors": {
+    "value_type_or_empty": 1
+  },
+  "peak_allocated_bytes": 6231264256,
+  "peak_reserved_bytes": 10305404928,
+  "process_seconds": 349.1417380459998,
+  "python": "3.13.16",
+  "requests": 792,
+  "setup_hash": "8f30550afe3cfd02e5b83039bda234b8e733792fa3ffd40b7d4e4ca38ee9b448",
+  "split": "dev",
+  "started_utc": "2026-11-13T05:45:57.616579+00:00",
+  "status": "COMPLETE",
+  "strict_valid": 791,
+  "system_errors": 0,
+  "torch": "2.14.1+cu130",
+  "transformers": "4.57.6",
+  "truncated": 0
+}

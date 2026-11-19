@@ -1,0 +1,39 @@
+{
+  "key": "f208e5c4ce6d8700687cc0619535dae0cbbf4ed6a698ca3f3bae80ca157e71d8",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested founding year for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated year as digits. Do not infer, estimate, or invent a missing year. Return only the JSON object, without explanation or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Documents and background:\n\n<document id=\"Mercorpor Selbelpor Institute\">\nMercorpor Selbelpor Institute specializes in acoustic research and operates in the northern district. Its recorded establishment year is 1922.\n</document>\n\nQuestion: In which year was Mercorpor Selbelpor Institute founded?"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 96,
+  "generated_token_ids": [
+    515,
+    63307,
+    788,
+    330,
+    16,
+    24,
+    17,
+    17,
+    698,
+    92,
+    151645
+  ],
+  "raw_output": "{\n\"value\": \"1922\"\n}",
+  "input_tokens": 187,
+  "output_tokens": 11,
+  "generation_seconds": 0.3363107780005521,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:37:02.283852+00:00",
+  "system_error": null,
+  "record_hash": "4051730da0ca22a7501347a95f85accb3ab9feb295e2b035b9e1ff9b3a56302a"
+}

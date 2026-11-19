@@ -1,0 +1,42 @@
+{
+  "key": "3713a096fc86b86f59ec35ae001c25e83b251c3732c4857f435217facc5ff589",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Merquilrin Lumzorquil Institute\n\nTarget document:\nOrganization: Merquilrin Lumzorquil Institute\nActivity: acoustic research\nRegion: northern district\nRecorded establishment year: 2016\nRecorded year of the audit: 1978\n\nQuestion: In which year was Merquilrin Lumzorquil Institute founded?\nCandidate value: 2016"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    50,
+    61140,
+    151645
+  ],
+  "raw_output": "SUPPORTED",
+  "input_tokens": 162,
+  "output_tokens": 3,
+  "generation_seconds": 0.10567467799955921,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:41:48.404022+00:00",
+  "system_error": null,
+  "record_hash": "57adcbdc1b1f5c1a3acbc7cbf5d790281623be8d49a90815110b6d7cea9256f9"
+}

@@ -1,0 +1,42 @@
+{
+  "key": "34d6e707a86d398beeee9713bb6d5f2ce751e6c5a7b5ab450511dc4754061bd4",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Selnelkel Jornelzor Institute\n\nTarget document:\nOrganization: Selnelkel Jornelzor Institute\nActivity: acoustic research\nRegion: northern district\nRecorded salary: $196146\nRecorded budget: $121545\n\nQuestion: What is the recorded salary for Selnelkel Jornelzor Institute?\nCandidate value: 196146"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    50,
+    61140,
+    151645
+  ],
+  "raw_output": "SUPPORTED",
+  "input_tokens": 168,
+  "output_tokens": 3,
+  "generation_seconds": 0.09849950700117915,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:32:01.300770+00:00",
+  "system_error": null,
+  "record_hash": "ecaced32f78a129c66615dfdb95b4f993bfcee1156de929c5a38192baf19ee59"
+}

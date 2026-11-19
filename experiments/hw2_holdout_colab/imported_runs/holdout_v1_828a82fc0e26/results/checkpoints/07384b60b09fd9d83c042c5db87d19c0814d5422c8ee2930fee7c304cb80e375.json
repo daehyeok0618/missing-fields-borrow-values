@@ -1,0 +1,42 @@
+{
+  "key": "07384b60b09fd9d83c042c5db87d19c0814d5422c8ee2930fee7c304cb80e375",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Fenwynquil Zorporlum Institute\n\nTarget document:\nOrganization memo: Fenwynquil Zorporlum Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded founding year: 1927\n\nQuestion: What is the recorded founding year for Fenwynquil Zorporlum Institute?\nCandidate value: 1927"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    50,
+    61140,
+    151645
+  ],
+  "raw_output": "SUPPORTED",
+  "input_tokens": 154,
+  "output_tokens": 3,
+  "generation_seconds": 0.12898380900151096,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:38:41.541716+00:00",
+  "system_error": null,
+  "record_hash": "06e44780df00d695bf4d7612bf8b5106329c2052ae8c57518193515d21ffc007"
+}

@@ -1,0 +1,30 @@
+{
+  "key": "1be8a70701ac85ada565e9c00f5d711a4801e46e40631f3de9816ccd532da089",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Mercorpor Selbelpor Institute\n\nTarget document:\nOrganization memo: Mercorpor Selbelpor Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded review year: [n01]1999\n- Recorded audit year: [n02]1904\n\nQuestion: What is the recorded founding year for Mercorpor Selbelpor Institute?\nAllowed outputs: n01, n02, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    45425,
+    151645
+  ],
+  "raw_output": "NONE",
+  "input_tokens": 183,
+  "output_tokens": 2,
+  "generation_seconds": 0.0651869280009123,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:37:43.288552+00:00",
+  "system_error": null,
+  "record_hash": "bce3b967cd3a331fea05edc133c5e45475032505adafcf41e4149188c3dae25f"
+}

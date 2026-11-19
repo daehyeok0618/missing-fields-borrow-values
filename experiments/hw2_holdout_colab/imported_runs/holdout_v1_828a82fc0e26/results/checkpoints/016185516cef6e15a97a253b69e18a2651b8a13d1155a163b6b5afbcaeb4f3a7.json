@@ -1,0 +1,30 @@
+{
+  "key": "016185516cef6e15a97a253b69e18a2651b8a13d1155a163b6b5afbcaeb4f3a7",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Xelgilzor Kelselzor Institute\n\nTarget document:\nOrganization: Xelgilzor Kelselzor Institute\nActivity: acoustic research\nRegion: northern district\nRecorded year of audit: [n01]2021\n\nQuestion: In which year was Xelgilzor Kelselzor Institute founded?\nAllowed outputs: n01, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    45425,
+    151645
+  ],
+  "raw_output": "NONE",
+  "input_tokens": 172,
+  "output_tokens": 2,
+  "generation_seconds": 0.09637234399997396,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:40:29.236536+00:00",
+  "system_error": null,
+  "record_hash": "00370c5e382ae330c6137a700d0f0ce0bf3ea7bb5fd4cded9d8acb778eeaacd7"
+}

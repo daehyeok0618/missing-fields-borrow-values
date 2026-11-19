@@ -1,0 +1,30 @@
+{
+  "key": "a89d9d3c144a400376f9a41097a9239a8a2af605860251378899067456026ee0",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Kelveltor Fenselwyn Institute\n\nTarget document:\nOrganization memo: Kelveltor Fenselwyn Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded annual operating budget: $[n01]179715\n\nQuestion: What amount is stated as annual pay for Kelveltor Fenselwyn Institute?\nAllowed outputs: n01, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    45425,
+    151645
+  ],
+  "raw_output": "NONE",
+  "input_tokens": 172,
+  "output_tokens": 2,
+  "generation_seconds": 0.07540062100088107,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:31:35.363356+00:00",
+  "system_error": null,
+  "record_hash": "c1792353f493d4bb6c45eed5d5ba03a7e96e13fa5c2c4564d194c3acccd8c93a"
+}

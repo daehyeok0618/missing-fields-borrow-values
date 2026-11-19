@@ -1,0 +1,32 @@
+{
+  "key": "26ed6ffc7e4a5b7d4d818cbd2521abdecafcbf4109900c9580c58b01652f148d",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Merquilrin Lumzorquil Institute\n\nTarget document:\nMerquilrin Lumzorquil Institute specializes in acoustic research and operates in the northern district. Its recorded founding year is [n01]1901.\n\nQuestion: What is the recorded founding year for Merquilrin Lumzorquil Institute?\nAllowed outputs: n01, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    77,
+    15,
+    16,
+    151645
+  ],
+  "raw_output": "n01",
+  "input_tokens": 162,
+  "output_tokens": 4,
+  "generation_seconds": 0.1258220430008805,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:41:58.176844+00:00",
+  "system_error": null,
+  "record_hash": "1568c75d3b4d97892202d4819c34b749793ddb5b0465b21f1281dd29bfb616ca"
+}

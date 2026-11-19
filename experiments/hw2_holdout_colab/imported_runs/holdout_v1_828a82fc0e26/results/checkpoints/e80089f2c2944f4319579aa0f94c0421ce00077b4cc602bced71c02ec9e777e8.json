@@ -1,0 +1,42 @@
+{
+  "key": "e80089f2c2944f4319579aa0f94c0421ce00077b4cc602bced71c02ec9e777e8",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Horrinlum Belgilwyn Institute\n\nTarget document:\nHorrinlum Belgilwyn Institute specializes in acoustic research and operates in the northern district. Its recorded yearly compensation is $144844. Its recorded annual operating budget is $143002.\n\nQuestion: What amount is stated as annual pay for Horrinlum Belgilwyn Institute?\nCandidate value: 144844"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    50,
+    61140,
+    151645
+  ],
+  "raw_output": "SUPPORTED",
+  "input_tokens": 169,
+  "output_tokens": 3,
+  "generation_seconds": 0.1301205170002504,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:34:52.567498+00:00",
+  "system_error": null,
+  "record_hash": "9cded6a85bd18aed92d4b27092ad8511564262a7ba6bc7853ac3fe69b0e4d99e"
+}

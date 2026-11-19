@@ -1,0 +1,41 @@
+{
+  "key": "b41081d7b5183dae459315f3e8210517f400c45c9496eb32319ca28488dce746",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested founding year for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated year as digits. Do not infer, estimate, or invent a missing year. Return only the JSON object, without explanation or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Documents and background:\n\n<document id=\"Merquilrin Lumzorquil Institute\">\nMerquilrin Lumzorquil Institute specializes in acoustic research and operates in the northern district. Its recorded year of founding is 2016.\n</document>\n\nQuestion: In which year was Merquilrin Lumzorquil Institute founded?"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 96,
+  "generated_token_ids": [
+    515,
+    220,
+    330,
+    957,
+    788,
+    330,
+    17,
+    15,
+    16,
+    21,
+    698,
+    92,
+    151645
+  ],
+  "raw_output": "{\n  \"value\": \"2016\"\n}",
+  "input_tokens": 191,
+  "output_tokens": 13,
+  "generation_seconds": 0.4921593330000178,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:42:04.824384+00:00",
+  "system_error": null,
+  "record_hash": "9366d77e49d7647c7337b2e65805a1d68e60ba1663e91fc0b761e72a09c61a7c"
+}

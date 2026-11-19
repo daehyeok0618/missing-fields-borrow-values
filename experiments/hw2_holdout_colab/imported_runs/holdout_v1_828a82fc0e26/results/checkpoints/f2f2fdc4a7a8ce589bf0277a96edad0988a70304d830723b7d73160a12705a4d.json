@@ -1,0 +1,32 @@
+{
+  "key": "f2f2fdc4a7a8ce589bf0277a96edad0988a70304d830723b7d73160a12705a4d",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Lumzorwyn Xeltorpor Institute\n\nTarget document:\nOrganization: Lumzorwyn Xeltorpor Institute\nActivity: acoustic research\nRegion: northern district\nRecorded audit year: [n01]2012\nRecorded review year: [n02]1958\n\nQuestion: What is the recorded founding year for Lumzorwyn Xeltorpor Institute?\nAllowed outputs: n01, n02, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    77,
+    15,
+    16,
+    151645
+  ],
+  "raw_output": "n01",
+  "input_tokens": 183,
+  "output_tokens": 4,
+  "generation_seconds": 0.12047596999946109,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:43:05.202679+00:00",
+  "system_error": null,
+  "record_hash": "28efb7138002435ff07dc656163a74ec65c43d4c8a2d7a6fdfbd461d4bf13636"
+}

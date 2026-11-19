@@ -1,0 +1,15 @@
+{
+  "actual_request_hashes_and_pair_geometry": true,
+  "corpus_excerpt_provenance": true,
+  "known_positive_negative_factorial": true,
+  "names_disjoint_from_prior_and_across_splits": true,
+  "parser_cases": 13,
+  "pass": true,
+  "requests_checked": {
+    "dev": 792,
+    "main": 6336
+  },
+  "semantic_aliases_and_invalid_nonrepair": true,
+  "taxonomy_cases": 8,
+  "unique_year_triples": 108
+}

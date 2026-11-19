@@ -1,0 +1,41 @@
+{
+  "key": "0e1f223f126d590be2609c9760e4f36525dd413229271f5ed64d4658ecdb2908",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested founding year for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated year as digits. Do not infer, estimate, or invent a missing year. Return only the JSON object, without explanation or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Documents and background:\n\n<document id=\"Xelgilzor Kelselzor Institute\">\nOrganization memo: Xelgilzor Kelselzor Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded founding year: 2006\n</document>\n\nQuestion: What is the recorded founding year for Xelgilzor Kelselzor Institute?"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 96,
+  "generated_token_ids": [
+    515,
+    220,
+    330,
+    957,
+    788,
+    330,
+    17,
+    15,
+    15,
+    21,
+    698,
+    92,
+    151645
+  ],
+  "raw_output": "{\n  \"value\": \"2006\"\n}",
+  "input_tokens": 206,
+  "output_tokens": 13,
+  "generation_seconds": 0.40185552699949767,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:41:09.426809+00:00",
+  "system_error": null,
+  "record_hash": "8be0c326506e0d5453c04d0315d345422a70a2a3de29100c757cb2e9810e9d61"
+}

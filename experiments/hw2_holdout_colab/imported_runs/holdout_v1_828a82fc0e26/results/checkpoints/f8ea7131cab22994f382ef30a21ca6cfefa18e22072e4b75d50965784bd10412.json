@@ -1,0 +1,32 @@
+{
+  "key": "f8ea7131cab22994f382ef30a21ca6cfefa18e22072e4b75d50965784bd10412",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Hordelwyn Zortornel Institute\n\nTarget document:\nHordelwyn Zortornel Institute specializes in acoustic research and operates in the northern district. Its recorded annual pay is $[n01]123729. Its recorded annual operating budget is $[n02]179031.\n\nQuestion: What amount is stated as annual pay for Hordelwyn Zortornel Institute?\nAllowed outputs: n01, n02, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    77,
+    15,
+    16,
+    151645
+  ],
+  "raw_output": "n01",
+  "input_tokens": 192,
+  "output_tokens": 4,
+  "generation_seconds": 0.1826991750003799,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:30:04.350730+00:00",
+  "system_error": null,
+  "record_hash": "b9cb4a35d039825fe27ffe385043a07e9f9a208a7960485a5fbd719bca454998"
+}

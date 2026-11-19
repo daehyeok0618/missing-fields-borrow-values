@@ -1,0 +1,36 @@
+{
+  "behavioral_effects_not_used_for_selection": true,
+  "capability_pass": true,
+  "complete": 792,
+  "controls": {
+    "PRESENT": {
+      "accuracy": 1.0,
+      "correct": 288,
+      "n": 288,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 288
+    },
+    "T0": {
+      "accuracy": 1.0,
+      "correct": 36,
+      "n": 36,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 36
+    },
+    "T1": {
+      "accuracy": 1.0,
+      "correct": 36,
+      "n": 36,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 36
+    }
+  },
+  "main_allowed": true,
+  "note": "T0 semantic and T1 strict capability gates fixed before inference; no selection by donor effects, and no automatic repair after failure.",
+  "projected_main_seconds": 2658.3064883520055,
+  "protocol_changed": false,
+  "strict_valid": 791,
+  "technical_pass": true,
+  "truncated": 0,
+  "under_two_hours": true
+}

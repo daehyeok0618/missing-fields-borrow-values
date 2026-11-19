@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "pointer_decisions": 480,
+  "gate_decisions": 480,
+  "pointer_raw_records": 1622,
+  "gate_raw_records": 378,
+  "hashes_token_ids_and_input_lengths_verified": true,
+  "new_model_calls": 0
+}

@@ -1,0 +1,32 @@
+{
+  "key": "670f133a598edbe91991082b6b75d6ca134dea8bf58f927839c41c60fe61dd1f",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Belzorgil Gilrinnel Institute\n\nTarget document:\nOrganization: Belzorgil Gilrinnel Institute\nActivity: acoustic research\nRegion: northern district\nRecorded salary: $[n01]183532\n\nQuestion: What is the recorded salary for Belzorgil Gilrinnel Institute?\nAllowed outputs: n01, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    77,
+    15,
+    16,
+    151645
+  ],
+  "raw_output": "n01",
+  "input_tokens": 168,
+  "output_tokens": 4,
+  "generation_seconds": 0.12321328799953335,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:35:25.549181+00:00",
+  "system_error": null,
+  "record_hash": "051a42e43aecc71e65159ce26f0517c5224a07db70a792b511af20e9fcb72fc4"
+}

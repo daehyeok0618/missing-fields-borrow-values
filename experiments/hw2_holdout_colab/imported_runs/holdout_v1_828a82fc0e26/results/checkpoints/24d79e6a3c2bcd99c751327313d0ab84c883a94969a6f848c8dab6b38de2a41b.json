@@ -1,0 +1,42 @@
+{
+  "key": "24d79e6a3c2bcd99c751327313d0ab84c883a94969a6f848c8dab6b38de2a41b",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Hordelwyn Zortornel Institute\n\nTarget document:\nOrganization memo: Hordelwyn Zortornel Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded yearly compensation: $123729\n- Recorded operating budget: $179031\n\nQuestion: What amount is stated as annual pay for Hordelwyn Zortornel Institute?\nCandidate value: 123729"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    50,
+    61140,
+    151645
+  ],
+  "raw_output": "SUPPORTED",
+  "input_tokens": 175,
+  "output_tokens": 3,
+  "generation_seconds": 0.0933270250006899,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:30:28.564979+00:00",
+  "system_error": null,
+  "record_hash": "d8ec2df5b635409feb368de7e22b2fdd53c757cd47603d504a68297ee1ac4f45"
+}

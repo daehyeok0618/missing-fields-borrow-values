@@ -1,0 +1,30 @@
+{
+  "key": "a47c94276a0886b2e8a1816bed0a9aa4473b2e4a853cadd47997fec9ee591a29",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Velselpor Zorvelpor Institute\n\nTarget document:\nOrganization: Velselpor Zorvelpor Institute\nActivity: acoustic research\nRegion: northern district\nRecorded annual operating budget: $[n01]178204\nRecorded yearly revenue: $[n02]166112\n\nQuestion: What amount is stated as annual pay for Velselpor Zorvelpor Institute?\nAllowed outputs: n01, n02, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    45425,
+    151645
+  ],
+  "raw_output": "NONE",
+  "input_tokens": 194,
+  "output_tokens": 2,
+  "generation_seconds": 0.06657867899957637,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:33:19.058497+00:00",
+  "system_error": null,
+  "record_hash": "59f72c422f7dfc77f931c2f693bdb3850e813ab7a72f48fb5e35e0c58399b1e5"
+}

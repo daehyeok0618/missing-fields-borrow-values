@@ -1,0 +1,32 @@
+{
+  "key": "6936949be74f7b7831e398baadc038836d603c154a70fba6a20743aa21a5e9bf",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Mernellum Lumxeltor Institute\n\nTarget document:\nOrganization: Mernellum Lumxeltor Institute\nActivity: acoustic research\nRegion: northern district\nRecorded year of establishment: [n01]1971\nRecorded year of the audit: [n02]1944\n\nQuestion: In which year was Mernellum Lumxeltor Institute founded?\nAllowed outputs: n01, n02, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    77,
+    15,
+    16,
+    151645
+  ],
+  "raw_output": "n01",
+  "input_tokens": 187,
+  "output_tokens": 4,
+  "generation_seconds": 0.12169668000024103,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:44:16.253212+00:00",
+  "system_error": null,
+  "record_hash": "4d578192c8299a94b835d71a93599a564a4e1c8693fef1a6cd4b8e015fd8b9c2"
+}

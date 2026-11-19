@@ -1,0 +1,28 @@
+{
+  "behavioral_effects_not_used_for_selection": true,
+  "complete": 792,
+  "controls": {
+    "PRESENT": {
+      "accuracy": 0.9895833333333334,
+      "correct": 285,
+      "n": 288
+    },
+    "T0": {
+      "accuracy": 1.0,
+      "correct": 36,
+      "n": 36
+    },
+    "T1": {
+      "accuracy": 1.0,
+      "correct": 36,
+      "n": 36
+    }
+  },
+  "note": "Control/validity failures are diagnostic and do not select examples or alter hypotheses.",
+  "projected_main_seconds": 2711.320667208002,
+  "protocol_changed": false,
+  "strict_valid": 792,
+  "technical_pass": true,
+  "truncated": 0,
+  "under_two_hours": true
+}

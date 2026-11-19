@@ -1,0 +1,34 @@
+{
+  "key": "1414fc19f1dd56048ea5a849652543bfcedd42525bfbc6fdc9bb8eb0ab2d3910",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested founding year for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated year as digits. Do not infer, estimate, or invent a missing year. Return only the JSON object, without explanation or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Documents and background:\n\n<document id=\"Merjorcor Xelgilvel Institute\">\nOrganization memo: Merjorcor Xelgilvel Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded audit year: 2021\n</document>\n\nQuestion: What is the recorded founding year for Merjorcor Xelgilvel Institute?"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 96,
+  "generated_token_ids": [
+    4913,
+    957,
+    788,
+    845,
+    92,
+    151645
+  ],
+  "raw_output": "{\"value\": null}",
+  "input_tokens": 200,
+  "output_tokens": 6,
+  "generation_seconds": 0.1851265080003941,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:46:15.079205+00:00",
+  "system_error": null,
+  "record_hash": "f42ecd1031d99e258b0940788e094d162e384c1ab052b49908f914990bc9b883"
+}

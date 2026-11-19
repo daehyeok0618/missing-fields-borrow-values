@@ -1,0 +1,32 @@
+{
+  "key": "cc92607de835103fb4aa83966cd6f36a32e8fb2a7584c1fe873e4a164e92e399",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Merhorzor Porzormer Institute\n\nTarget document:\nMerhorzor Porzormer Institute specializes in acoustic research and operates in the northern district. Its recorded year of establishment is [n01]1930.\n\nQuestion: In which year was Merhorzor Porzormer Institute founded?\nAllowed outputs: n01, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    77,
+    15,
+    16,
+    151645
+  ],
+  "raw_output": "n01",
+  "input_tokens": 164,
+  "output_tokens": 4,
+  "generation_seconds": 0.120714702999976,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:39:32.278992+00:00",
+  "system_error": null,
+  "record_hash": "ffbd91453ec21dabd4f39dd34d346c4b50aaa434feaa27169c5044305f4a404f"
+}

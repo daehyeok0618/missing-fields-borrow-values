@@ -1,0 +1,21 @@
+{
+  "parent_zip_sha256": "b3bbf04043bf13b68eac370b7542bb5da610fd726633c8af1dbada02ea65e27f",
+  "parent_protocol_signature": "319dcf0ce42c948f46e1e2199658eedc1a69eb524e9360f42e805c9db8b05cb7",
+  "snapshot_files": {
+    "parent_gold.json": "eab7ea6a69364d46a3b3c531129a375a4eaa847fd5da697b48a59777c1eed3f0",
+    "parent_decisions.jsonl": "e61ade81186fd780a6a2aca012ed565f7e6c0e57a47f6018bb7e7c7cd10ab15b",
+    "parent_setup.json": "2b88b6877122c0cd509263e8d034885279b32acba9b35c740b03c056d9f44a75",
+    "parent_lock.json": "e19257049edf20b75953fa754161c7908f5939edfa57038365cd727f065cfed3",
+    "parent_costs.json": "4f3a1c2343ce98f85a3518537e64f763ad940cdac4160b9dd7f3fc94105fb7ad",
+    "parent_samples_compact.jsonl": "975dc9791a7656dc9bee8ac868a8420c26addf2ad7366a4361ed70f143ab760c",
+    "parent_checkpoints_compact.json": "43c3b70334e1e5eb6c5608f5a6f8c7c02c9f48066104b0853fd6b9230539aa15"
+  },
+  "upstream_source_hashes": {
+    "__init__.py": "a252715947d668664ff3239ddf07a8c063dabd497501b321cfa826247c996af3",
+    "core.py": "869f645c5b4db0557423a1a1d67e3fc6cb55aa1d99be7ea80ed727e09624a8cb",
+    "legacy_core.py": "4cc4157491aad626638cc074f82094f91f9ad58f34ee8551a7d8d71e97b10532",
+    "protocol.py": "dc1c185314a27658353b5fe7948723cbf3e1362c754d44503d6b5e72f7d9e2c9"
+  },
+  "compact_note": "Only deterministic message text is removed. Reconstruct each exact message from public inputs and replay, verify original prompt key and full original record hash before reuse.",
+  "background_provenance": "Public-domain Alice’s Adventures in Wonderland, Lewis Carroll, https://www.gutenberg.org/ebooks/11"
+}

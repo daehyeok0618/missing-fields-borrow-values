@@ -1,0 +1,291 @@
+{
+  "status": "PASS",
+  "n_inputs": 1152,
+  "n_base": 16,
+  "counts": {
+    "salary/holdout_canonical/basic_missing": 48,
+    "salary/holdout_paraphrase/basic_missing": 48,
+    "salary/holdout_canonical/basic_present": 48,
+    "salary/holdout_paraphrase/basic_present": 48,
+    "salary/holdout_canonical/collision_present": 48,
+    "salary/holdout_paraphrase/collision_present": 48,
+    "salary/holdout_canonical/otherfield_missing": 48,
+    "salary/holdout_paraphrase/otherfield_missing": 48,
+    "salary/holdout_canonical/multi_present": 48,
+    "salary/holdout_paraphrase/multi_present": 48,
+    "salary/holdout_canonical/multi_missing": 48,
+    "salary/holdout_paraphrase/multi_missing": 48,
+    "year/holdout_canonical/basic_missing": 48,
+    "year/holdout_paraphrase/basic_missing": 48,
+    "year/holdout_canonical/basic_present": 48,
+    "year/holdout_paraphrase/basic_present": 48,
+    "year/holdout_canonical/collision_present": 48,
+    "year/holdout_paraphrase/collision_present": 48,
+    "year/holdout_canonical/otherfield_missing": 48,
+    "year/holdout_paraphrase/otherfield_missing": 48,
+    "year/holdout_canonical/multi_present": 48,
+    "year/holdout_paraphrase/multi_present": 48,
+    "year/holdout_canonical/multi_missing": 48,
+    "year/holdout_paraphrase/multi_missing": 48
+  },
+  "family_inventory": [
+    {
+      "base_id": "HLD_SALARY_000",
+      "task": "salary",
+      "entities": [
+        "Torlumxel Merkellum Institute",
+        "Torquilvel Corrinbel Institute",
+        "Jorfenrin Quilkelrin Institute"
+      ],
+      "values": [
+        "129256",
+        "121979",
+        "161468"
+      ],
+      "requested_multi_slot": 0
+    },
+    {
+      "base_id": "HLD_SALARY_001",
+      "task": "salary",
+      "entities": [
+        "Belzorrin Xelnelkel Institute",
+        "Porkeljor Kelcorbel Institute",
+        "Jorzorcor Horselfen Institute"
+      ],
+      "values": [
+        "171053",
+        "181308",
+        "116161"
+      ],
+      "requested_multi_slot": 1
+    },
+    {
+      "base_id": "HLD_SALARY_002",
+      "task": "salary",
+      "entities": [
+        "Hordelwyn Zortornel Institute",
+        "Merzornel Quildelbel Institute",
+        "Gilvelbel Corselhor Institute"
+      ],
+      "values": [
+        "123729",
+        "179031",
+        "144998"
+      ],
+      "requested_multi_slot": 0
+    },
+    {
+      "base_id": "HLD_SALARY_003",
+      "task": "salary",
+      "entities": [
+        "Kelveltor Fenselwyn Institute",
+        "Gilbelpor Porfenwyn Institute",
+        "Nellummer Merwynkel Institute"
+      ],
+      "values": [
+        "179715",
+        "135762",
+        "102483"
+      ],
+      "requested_multi_slot": 1
+    },
+    {
+      "base_id": "HLD_SALARY_004",
+      "task": "salary",
+      "entities": [
+        "Selnelkel Jornelzor Institute",
+        "Gilxelhor Kelzormer Institute",
+        "Delcorwyn Kelrinlum Institute"
+      ],
+      "values": [
+        "196146",
+        "121545",
+        "199592"
+      ],
+      "requested_multi_slot": 0
+    },
+    {
+      "base_id": "HLD_SALARY_005",
+      "task": "salary",
+      "entities": [
+        "Velselpor Zorvelpor Institute",
+        "Velrinhor Kelselbel Institute",
+        "Velquilpor Lumjortor Institute"
+      ],
+      "values": [
+        "178204",
+        "166112",
+        "132094"
+      ],
+      "requested_multi_slot": 1
+    },
+    {
+      "base_id": "HLD_SALARY_006",
+      "task": "salary",
+      "entities": [
+        "Horrinlum Belgilwyn Institute",
+        "Delfenxel Selrinhor Institute",
+        "Merselvel Torzorbel Institute"
+      ],
+      "values": [
+        "144844",
+        "143002",
+        "170461"
+      ],
+      "requested_multi_slot": 0
+    },
+    {
+      "base_id": "HLD_SALARY_007",
+      "task": "salary",
+      "entities": [
+        "Belzorgil Gilrinnel Institute",
+        "Belmerjor Torcorjor Institute",
+        "Tornelvel Gilbeldel Institute"
+      ],
+      "values": [
+        "172784",
+        "146878",
+        "183532"
+      ],
+      "requested_multi_slot": 1
+    },
+    {
+      "base_id": "HLD_YEAR_000",
+      "task": "year",
+      "entities": [
+        "Mercorpor Selbelpor Institute",
+        "Wyngilbel Delxelsel Institute",
+        "Nelxelgil Fenkeldel Institute"
+      ],
+      "values": [
+        "1999",
+        "1904",
+        "1922"
+      ],
+      "requested_multi_slot": 0
+    },
+    {
+      "base_id": "HLD_YEAR_001",
+      "task": "year",
+      "entities": [
+        "Fenwynquil Zorporlum Institute",
+        "Kelrinhor Nelseltor Institute",
+        "Wyndelgil Porvelnel Institute"
+      ],
+      "values": [
+        "1942",
+        "1951",
+        "1927"
+      ],
+      "requested_multi_slot": 1
+    },
+    {
+      "base_id": "HLD_YEAR_002",
+      "task": "year",
+      "entities": [
+        "Merhorzor Porzormer Institute",
+        "Sellumpor Fenxelcor Institute",
+        "Jormerlum Jorwynpor Institute"
+      ],
+      "values": [
+        "1901",
+        "1979",
+        "1930"
+      ],
+      "requested_multi_slot": 0
+    },
+    {
+      "base_id": "HLD_YEAR_003",
+      "task": "year",
+      "entities": [
+        "Xelgilzor Kelselzor Institute",
+        "Rinxelbel Delselgil Institute",
+        "Nelselrin Jordelgil Institute"
+      ],
+      "values": [
+        "2021",
+        "1913",
+        "2006"
+      ],
+      "requested_multi_slot": 1
+    },
+    {
+      "base_id": "HLD_YEAR_004",
+      "task": "year",
+      "entities": [
+        "Merquilrin Lumzorquil Institute",
+        "Horcorjor Fenjorvel Institute",
+        "Lumporbel Torzorcor Institute"
+      ],
+      "values": [
+        "2016",
+        "1978",
+        "1901"
+      ],
+      "requested_multi_slot": 0
+    },
+    {
+      "base_id": "HLD_YEAR_005",
+      "task": "year",
+      "entities": [
+        "Lumzorwyn Xeltorpor Institute",
+        "Corfennel Fenkelmer Institute",
+        "Gilquilpor Quillumvel Institute"
+      ],
+      "values": [
+        "2012",
+        "1958",
+        "1982"
+      ],
+      "requested_multi_slot": 1
+    },
+    {
+      "base_id": "HLD_YEAR_006",
+      "task": "year",
+      "entities": [
+        "Mernellum Lumxeltor Institute",
+        "Neldelcor Rinquilgil Institute",
+        "Jorselbel Nelwynfen Institute"
+      ],
+      "values": [
+        "1971",
+        "1944",
+        "1958"
+      ],
+      "requested_multi_slot": 0
+    },
+    {
+      "base_id": "HLD_YEAR_007",
+      "task": "year",
+      "entities": [
+        "Merjorcor Xelgilvel Institute",
+        "Keljorbel Hordelgil Institute",
+        "Velkelxel Tormercor Institute"
+      ],
+      "values": [
+        "2021",
+        "1989",
+        "1979"
+      ],
+      "requested_multi_slot": 1
+    }
+  ],
+  "overlap_counts_computed": {
+    "entities": 0,
+    "salary_values": 0,
+    "year_pairs": 0,
+    "year_triples": 0
+  },
+  "entity_overlap_with_history": 0,
+  "salary_value_overlap_with_history": 0,
+  "year_pair_and_triple_overlap_with_history": 0,
+  "individual_years_can_repeat": true,
+  "placement_length_and_question_matched": true,
+  "styles_share_facts_and_background": true,
+  "prompt_length_min": 1997,
+  "prompt_length_max": 2013,
+  "samples_digest": "15f3169cde5afba1c4dae0d44fa3762411aee85f8ba79d1332ec27fe41f5b176",
+  "gold_digest": "c1eff35cb48fdb1c9f6f968244ac8e0437725425425f0d52147450feff240a28",
+  "model_outputs_used_in_generation": false,
+  "scope": "Frozen synthetic holdout after development, not a natural-document or unseen-model evaluation. Same attribute concepts; prescribed wording shift."
+}

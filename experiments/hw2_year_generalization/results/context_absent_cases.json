@@ -1,0 +1,728 @@
+[
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1925",
+      "valid": true,
+      "value": "1925"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1925\"}",
+    "request_id": "HW2YM000_KV_MISSING_S1_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1925",
+      "valid": true,
+      "value": "1925"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1925\"}",
+    "request_id": "HW2YM000_BULLET_MISSING_S1_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1928",
+      "valid": true,
+      "value": "1928"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1928\"}",
+    "request_id": "HW2YM000_BULLET_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "2003",
+      "valid": true,
+      "value": "2003"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"2003\"}",
+    "request_id": "HW2YM001_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1923",
+      "valid": true,
+      "value": "1923"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1923\"}",
+    "request_id": "HW2YM001_BULLET_MISSING_S2_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1925",
+      "valid": true,
+      "value": "1925"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1925\"}",
+    "request_id": "HW2YM004_KV_MISSING_S1_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1925",
+      "valid": true,
+      "value": "1925"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1925\"}",
+    "request_id": "HW2YM004_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1975",
+      "valid": true,
+      "value": "1975"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1975\"}",
+    "request_id": "HW2YM008_KV_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1975",
+      "valid": true,
+      "value": "1975"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1975\"}",
+    "request_id": "HW2YM008_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1965",
+      "valid": true,
+      "value": "1965"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1965\"}",
+    "request_id": "HW2YM010_KV_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1908",
+      "valid": true,
+      "value": "1908"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1908\"}",
+    "request_id": "HW2YM012_KV_MISSING_S1_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1908",
+      "valid": true,
+      "value": "1908"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1908\"}",
+    "request_id": "HW2YM012_KV_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1908",
+      "valid": true,
+      "value": "1908"
+    },
+    "placement": "MIDDLE",
+    "raw_output": "{\n  \"value\": \"1908\"\n}",
+    "request_id": "HW2YM012_BULLET_MISSING_S1_AB_MIDDLE"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1876",
+      "valid": true,
+      "value": "1876"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\n  \"value\": \"1876\"\n}",
+    "request_id": "HW2YM012_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1870",
+      "valid": true,
+      "value": "1870"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1870\"}",
+    "request_id": "HW2YM012_BULLET_MISSING_S1_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1908",
+      "valid": true,
+      "value": "1908"
+    },
+    "placement": "MIDDLE",
+    "raw_output": "{\n  \"value\": \"1908\"\n}",
+    "request_id": "HW2YM012_BULLET_MISSING_S2_AB_MIDDLE"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1870",
+      "valid": true,
+      "value": "1870"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1870\"}",
+    "request_id": "HW2YM012_BULLET_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1923",
+      "valid": true,
+      "value": "1923"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1923\"}",
+    "request_id": "HW2YM013_KV_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1985",
+      "valid": true,
+      "value": "1985"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1985\"}",
+    "request_id": "HW2YM015_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1985",
+      "valid": true,
+      "value": "1985"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1985\"}",
+    "request_id": "HW2YM015_BULLET_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1985",
+      "valid": true,
+      "value": "1985"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1985\"}",
+    "request_id": "HW2YM017_KV_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1920",
+      "valid": true,
+      "value": "1920"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1920\"}",
+    "request_id": "HW2YM022_KV_MISSING_S1_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1920",
+      "valid": true,
+      "value": "1920"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1920\"}",
+    "request_id": "HW2YM022_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1905",
+      "valid": true,
+      "value": "1905"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1905\"}",
+    "request_id": "HW2YM022_BULLET_MISSING_S1_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1948",
+      "valid": true,
+      "value": "1948"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1948\"}",
+    "request_id": "HW2YM024_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1970",
+      "valid": true,
+      "value": "1970"
+    },
+    "placement": "MIDDLE",
+    "raw_output": "{\n  \"value\": \"1970\"\n}",
+    "request_id": "HW2YM026_BULLET_MISSING_S2_BA_MIDDLE"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1925",
+      "valid": true,
+      "value": "1925"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1925\"}",
+    "request_id": "HW2YM028_KV_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1925",
+      "valid": true,
+      "value": "1925"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1925\"}",
+    "request_id": "HW2YM028_KV_MISSING_S1_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1982",
+      "valid": true,
+      "value": "1982"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1982\"}",
+    "request_id": "HW2YM028_KV_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1925",
+      "valid": true,
+      "value": "1925"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1925\"}",
+    "request_id": "HW2YM028_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "2005",
+      "valid": true,
+      "value": "2005"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"2005\"}",
+    "request_id": "HW2YM028_BULLET_MISSING_S1_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "2005",
+      "valid": true,
+      "value": "2005"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"2005\"}",
+    "request_id": "HW2YM028_BULLET_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1985",
+      "valid": true,
+      "value": "1985"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1985\"}",
+    "request_id": "HW2YM037_KV_MISSING_S1_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1985",
+      "valid": true,
+      "value": "1985"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1985\"}",
+    "request_id": "HW2YM037_KV_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1965",
+      "valid": true,
+      "value": "1965"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1965\"}",
+    "request_id": "HW2YM037_KV_MISSING_S2_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1985",
+      "valid": true,
+      "value": "1985"
+    },
+    "placement": "MIDDLE",
+    "raw_output": "{\"value\": \"1985\"}",
+    "request_id": "HW2YM037_BULLET_MISSING_S1_BA_MIDDLE"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1985",
+      "valid": true,
+      "value": "1985"
+    },
+    "placement": "MIDDLE",
+    "raw_output": "{\"value\": \"1985\"}",
+    "request_id": "HW2YM037_BULLET_MISSING_S2_AB_MIDDLE"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1953",
+      "valid": true,
+      "value": "1953"
+    },
+    "placement": "MIDDLE",
+    "raw_output": "{\"value\": \"1953\"}",
+    "request_id": "HW2YM037_BULLET_MISSING_S2_BA_MIDDLE"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1965",
+      "valid": true,
+      "value": "1965"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1965\"}",
+    "request_id": "HW2YM037_BULLET_MISSING_S2_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1934",
+      "valid": true,
+      "value": "1934"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1934\"}",
+    "request_id": "HW2YM039_BULLET_MISSING_S2_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1975",
+      "valid": true,
+      "value": "1975"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1975\"}",
+    "request_id": "HW2YM045_BULLET_MISSING_S2_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1874",
+      "valid": true,
+      "value": "1874"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1874\"}",
+    "request_id": "HW2YM051_KV_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1973",
+      "valid": true,
+      "value": "1973"
+    },
+    "placement": "MIDDLE",
+    "raw_output": "{\n  \"value\": \"1973\"\n}",
+    "request_id": "HW2YM051_BULLET_MISSING_S2_BA_MIDDLE"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1973",
+      "valid": true,
+      "value": "1973"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1973\"}",
+    "request_id": "HW2YM051_BULLET_MISSING_S2_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1924",
+      "valid": true,
+      "value": "1924"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1924\"}",
+    "request_id": "HW2YM052_KV_MISSING_S1_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1924",
+      "valid": true,
+      "value": "1924"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1924\"}",
+    "request_id": "HW2YM052_BULLET_MISSING_S1_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1924",
+      "valid": true,
+      "value": "1924"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1924\"}",
+    "request_id": "HW2YM052_BULLET_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1976",
+      "valid": true,
+      "value": "1976"
+    },
+    "placement": "MIDDLE",
+    "raw_output": "{\"value\": \"1976\"}",
+    "request_id": "HW2YM053_BULLET_MISSING_S2_AB_MIDDLE"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1985",
+      "valid": true,
+      "value": "1985"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1985\"}",
+    "request_id": "HW2YM054_BULLET_MISSING_S2_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1972",
+      "valid": true,
+      "value": "1972"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1972\"}",
+    "request_id": "HW2YM065_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1976",
+      "valid": true,
+      "value": "1976"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1976\"}",
+    "request_id": "HW2YM065_BULLET_MISSING_S2_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1948",
+      "valid": true,
+      "value": "1948"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1948\"}",
+    "request_id": "HW2YM066_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1985",
+      "valid": true,
+      "value": "1985"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1985\"}",
+    "request_id": "HW2YM067_BULLET_MISSING_S2_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1985",
+      "valid": true,
+      "value": "1985"
+    },
+    "placement": "MIDDLE",
+    "raw_output": "{\"value\": \"1985\"}",
+    "request_id": "HW2YM078_KV_MISSING_S1_AB_MIDDLE"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1985",
+      "valid": true,
+      "value": "1985"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1985\"}",
+    "request_id": "HW2YM078_KV_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1985",
+      "valid": true,
+      "value": "1985"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1985\"}",
+    "request_id": "HW2YM078_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1945",
+      "valid": true,
+      "value": "1945"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1945\"}",
+    "request_id": "HW2YM079_BULLET_MISSING_S2_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1948",
+      "valid": true,
+      "value": "1948"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1948\"}",
+    "request_id": "HW2YM082_BULLET_MISSING_S1_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1948",
+      "valid": true,
+      "value": "1948"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1948\"}",
+    "request_id": "HW2YM082_BULLET_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1965",
+      "valid": true,
+      "value": "1965"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1965\"}",
+    "request_id": "HW2YM083_KV_MISSING_S2_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1965",
+      "valid": true,
+      "value": "1965"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1965\"}",
+    "request_id": "HW2YM083_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1965",
+      "valid": true,
+      "value": "1965"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1965\"}",
+    "request_id": "HW2YM083_BULLET_MISSING_S2_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1985",
+      "valid": true,
+      "value": "1985"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1985\"}",
+    "request_id": "HW2YM087_BULLET_MISSING_S2_BA_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1970",
+      "valid": true,
+      "value": "1970"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1970\"}",
+    "request_id": "HW2YM090_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "1920",
+      "valid": true,
+      "value": "1920"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"1920\"}",
+    "request_id": "HW2YM092_BULLET_MISSING_S1_AB_ADJACENT"
+  },
+  {
+    "parse": {
+      "error": null,
+      "normalized_value": "2004",
+      "valid": true,
+      "value": "2004"
+    },
+    "placement": "ADJACENT",
+    "raw_output": "{\"value\": \"2004\"}",
+    "request_id": "HW2YM092_BULLET_MISSING_S2_BA_ADJACENT"
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "protocol_signature": "319dcf0ce42c948f46e1e2199658eedc1a69eb524e9360f42e805c9db8b05cb7",
+  "protocol": {
+    "version": "hw2-pointer-development-v1",
+    "status": "development: reused 384 input cases plus 96 new multi-candidate cases; not confirmatory",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "transformers": "4.57.6",
+    "seed": 2026111001,
+    "bootstrap_seed": 2026111002,
+    "dtype": "float16",
+    "attention": "sdpa",
+    "batch_size": 1,
+    "generation": {
+      "do_sample": false,
+      "num_beams": 1,
+      "num_return_sequences": 1,
+      "repetition_penalty": 1.1,
+      "max_new_tokens": 96,
+      "use_cache": true
+    },
+    "pointer_max_new_tokens": 16,
+    "relation_max_new_tokens": 12,
+    "expected_samples": 480,
+    "expected_bases": 48,
+    "new_bases_per_task": 4,
+    "bootstrap_repetitions": 2000,
+    "max_prompt_tokens": 2304,
+    "max_total_generation_calls": 2880,
+    "methods": [
+      "standard",
+      "presence_gate",
+      "target_only",
+      "target_only_presence",
+      "id_selection",
+      "relation_verifier",
+      "field_parser",
+      "value_tracking",
+      "any_change",
+      "presence_any_change",
+      "always_abstain"
+    ],
+    "pointer_scope": "target document only; all numeric occurrences, exact ID or NONE; unconstrained greedy",
+    "pointer_no_candidate": "valid null without model call; reported separately",
+    "invalid_policy": "strict decision remains INVALID; a separate service-output analysis maps invalid to null",
+    "probe_policy": "legacy exact numeric interventions; invalid response is neither change nor tracking",
+    "reuse": "Reuse source documents/labels, not historical model outputs; rerun all model baselines",
+    "scope": "independent entity documents; no cross-document answer derivation"
+  },
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "4.57.6",
+  "tokenizers": "0.22.2",
+  "cuda_build": "13.0",
+  "gpu": "Tesla T4",
+  "capability": [
+    7,
+    5
+  ],
+  "chat_template_hash": "2e2d2512cfe46af53dc1eed45368ecaab26ac4461c480e6b69fe571cf0ceaa75"
+}

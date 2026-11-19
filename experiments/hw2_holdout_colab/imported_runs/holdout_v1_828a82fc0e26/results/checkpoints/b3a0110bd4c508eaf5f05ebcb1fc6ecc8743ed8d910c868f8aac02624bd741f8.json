@@ -1,0 +1,42 @@
+{
+  "key": "b3a0110bd4c508eaf5f05ebcb1fc6ecc8743ed8d910c868f8aac02624bd741f8",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Kelveltor Fenselwyn Institute\n\nTarget document:\nOrganization memo: Kelveltor Fenselwyn Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded salary: $102483\n\nQuestion: What is the recorded salary for Kelveltor Fenselwyn Institute?\nCandidate value: 102483"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    50,
+    61140,
+    151645
+  ],
+  "raw_output": "SUPPORTED",
+  "input_tokens": 156,
+  "output_tokens": 3,
+  "generation_seconds": 0.09353669799929776,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:31:24.677170+00:00",
+  "system_error": null,
+  "record_hash": "a89240b35a1aad8e5a5683016cb9ba74b28820c17e023287234037316d0814a2"
+}

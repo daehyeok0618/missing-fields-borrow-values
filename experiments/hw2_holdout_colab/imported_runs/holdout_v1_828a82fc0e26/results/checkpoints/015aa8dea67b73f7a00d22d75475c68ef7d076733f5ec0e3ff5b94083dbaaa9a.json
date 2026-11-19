@@ -1,0 +1,42 @@
+{
+  "key": "015aa8dea67b73f7a00d22d75475c68ef7d076733f5ec0e3ff5b94083dbaaa9a",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Wynzorsel Jorwynxel Institute\n\nTarget document:\nOrganization memo: Wynzorsel Jorwynxel Institute\n- Activity: acoustic research\n- Region: northern district\n\nQuestion: What is the recorded founding year for Wynzorsel Jorwynxel Institute?\nCandidate value: 1985"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    88673,
+    61140,
+    151645
+  ],
+  "raw_output": "UNSUPPORTED",
+  "input_tokens": 149,
+  "output_tokens": 3,
+  "generation_seconds": 0.09446028899947123,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:26:58.289748+00:00",
+  "system_error": null,
+  "record_hash": "eedc5ca88bf55ed8f4abb417fe4fd2d0019edbf46607a829068ff870086d8a34"
+}

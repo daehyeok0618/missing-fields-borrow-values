@@ -1,0 +1,70 @@
+{
+  "checks": {
+    "background_clean": true,
+    "dev_counts": true,
+    "dev_structural": true,
+    "dev_templates_crossed": true,
+    "main_counts": true,
+    "main_structural": true,
+    "main_templates_crossed": true
+  },
+  "counts": {
+    "dev": {
+      "bases": 12,
+      "families": {
+        "MISSING": 288,
+        "N0": 144,
+        "PRESENT": 288,
+        "T0": 36,
+        "T1": 36
+      },
+      "requests": 792
+    },
+    "main": {
+      "bases": 96,
+      "families": {
+        "MISSING": 2304,
+        "N0": 1152,
+        "PRESENT": 2304,
+        "T0": 288,
+        "T1": 288
+      },
+      "requests": 6336
+    }
+  },
+  "dev_main_names_and_unordered_year_triples_disjoint": true,
+  "individual_years_may_repeat_across_bases": true,
+  "lengths": {
+    "dev": {
+      "errors": [],
+      "max": 2013,
+      "mean": 2005.371212121212,
+      "min": 1998
+    },
+    "main": {
+      "errors": [],
+      "max": 2013,
+      "mean": 2005.4769570707072,
+      "min": 1995
+    }
+  },
+  "pair_counts": {
+    "assignment": 2592,
+    "placement": 3240
+  },
+  "prior_base_files_checked": [
+    "experiments/attribute_specific_interference_repair/data/base_examples.jsonl",
+    "experiments/hw2_missing_fields/data/dev_bases.jsonl",
+    "experiments/hw2_missing_fields/data/main_bases.jsonl",
+    "experiments/value_exposure_distance/data/dev_bases.jsonl",
+    "experiments/value_exposure_distance/data/main_bases.jsonl",
+    "experiments/position_balanced_donor/data/dev_bases.jsonl",
+    "experiments/position_balanced_donor/data/main_bases.jsonl",
+    "experiments/attribute_specific_interference/data/base_examples.jsonl",
+    "experiments/salary_competing_donor/data/dev_bases.jsonl",
+    "experiments/salary_competing_donor/data/heldout_bases.jsonl"
+  ],
+  "prior_names_excluded": 2315,
+  "prior_values_excluded": 1972,
+  "status": "PASS"
+}

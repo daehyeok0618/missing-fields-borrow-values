@@ -1,0 +1,38 @@
+"""Freeze methods, lexical baselines and evaluation design before holdout inference."""
+METHODS = ("standard", "target_only", "target_only_presence", "id_selection",
+           "standard_gate_constrained", "target_only_gate_constrained", "id_gate_constrained",
+           "target_only_routed_gate_constrained",
+           "field_parser", "alias_field_parser", "always_abstain")
+GROUPS = ("basic_missing", "basic_present", "collision_present", "otherfield_missing", "multi_present", "multi_missing")
+SPLITS = ("development", "holdout_canonical", "holdout_paraphrase")
+ALIASES = {
+    "salary": {"requested": ("salary", "annual pay", "yearly compensation", "annual remuneration"),
+               "competing": ("budget", "operating budget", "annual operating budget"),
+               "third": ("revenue", "annual revenue", "yearly revenue")},
+    "year": {"requested": ("founding year", "year of establishment", "establishment year", "year of founding"),
+             "competing": ("audit year", "year of the audit", "year of audit"),
+             "third": ("review year", "year of the review", "year of review")},
+}
+PROTOCOL = {
+    "version": "hw2-target-only-holdout-v1", "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306", "transformers": "4.57.6", "tokenizers": "0.22.2",
+    "seed": 2026111001, "data_seed": 2026111011, "bootstrap_seed": 2026111012,
+    "bootstrap_repetitions": 2000, "dtype": "float16", "attention": "sdpa", "batch_size": 1,
+    "generation": {"do_sample": False, "num_beams": 1, "num_return_sequences": 1,
+                   "repetition_penalty": 1.1, "max_new_tokens": 96, "use_cache": True},
+    "pointer_max_new_tokens": 16, "relation_max_new_tokens": 12, "max_prompt_tokens": 2304,
+    "max_calls_reuse": 6000, "max_calls_refresh": 7000,
+    "holdout_bases_per_task": 8, "expected_development_inputs": 480,
+    "expected_holdout_inputs": 1152, "expected_holdout_bases": 16, "methods": list(METHODS),
+    "holdout_design": "Every new base has all six conditions, 3 templates, 2 placements, and matched canonical/paraphrase styles. Each style has 576 inputs; do not treat styles as independent bases.",
+    "holdout_scope": "Frozen synthetic holdout after development, not a natural-document or unseen-model evaluation. Same attribute concepts; prescribed wording shift.",
+    "split_isolation": "Development and holdout tables remain separate. No tuning, retry for bad answers, or selection of a best prompt after holdout.",
+    "candidate_and_gate": "Three unchanged frozen candidate prompts. Same unchanged target-only relation prompt, canonical numeric candidate, SUPPORTED/UNSUPPORTED token mask. Valid null/invalid upstream decisions are preserved.",
+    "primary_control": "ID+gate versus target-only-routed+gate: both return CPU null with zero method calls if the target has no numbers. Also retain ordinary target-only+gate to show the shortcut effect. The matched control adds no new physical requests.",
+    "parser_policy": "Keep original literal parser and a stronger schema-aware parser covering all declared positive paraphrases, fixed before inference. Do not claim novelty from beating a literal parser on aliases.",
+    "aliases": {task: {kind: list(values) for kind, values in kinds.items()} for task, kinds in ALIASES.items()},
+    "year_values": "Individual years may repeat; entities and year value-pairs/triples are excluded from historical inventories. Salary values are individually excluded.",
+    "reuse": "Exact authenticated pointer/gate requests only, in the identical recorded runtime. REUSE_PARENT=False refreshes development. No historical holdout request is allowed.",
+    "invalid": "Primary decisions retain INVALID as error. Separate service outputs map invalid to null.",
+    "cost": "Report split-specific unique-request sums and logical per-input dependency sums. Parent and current generations distinguished; no end-to-end speedup claim.",
+}

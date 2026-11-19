@@ -1,0 +1,42 @@
+{
+  "key": "6dea74aba149ba6362c845d8df5d2c58135153d0831866213467ff501887a898",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Ringilwyn Gilfenlum Institute\n\nTarget document:\nRingilwyn Gilfenlum Institute specializes in acoustic research and operates in the northern district. Its recorded audit year is 1942. Its recorded review year is 1918.\n\nQuestion: What is the recorded founding year for Ringilwyn Gilfenlum Institute?\nCandidate value: 1918"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    88673,
+    61140,
+    151645
+  ],
+  "raw_output": "UNSUPPORTED",
+  "input_tokens": 160,
+  "output_tokens": 3,
+  "generation_seconds": 0.0944070309997187,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:26:59.322279+00:00",
+  "system_error": null,
+  "record_hash": "a58e32477f0dc3f48109a99c3f9528db8f9319222ab6e427adce97daad84f979"
+}

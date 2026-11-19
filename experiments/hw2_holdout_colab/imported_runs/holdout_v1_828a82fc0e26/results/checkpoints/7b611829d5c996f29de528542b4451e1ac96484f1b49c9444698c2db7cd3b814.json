@@ -1,0 +1,38 @@
+{
+  "key": "7b611829d5c996f29de528542b4451e1ac96484f1b49c9444698c2db7cd3b814",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested founding year for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated year as digits. Do not infer, estimate, or invent a missing year. Return only the JSON object, without explanation or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Documents and background:\n\n<document id=\"Merjorcor Xelgilvel Institute\">\nMerjorcor Xelgilvel Institute specializes in acoustic research and operates in the northern district. Its recorded year of the audit is 2021. Its recorded year of the review is 1989.\n</document>\n\nQuestion: In which year was Merjorcor Xelgilvel Institute founded?"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 96,
+  "generated_token_ids": [
+    4913,
+    957,
+    788,
+    330,
+    16,
+    24,
+    23,
+    24,
+    9207,
+    151645
+  ],
+  "raw_output": "{\"value\": \"1989\"}",
+  "input_tokens": 208,
+  "output_tokens": 10,
+  "generation_seconds": 0.3072651499987842,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:46:00.342384+00:00",
+  "system_error": null,
+  "record_hash": "cb183bff7d97c5c4dd7c2fa0457f6b0d346d5a9ce8f26d18aa0de78eb1decdbf"
+}

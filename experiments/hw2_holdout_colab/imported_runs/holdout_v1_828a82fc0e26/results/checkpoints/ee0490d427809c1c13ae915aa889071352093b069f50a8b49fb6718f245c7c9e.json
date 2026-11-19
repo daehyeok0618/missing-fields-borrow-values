@@ -1,0 +1,40 @@
+{
+  "key": "ee0490d427809c1c13ae915aa889071352093b069f50a8b49fb6718f245c7c9e",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested salary for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated amount in USD as digits without currency symbols or separators. Do not infer, estimate, or invent a missing amount. Return only the JSON object, without explanation or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Documents and background:\n\n<document id=\"Kelveltor Fenselwyn Institute\">\nKelveltor Fenselwyn Institute specializes in acoustic research and operates in the northern district. Its recorded salary is $102483.\n</document>\n\nQuestion: What is the recorded salary for Kelveltor Fenselwyn Institute?"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 96,
+  "generated_token_ids": [
+    4913,
+    957,
+    788,
+    5201,
+    16,
+    15,
+    17,
+    19,
+    23,
+    18,
+    9207,
+    151645
+  ],
+  "raw_output": "{\"value\": \"$102483\"}",
+  "input_tokens": 198,
+  "output_tokens": 12,
+  "generation_seconds": 0.5359793579991674,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:31:01.037375+00:00",
+  "system_error": null,
+  "record_hash": "18ff8a723304a43afb3594c8d9b32955f86c6cf4c23f5e6557747472dfe7df48"
+}

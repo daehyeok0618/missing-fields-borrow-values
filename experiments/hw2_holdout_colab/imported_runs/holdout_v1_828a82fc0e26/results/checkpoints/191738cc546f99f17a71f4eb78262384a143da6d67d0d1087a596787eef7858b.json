@@ -1,0 +1,40 @@
+{
+  "key": "191738cc546f99f17a71f4eb78262384a143da6d67d0d1087a596787eef7858b",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested salary for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated amount in USD as digits without currency symbols or separators. Do not infer, estimate, or invent a missing amount. Return only the JSON object, without explanation or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Documents and background:\n\n<document id=\"Hordelwyn Zortornel Institute\">\nOrganization: Hordelwyn Zortornel Institute\nActivity: acoustic research\nRegion: northern district\nRecorded annual remuneration: $123729\nRecorded operating budget: $179031\n</document>\n\nQuestion: What amount is stated as annual pay for Hordelwyn Zortornel Institute?"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 96,
+  "generated_token_ids": [
+    4913,
+    957,
+    788,
+    5201,
+    16,
+    17,
+    18,
+    22,
+    17,
+    24,
+    9207,
+    151645
+  ],
+  "raw_output": "{\"value\": \"$123729\"}",
+  "input_tokens": 221,
+  "output_tokens": 12,
+  "generation_seconds": 0.3589652009995916,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:29:41.334672+00:00",
+  "system_error": null,
+  "record_hash": "6e3cd873d99689ee2d48f04a303d99a67ca720d32956c0e0148123c802ad4ca8"
+}

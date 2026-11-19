@@ -1,0 +1,7922 @@
+{
+  "VTP_SALARY_000_KV_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_000_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_000",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "138205",
+      "122363"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_000_KV_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_000_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_000",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "138205",
+      "122363"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_000_KV_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_000_KV_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_000",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "128527",
+    "non_target_values": [
+      "138205",
+      "122363"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_000_KV_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_000_KV_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_000",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "128527",
+    "non_target_values": [
+      "138205",
+      "122363"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_000_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_000_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_000",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "138205",
+      "122363"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_000_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_000_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_000",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "138205",
+      "122363"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_000_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_000_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_000",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "128527",
+    "non_target_values": [
+      "138205",
+      "122363"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_000_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_000_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_000",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "128527",
+    "non_target_values": [
+      "138205",
+      "122363"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_000_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_000_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_000",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "138205",
+      "122363"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_000_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_000_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_000",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "138205",
+      "122363"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_000_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_000_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_000",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "128527",
+    "non_target_values": [
+      "138205",
+      "122363"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_000_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_000_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_000",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "128527",
+    "non_target_values": [
+      "138205",
+      "122363"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_001_KV_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_001_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_001",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "139446",
+      "178552"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_001_KV_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_001_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_001",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "139446",
+      "178552"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_001_KV_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_001_KV_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_001",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "188459",
+    "non_target_values": [
+      "139446",
+      "178552"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_001_KV_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_001_KV_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_001",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "188459",
+    "non_target_values": [
+      "139446",
+      "178552"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_001_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_001_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_001",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "139446",
+      "178552"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_001_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_001_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_001",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "139446",
+      "178552"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_001_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_001_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_001",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "188459",
+    "non_target_values": [
+      "139446",
+      "178552"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_001_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_001_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_001",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "188459",
+    "non_target_values": [
+      "139446",
+      "178552"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_001_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_001_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_001",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "139446",
+      "178552"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_001_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_001_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_001",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "139446",
+      "178552"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_001_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_001_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_001",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "188459",
+    "non_target_values": [
+      "139446",
+      "178552"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_001_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_001_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_001",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "188459",
+    "non_target_values": [
+      "139446",
+      "178552"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_002_KV_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_002_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_002",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "198115",
+      "127552"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_002_KV_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_002_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_002",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "198115",
+      "127552"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_002_KV_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_002_KV_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_002",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "104015",
+    "non_target_values": [
+      "198115",
+      "127552"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_002_KV_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_002_KV_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_002",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "104015",
+    "non_target_values": [
+      "198115",
+      "127552"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_002_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_002_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_002",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "198115",
+      "127552"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_002_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_002_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_002",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "198115",
+      "127552"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_002_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_002_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_002",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "104015",
+    "non_target_values": [
+      "198115",
+      "127552"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_002_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_002_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_002",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "104015",
+    "non_target_values": [
+      "198115",
+      "127552"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_002_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_002_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_002",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "198115",
+      "127552"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_002_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_002_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_002",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "198115",
+      "127552"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_002_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_002_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_002",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "104015",
+    "non_target_values": [
+      "198115",
+      "127552"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_002_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_002_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_002",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "104015",
+    "non_target_values": [
+      "198115",
+      "127552"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_003_KV_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_003_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_003",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "115133",
+      "159867"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_003_KV_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_003_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_003",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "115133",
+      "159867"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_003_KV_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_003_KV_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_003",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "138560",
+    "non_target_values": [
+      "115133",
+      "159867"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_003_KV_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_003_KV_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_003",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "138560",
+    "non_target_values": [
+      "115133",
+      "159867"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_003_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_003_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_003",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "115133",
+      "159867"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_003_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_003_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_003",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "115133",
+      "159867"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_003_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_003_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_003",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "138560",
+    "non_target_values": [
+      "115133",
+      "159867"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_003_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_003_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_003",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "138560",
+    "non_target_values": [
+      "115133",
+      "159867"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_003_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_003_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_003",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "115133",
+      "159867"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_003_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_003_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_003",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "115133",
+      "159867"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_003_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_003_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_003",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "138560",
+    "non_target_values": [
+      "115133",
+      "159867"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_003_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_003_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_003",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "138560",
+    "non_target_values": [
+      "115133",
+      "159867"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_004_KV_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_004_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_004",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "111262",
+      "115820"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_004_KV_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_004_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_004",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "111262",
+      "115820"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_004_KV_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_004_KV_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_004",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "105053",
+    "non_target_values": [
+      "111262",
+      "115820"
+    ],
+    "support_spans": [
+      {
+        "start": 117,
+        "end": 123
+      }
+    ]
+  },
+  "VTP_SALARY_004_KV_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_004_KV_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_004",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "105053",
+    "non_target_values": [
+      "111262",
+      "115820"
+    ],
+    "support_spans": [
+      {
+        "start": 117,
+        "end": 123
+      }
+    ]
+  },
+  "VTP_SALARY_004_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_004_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_004",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "111262",
+      "115820"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_004_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_004_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_004",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "111262",
+      "115820"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_004_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_004_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_004",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "105053",
+    "non_target_values": [
+      "111262",
+      "115820"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_004_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_004_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_004",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "105053",
+    "non_target_values": [
+      "111262",
+      "115820"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_004_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_004_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_004",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "111262",
+      "115820"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_004_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_004_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_004",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "111262",
+      "115820"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_004_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_004_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_004",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "105053",
+    "non_target_values": [
+      "111262",
+      "115820"
+    ],
+    "support_spans": [
+      {
+        "start": 128,
+        "end": 134
+      }
+    ]
+  },
+  "VTP_SALARY_004_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_004_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_004",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "105053",
+    "non_target_values": [
+      "111262",
+      "115820"
+    ],
+    "support_spans": [
+      {
+        "start": 128,
+        "end": 134
+      }
+    ]
+  },
+  "VTP_SALARY_005_KV_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_005_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_005",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "189937",
+      "112882"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_005_KV_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_005_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_005",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "189937",
+      "112882"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_005_KV_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_005_KV_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_005",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "102147",
+    "non_target_values": [
+      "189937",
+      "112882"
+    ],
+    "support_spans": [
+      {
+        "start": 117,
+        "end": 123
+      }
+    ]
+  },
+  "VTP_SALARY_005_KV_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_005_KV_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_005",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "102147",
+    "non_target_values": [
+      "189937",
+      "112882"
+    ],
+    "support_spans": [
+      {
+        "start": 117,
+        "end": 123
+      }
+    ]
+  },
+  "VTP_SALARY_005_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_005_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_005",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "189937",
+      "112882"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_005_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_005_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_005",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "189937",
+      "112882"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_005_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_005_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_005",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "102147",
+    "non_target_values": [
+      "189937",
+      "112882"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_005_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_005_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_005",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "102147",
+    "non_target_values": [
+      "189937",
+      "112882"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_005_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_005_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_005",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "189937",
+      "112882"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_005_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_005_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_005",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "189937",
+      "112882"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_005_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_005_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_005",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "102147",
+    "non_target_values": [
+      "189937",
+      "112882"
+    ],
+    "support_spans": [
+      {
+        "start": 128,
+        "end": 134
+      }
+    ]
+  },
+  "VTP_SALARY_005_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_005_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_005",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "102147",
+    "non_target_values": [
+      "189937",
+      "112882"
+    ],
+    "support_spans": [
+      {
+        "start": 128,
+        "end": 134
+      }
+    ]
+  },
+  "VTP_SALARY_006_KV_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_006_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_006",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "186190",
+      "122710"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_006_KV_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_006_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_006",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "186190",
+      "122710"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_006_KV_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_006_KV_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_006",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "173300",
+    "non_target_values": [
+      "186190",
+      "122710"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_006_KV_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_006_KV_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_006",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "173300",
+    "non_target_values": [
+      "186190",
+      "122710"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_006_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_006_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_006",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "186190",
+      "122710"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_006_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_006_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_006",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "186190",
+      "122710"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_006_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_006_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_006",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "173300",
+    "non_target_values": [
+      "186190",
+      "122710"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_006_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_006_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_006",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "173300",
+    "non_target_values": [
+      "186190",
+      "122710"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_006_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_006_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_006",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "186190",
+      "122710"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_006_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_006_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_006",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "186190",
+      "122710"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_006_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_006_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_006",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "173300",
+    "non_target_values": [
+      "186190",
+      "122710"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_006_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_006_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_006",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "173300",
+    "non_target_values": [
+      "186190",
+      "122710"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_007_KV_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_007_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_007",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "191997",
+      "172207"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_007_KV_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_007_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_007",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "191997",
+      "172207"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_007_KV_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_007_KV_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_007",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "151934",
+    "non_target_values": [
+      "191997",
+      "172207"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_007_KV_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_007_KV_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_007",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "151934",
+    "non_target_values": [
+      "191997",
+      "172207"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_007_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_007_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_007",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "191997",
+      "172207"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_007_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_007_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_007",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "191997",
+      "172207"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_007_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_007_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_007",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "151934",
+    "non_target_values": [
+      "191997",
+      "172207"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_007_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_007_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_007",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "151934",
+    "non_target_values": [
+      "191997",
+      "172207"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_007_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_007_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_007",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "191997",
+      "172207"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_007_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_007_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_007",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "191997",
+      "172207"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_007_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_007_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_007",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "151934",
+    "non_target_values": [
+      "191997",
+      "172207"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_007_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_007_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_007",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "151934",
+    "non_target_values": [
+      "191997",
+      "172207"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_008_KV_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_008_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_008",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "199178",
+      "100567"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_008_KV_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_008_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_008",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "199178",
+      "100567"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_008_KV_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_008_KV_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_008",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "149891",
+    "non_target_values": [
+      "199178",
+      "100567"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_008_KV_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_008_KV_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_008",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "149891",
+    "non_target_values": [
+      "199178",
+      "100567"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_008_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_008_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_008",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "199178",
+      "100567"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_008_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_008_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_008",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "199178",
+      "100567"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_008_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_008_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_008",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "149891",
+    "non_target_values": [
+      "199178",
+      "100567"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_008_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_008_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_008",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "149891",
+    "non_target_values": [
+      "199178",
+      "100567"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_008_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_008_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_008",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "199178",
+      "100567"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_008_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_008_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_008",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "199178",
+      "100567"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_008_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_008_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_008",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "149891",
+    "non_target_values": [
+      "199178",
+      "100567"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_008_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_008_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_008",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "149891",
+    "non_target_values": [
+      "199178",
+      "100567"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_009_KV_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_009_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_009",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "122828",
+      "118327"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_009_KV_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_009_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_009",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "122828",
+      "118327"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_009_KV_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_009_KV_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_009",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "175426",
+    "non_target_values": [
+      "122828",
+      "118327"
+    ],
+    "support_spans": [
+      {
+        "start": 117,
+        "end": 123
+      }
+    ]
+  },
+  "VTP_SALARY_009_KV_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_009_KV_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_009",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "175426",
+    "non_target_values": [
+      "122828",
+      "118327"
+    ],
+    "support_spans": [
+      {
+        "start": 117,
+        "end": 123
+      }
+    ]
+  },
+  "VTP_SALARY_009_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_009_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_009",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "122828",
+      "118327"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_009_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_009_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_009",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "122828",
+      "118327"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_009_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_009_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_009",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "175426",
+    "non_target_values": [
+      "122828",
+      "118327"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_009_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_009_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_009",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "175426",
+    "non_target_values": [
+      "122828",
+      "118327"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_009_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_009_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_009",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "122828",
+      "118327"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_009_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_009_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_009",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "122828",
+      "118327"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_009_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_009_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_009",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "175426",
+    "non_target_values": [
+      "122828",
+      "118327"
+    ],
+    "support_spans": [
+      {
+        "start": 128,
+        "end": 134
+      }
+    ]
+  },
+  "VTP_SALARY_009_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_009_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_009",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "175426",
+    "non_target_values": [
+      "122828",
+      "118327"
+    ],
+    "support_spans": [
+      {
+        "start": 128,
+        "end": 134
+      }
+    ]
+  },
+  "VTP_SALARY_010_KV_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_010_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_010",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "195171",
+      "155373"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_010_KV_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_010_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_010",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "195171",
+      "155373"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_010_KV_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_010_KV_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_010",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "150409",
+    "non_target_values": [
+      "195171",
+      "155373"
+    ],
+    "support_spans": [
+      {
+        "start": 117,
+        "end": 123
+      }
+    ]
+  },
+  "VTP_SALARY_010_KV_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_010_KV_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_010",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "150409",
+    "non_target_values": [
+      "195171",
+      "155373"
+    ],
+    "support_spans": [
+      {
+        "start": 117,
+        "end": 123
+      }
+    ]
+  },
+  "VTP_SALARY_010_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_010_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_010",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "195171",
+      "155373"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_010_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_010_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_010",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "195171",
+      "155373"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_010_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_010_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_010",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "150409",
+    "non_target_values": [
+      "195171",
+      "155373"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_010_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_010_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_010",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "150409",
+    "non_target_values": [
+      "195171",
+      "155373"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_010_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_010_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_010",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "195171",
+      "155373"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_010_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_010_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_010",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "195171",
+      "155373"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_010_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_010_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_010",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "150409",
+    "non_target_values": [
+      "195171",
+      "155373"
+    ],
+    "support_spans": [
+      {
+        "start": 128,
+        "end": 134
+      }
+    ]
+  },
+  "VTP_SALARY_010_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_010_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_010",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "150409",
+    "non_target_values": [
+      "195171",
+      "155373"
+    ],
+    "support_spans": [
+      {
+        "start": 128,
+        "end": 134
+      }
+    ]
+  },
+  "VTP_SALARY_011_KV_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_011_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_011",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "185486",
+      "162272"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_011_KV_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_011_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_011",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "185486",
+      "162272"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_011_KV_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_011_KV_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_011",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "177790",
+    "non_target_values": [
+      "185486",
+      "162272"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_011_KV_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_011_KV_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_011",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "177790",
+    "non_target_values": [
+      "185486",
+      "162272"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_011_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_011_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_011",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "185486",
+      "162272"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_011_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_011_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_011",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "185486",
+      "162272"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_011_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_011_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_011",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "177790",
+    "non_target_values": [
+      "185486",
+      "162272"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_011_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_011_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_011",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "177790",
+    "non_target_values": [
+      "185486",
+      "162272"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_011_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_SALARY_011_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_SALARY_011",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "185486",
+      "162272"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_011_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_SALARY_011_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_SALARY_011",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "185486",
+      "162272"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_011_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_SALARY_011_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_SALARY_011",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "177790",
+    "non_target_values": [
+      "185486",
+      "162272"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_011_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_SALARY_011_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_SALARY_011",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "177790",
+    "non_target_values": [
+      "185486",
+      "162272"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_012_KV_collision_present_MIDDLE": {
+    "id": "VTP_SALARY_012_KV_collision_present_MIDDLE",
+    "base_id": "VTP_SALARY_012",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "178843",
+    "non_target_values": [
+      "178843",
+      "197233"
+    ],
+    "support_spans": [
+      {
+        "start": 117,
+        "end": 123
+      }
+    ]
+  },
+  "VTP_SALARY_012_KV_collision_present_ADJACENT": {
+    "id": "VTP_SALARY_012_KV_collision_present_ADJACENT",
+    "base_id": "VTP_SALARY_012",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "178843",
+    "non_target_values": [
+      "178843",
+      "197233"
+    ],
+    "support_spans": [
+      {
+        "start": 117,
+        "end": 123
+      }
+    ]
+  },
+  "VTP_SALARY_012_PROSE_collision_present_MIDDLE": {
+    "id": "VTP_SALARY_012_PROSE_collision_present_MIDDLE",
+    "base_id": "VTP_SALARY_012",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "178843",
+    "non_target_values": [
+      "178843",
+      "197233"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_012_PROSE_collision_present_ADJACENT": {
+    "id": "VTP_SALARY_012_PROSE_collision_present_ADJACENT",
+    "base_id": "VTP_SALARY_012",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "178843",
+    "non_target_values": [
+      "178843",
+      "197233"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_012_BULLET_collision_present_MIDDLE": {
+    "id": "VTP_SALARY_012_BULLET_collision_present_MIDDLE",
+    "base_id": "VTP_SALARY_012",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "178843",
+    "non_target_values": [
+      "178843",
+      "197233"
+    ],
+    "support_spans": [
+      {
+        "start": 128,
+        "end": 134
+      }
+    ]
+  },
+  "VTP_SALARY_012_BULLET_collision_present_ADJACENT": {
+    "id": "VTP_SALARY_012_BULLET_collision_present_ADJACENT",
+    "base_id": "VTP_SALARY_012",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "178843",
+    "non_target_values": [
+      "178843",
+      "197233"
+    ],
+    "support_spans": [
+      {
+        "start": 128,
+        "end": 134
+      }
+    ]
+  },
+  "VTP_SALARY_013_KV_collision_present_MIDDLE": {
+    "id": "VTP_SALARY_013_KV_collision_present_MIDDLE",
+    "base_id": "VTP_SALARY_013",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "156148",
+    "non_target_values": [
+      "156148",
+      "121074"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_013_KV_collision_present_ADJACENT": {
+    "id": "VTP_SALARY_013_KV_collision_present_ADJACENT",
+    "base_id": "VTP_SALARY_013",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "156148",
+    "non_target_values": [
+      "156148",
+      "121074"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_013_PROSE_collision_present_MIDDLE": {
+    "id": "VTP_SALARY_013_PROSE_collision_present_MIDDLE",
+    "base_id": "VTP_SALARY_013",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "156148",
+    "non_target_values": [
+      "156148",
+      "121074"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_013_PROSE_collision_present_ADJACENT": {
+    "id": "VTP_SALARY_013_PROSE_collision_present_ADJACENT",
+    "base_id": "VTP_SALARY_013",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "156148",
+    "non_target_values": [
+      "156148",
+      "121074"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_013_BULLET_collision_present_MIDDLE": {
+    "id": "VTP_SALARY_013_BULLET_collision_present_MIDDLE",
+    "base_id": "VTP_SALARY_013",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "156148",
+    "non_target_values": [
+      "156148",
+      "121074"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_013_BULLET_collision_present_ADJACENT": {
+    "id": "VTP_SALARY_013_BULLET_collision_present_ADJACENT",
+    "base_id": "VTP_SALARY_013",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "156148",
+    "non_target_values": [
+      "156148",
+      "121074"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_014_KV_collision_present_MIDDLE": {
+    "id": "VTP_SALARY_014_KV_collision_present_MIDDLE",
+    "base_id": "VTP_SALARY_014",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "182913",
+    "non_target_values": [
+      "182913",
+      "181247"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_014_KV_collision_present_ADJACENT": {
+    "id": "VTP_SALARY_014_KV_collision_present_ADJACENT",
+    "base_id": "VTP_SALARY_014",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "182913",
+    "non_target_values": [
+      "182913",
+      "181247"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_014_PROSE_collision_present_MIDDLE": {
+    "id": "VTP_SALARY_014_PROSE_collision_present_MIDDLE",
+    "base_id": "VTP_SALARY_014",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "182913",
+    "non_target_values": [
+      "182913",
+      "181247"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_014_PROSE_collision_present_ADJACENT": {
+    "id": "VTP_SALARY_014_PROSE_collision_present_ADJACENT",
+    "base_id": "VTP_SALARY_014",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "182913",
+    "non_target_values": [
+      "182913",
+      "181247"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_014_BULLET_collision_present_MIDDLE": {
+    "id": "VTP_SALARY_014_BULLET_collision_present_MIDDLE",
+    "base_id": "VTP_SALARY_014",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "182913",
+    "non_target_values": [
+      "182913",
+      "181247"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_014_BULLET_collision_present_ADJACENT": {
+    "id": "VTP_SALARY_014_BULLET_collision_present_ADJACENT",
+    "base_id": "VTP_SALARY_014",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "182913",
+    "non_target_values": [
+      "182913",
+      "181247"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_015_KV_collision_present_MIDDLE": {
+    "id": "VTP_SALARY_015_KV_collision_present_MIDDLE",
+    "base_id": "VTP_SALARY_015",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "169996",
+    "non_target_values": [
+      "169996",
+      "133175"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_015_KV_collision_present_ADJACENT": {
+    "id": "VTP_SALARY_015_KV_collision_present_ADJACENT",
+    "base_id": "VTP_SALARY_015",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "169996",
+    "non_target_values": [
+      "169996",
+      "133175"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "VTP_SALARY_015_PROSE_collision_present_MIDDLE": {
+    "id": "VTP_SALARY_015_PROSE_collision_present_MIDDLE",
+    "base_id": "VTP_SALARY_015",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "169996",
+    "non_target_values": [
+      "169996",
+      "133175"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_015_PROSE_collision_present_ADJACENT": {
+    "id": "VTP_SALARY_015_PROSE_collision_present_ADJACENT",
+    "base_id": "VTP_SALARY_015",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "169996",
+    "non_target_values": [
+      "169996",
+      "133175"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "VTP_SALARY_015_BULLET_collision_present_MIDDLE": {
+    "id": "VTP_SALARY_015_BULLET_collision_present_MIDDLE",
+    "base_id": "VTP_SALARY_015",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "169996",
+    "non_target_values": [
+      "169996",
+      "133175"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_015_BULLET_collision_present_ADJACENT": {
+    "id": "VTP_SALARY_015_BULLET_collision_present_ADJACENT",
+    "base_id": "VTP_SALARY_015",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "169996",
+    "non_target_values": [
+      "169996",
+      "133175"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "VTP_SALARY_016_KV_otherfield_missing_MIDDLE": {
+    "id": "VTP_SALARY_016_KV_otherfield_missing_MIDDLE",
+    "base_id": "VTP_SALARY_016",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "155996",
+      "138300"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_016_KV_otherfield_missing_ADJACENT": {
+    "id": "VTP_SALARY_016_KV_otherfield_missing_ADJACENT",
+    "base_id": "VTP_SALARY_016",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "155996",
+      "138300"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_016_PROSE_otherfield_missing_MIDDLE": {
+    "id": "VTP_SALARY_016_PROSE_otherfield_missing_MIDDLE",
+    "base_id": "VTP_SALARY_016",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "155996",
+      "138300"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_016_PROSE_otherfield_missing_ADJACENT": {
+    "id": "VTP_SALARY_016_PROSE_otherfield_missing_ADJACENT",
+    "base_id": "VTP_SALARY_016",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "155996",
+      "138300"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_016_BULLET_otherfield_missing_MIDDLE": {
+    "id": "VTP_SALARY_016_BULLET_otherfield_missing_MIDDLE",
+    "base_id": "VTP_SALARY_016",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "155996",
+      "138300"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_016_BULLET_otherfield_missing_ADJACENT": {
+    "id": "VTP_SALARY_016_BULLET_otherfield_missing_ADJACENT",
+    "base_id": "VTP_SALARY_016",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "155996",
+      "138300"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_017_KV_otherfield_missing_MIDDLE": {
+    "id": "VTP_SALARY_017_KV_otherfield_missing_MIDDLE",
+    "base_id": "VTP_SALARY_017",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "144753",
+      "103125"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_017_KV_otherfield_missing_ADJACENT": {
+    "id": "VTP_SALARY_017_KV_otherfield_missing_ADJACENT",
+    "base_id": "VTP_SALARY_017",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "144753",
+      "103125"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_017_PROSE_otherfield_missing_MIDDLE": {
+    "id": "VTP_SALARY_017_PROSE_otherfield_missing_MIDDLE",
+    "base_id": "VTP_SALARY_017",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "144753",
+      "103125"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_017_PROSE_otherfield_missing_ADJACENT": {
+    "id": "VTP_SALARY_017_PROSE_otherfield_missing_ADJACENT",
+    "base_id": "VTP_SALARY_017",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "144753",
+      "103125"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_017_BULLET_otherfield_missing_MIDDLE": {
+    "id": "VTP_SALARY_017_BULLET_otherfield_missing_MIDDLE",
+    "base_id": "VTP_SALARY_017",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "144753",
+      "103125"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_017_BULLET_otherfield_missing_ADJACENT": {
+    "id": "VTP_SALARY_017_BULLET_otherfield_missing_ADJACENT",
+    "base_id": "VTP_SALARY_017",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "144753",
+      "103125"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_018_KV_otherfield_missing_MIDDLE": {
+    "id": "VTP_SALARY_018_KV_otherfield_missing_MIDDLE",
+    "base_id": "VTP_SALARY_018",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "176883",
+      "195041"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_018_KV_otherfield_missing_ADJACENT": {
+    "id": "VTP_SALARY_018_KV_otherfield_missing_ADJACENT",
+    "base_id": "VTP_SALARY_018",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "176883",
+      "195041"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_018_PROSE_otherfield_missing_MIDDLE": {
+    "id": "VTP_SALARY_018_PROSE_otherfield_missing_MIDDLE",
+    "base_id": "VTP_SALARY_018",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "176883",
+      "195041"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_018_PROSE_otherfield_missing_ADJACENT": {
+    "id": "VTP_SALARY_018_PROSE_otherfield_missing_ADJACENT",
+    "base_id": "VTP_SALARY_018",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "176883",
+      "195041"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_018_BULLET_otherfield_missing_MIDDLE": {
+    "id": "VTP_SALARY_018_BULLET_otherfield_missing_MIDDLE",
+    "base_id": "VTP_SALARY_018",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "176883",
+      "195041"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_018_BULLET_otherfield_missing_ADJACENT": {
+    "id": "VTP_SALARY_018_BULLET_otherfield_missing_ADJACENT",
+    "base_id": "VTP_SALARY_018",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "176883",
+      "195041"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_019_KV_otherfield_missing_MIDDLE": {
+    "id": "VTP_SALARY_019_KV_otherfield_missing_MIDDLE",
+    "base_id": "VTP_SALARY_019",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "193616",
+      "195477"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_019_KV_otherfield_missing_ADJACENT": {
+    "id": "VTP_SALARY_019_KV_otherfield_missing_ADJACENT",
+    "base_id": "VTP_SALARY_019",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "193616",
+      "195477"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_019_PROSE_otherfield_missing_MIDDLE": {
+    "id": "VTP_SALARY_019_PROSE_otherfield_missing_MIDDLE",
+    "base_id": "VTP_SALARY_019",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "193616",
+      "195477"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_019_PROSE_otherfield_missing_ADJACENT": {
+    "id": "VTP_SALARY_019_PROSE_otherfield_missing_ADJACENT",
+    "base_id": "VTP_SALARY_019",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "193616",
+      "195477"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_019_BULLET_otherfield_missing_MIDDLE": {
+    "id": "VTP_SALARY_019_BULLET_otherfield_missing_MIDDLE",
+    "base_id": "VTP_SALARY_019",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "193616",
+      "195477"
+    ],
+    "support_spans": []
+  },
+  "VTP_SALARY_019_BULLET_otherfield_missing_ADJACENT": {
+    "id": "VTP_SALARY_019_BULLET_otherfield_missing_ADJACENT",
+    "base_id": "VTP_SALARY_019",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "193616",
+      "195477"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_000_KV_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_000_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_000",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1977",
+      "1956"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_000_KV_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_000_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_000",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1977",
+      "1956"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_000_KV_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_000_KV_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_000",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "2001",
+    "non_target_values": [
+      "1977",
+      "1956"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_000_KV_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_000_KV_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_000",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "2001",
+    "non_target_values": [
+      "1977",
+      "1956"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_000_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_000_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_000",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1977",
+      "1956"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_000_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_000_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_000",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1977",
+      "1956"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_000_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_000_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_000",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "2001",
+    "non_target_values": [
+      "1977",
+      "1956"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_000_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_000_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_000",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "2001",
+    "non_target_values": [
+      "1977",
+      "1956"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_000_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_000_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_000",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1977",
+      "1956"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_000_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_000_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_000",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1977",
+      "1956"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_000_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_000_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_000",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "2001",
+    "non_target_values": [
+      "1977",
+      "1956"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_000_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_000_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_000",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "2001",
+    "non_target_values": [
+      "1977",
+      "1956"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_001_KV_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_001_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_001",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1903",
+      "1936"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_001_KV_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_001_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_001",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1903",
+      "1936"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_001_KV_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_001_KV_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_001",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1999",
+    "non_target_values": [
+      "1903",
+      "1936"
+    ],
+    "support_spans": [
+      {
+        "start": 123,
+        "end": 127
+      }
+    ]
+  },
+  "VTP_YEAR_001_KV_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_001_KV_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_001",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1999",
+    "non_target_values": [
+      "1903",
+      "1936"
+    ],
+    "support_spans": [
+      {
+        "start": 123,
+        "end": 127
+      }
+    ]
+  },
+  "VTP_YEAR_001_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_001_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_001",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1903",
+      "1936"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_001_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_001_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_001",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1903",
+      "1936"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_001_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_001_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_001",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1999",
+    "non_target_values": [
+      "1903",
+      "1936"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_001_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_001_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_001",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1999",
+    "non_target_values": [
+      "1903",
+      "1936"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_001_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_001_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_001",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1903",
+      "1936"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_001_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_001_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_001",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1903",
+      "1936"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_001_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_001_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_001",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1999",
+    "non_target_values": [
+      "1903",
+      "1936"
+    ],
+    "support_spans": [
+      {
+        "start": 134,
+        "end": 138
+      }
+    ]
+  },
+  "VTP_YEAR_001_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_001_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_001",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1999",
+    "non_target_values": [
+      "1903",
+      "1936"
+    ],
+    "support_spans": [
+      {
+        "start": 134,
+        "end": 138
+      }
+    ]
+  },
+  "VTP_YEAR_002_KV_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_002_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_002",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1924",
+      "1907"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_002_KV_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_002_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_002",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1924",
+      "1907"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_002_KV_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_002_KV_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_002",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1960",
+    "non_target_values": [
+      "1924",
+      "1907"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_002_KV_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_002_KV_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_002",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1960",
+    "non_target_values": [
+      "1924",
+      "1907"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_002_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_002_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_002",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1924",
+      "1907"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_002_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_002_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_002",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1924",
+      "1907"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_002_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_002_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_002",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1960",
+    "non_target_values": [
+      "1924",
+      "1907"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_002_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_002_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_002",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1960",
+    "non_target_values": [
+      "1924",
+      "1907"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_002_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_002_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_002",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1924",
+      "1907"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_002_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_002_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_002",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1924",
+      "1907"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_002_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_002_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_002",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1960",
+    "non_target_values": [
+      "1924",
+      "1907"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_002_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_002_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_002",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1960",
+    "non_target_values": [
+      "1924",
+      "1907"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_003_KV_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_003_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_003",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1954",
+      "1956"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_003_KV_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_003_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_003",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1954",
+      "1956"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_003_KV_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_003_KV_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_003",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "2022",
+    "non_target_values": [
+      "1954",
+      "1956"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_003_KV_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_003_KV_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_003",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "2022",
+    "non_target_values": [
+      "1954",
+      "1956"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_003_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_003_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_003",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1954",
+      "1956"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_003_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_003_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_003",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1954",
+      "1956"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_003_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_003_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_003",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "2022",
+    "non_target_values": [
+      "1954",
+      "1956"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_003_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_003_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_003",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "2022",
+    "non_target_values": [
+      "1954",
+      "1956"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_003_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_003_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_003",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1954",
+      "1956"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_003_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_003_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_003",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1954",
+      "1956"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_003_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_003_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_003",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "2022",
+    "non_target_values": [
+      "1954",
+      "1956"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_003_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_003_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_003",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "2022",
+    "non_target_values": [
+      "1954",
+      "1956"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_004_KV_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_004_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_004",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2005",
+      "2001"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_004_KV_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_004_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_004",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2005",
+      "2001"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_004_KV_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_004_KV_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_004",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1992",
+    "non_target_values": [
+      "2005",
+      "2001"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_004_KV_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_004_KV_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_004",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1992",
+    "non_target_values": [
+      "2005",
+      "2001"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_004_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_004_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_004",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2005",
+      "2001"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_004_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_004_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_004",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2005",
+      "2001"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_004_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_004_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_004",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1992",
+    "non_target_values": [
+      "2005",
+      "2001"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_004_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_004_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_004",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1992",
+    "non_target_values": [
+      "2005",
+      "2001"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_004_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_004_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_004",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2005",
+      "2001"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_004_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_004_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_004",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2005",
+      "2001"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_004_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_004_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_004",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1992",
+    "non_target_values": [
+      "2005",
+      "2001"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_004_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_004_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_004",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1992",
+    "non_target_values": [
+      "2005",
+      "2001"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_005_KV_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_005_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_005",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1980",
+      "2018"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_005_KV_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_005_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_005",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1980",
+      "2018"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_005_KV_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_005_KV_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_005",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1995",
+    "non_target_values": [
+      "1980",
+      "2018"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_005_KV_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_005_KV_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_005",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1995",
+    "non_target_values": [
+      "1980",
+      "2018"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_005_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_005_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_005",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1980",
+      "2018"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_005_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_005_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_005",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1980",
+      "2018"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_005_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_005_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_005",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1995",
+    "non_target_values": [
+      "1980",
+      "2018"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_005_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_005_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_005",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1995",
+    "non_target_values": [
+      "1980",
+      "2018"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_005_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_005_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_005",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1980",
+      "2018"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_005_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_005_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_005",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1980",
+      "2018"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_005_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_005_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_005",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1995",
+    "non_target_values": [
+      "1980",
+      "2018"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_005_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_005_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_005",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1995",
+    "non_target_values": [
+      "1980",
+      "2018"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_006_KV_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_006_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_006",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2025",
+      "1916"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_006_KV_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_006_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_006",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2025",
+      "1916"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_006_KV_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_006_KV_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_006",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1978",
+    "non_target_values": [
+      "2025",
+      "1916"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_006_KV_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_006_KV_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_006",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1978",
+    "non_target_values": [
+      "2025",
+      "1916"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_006_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_006_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_006",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2025",
+      "1916"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_006_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_006_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_006",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2025",
+      "1916"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_006_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_006_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_006",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1978",
+    "non_target_values": [
+      "2025",
+      "1916"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_006_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_006_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_006",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1978",
+    "non_target_values": [
+      "2025",
+      "1916"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_006_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_006_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_006",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2025",
+      "1916"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_006_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_006_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_006",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2025",
+      "1916"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_006_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_006_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_006",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1978",
+    "non_target_values": [
+      "2025",
+      "1916"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_006_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_006_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_006",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1978",
+    "non_target_values": [
+      "2025",
+      "1916"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_007_KV_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_007_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_007",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1913",
+      "2024"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_007_KV_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_007_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_007",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1913",
+      "2024"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_007_KV_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_007_KV_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_007",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1957",
+    "non_target_values": [
+      "1913",
+      "2024"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_007_KV_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_007_KV_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_007",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1957",
+    "non_target_values": [
+      "1913",
+      "2024"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_007_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_007_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_007",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1913",
+      "2024"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_007_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_007_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_007",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1913",
+      "2024"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_007_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_007_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_007",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1957",
+    "non_target_values": [
+      "1913",
+      "2024"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_007_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_007_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_007",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1957",
+    "non_target_values": [
+      "1913",
+      "2024"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_007_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_007_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_007",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1913",
+      "2024"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_007_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_007_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_007",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1913",
+      "2024"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_007_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_007_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_007",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1957",
+    "non_target_values": [
+      "1913",
+      "2024"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_007_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_007_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_007",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1957",
+    "non_target_values": [
+      "1913",
+      "2024"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_008_KV_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_008_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_008",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1986",
+      "1944"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_008_KV_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_008_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_008",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1986",
+      "1944"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_008_KV_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_008_KV_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_008",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1987",
+    "non_target_values": [
+      "1986",
+      "1944"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_008_KV_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_008_KV_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_008",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1987",
+    "non_target_values": [
+      "1986",
+      "1944"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_008_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_008_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_008",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1986",
+      "1944"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_008_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_008_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_008",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1986",
+      "1944"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_008_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_008_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_008",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1987",
+    "non_target_values": [
+      "1986",
+      "1944"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_008_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_008_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_008",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1987",
+    "non_target_values": [
+      "1986",
+      "1944"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_008_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_008_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_008",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1986",
+      "1944"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_008_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_008_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_008",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1986",
+      "1944"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_008_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_008_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_008",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1987",
+    "non_target_values": [
+      "1986",
+      "1944"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_008_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_008_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_008",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1987",
+    "non_target_values": [
+      "1986",
+      "1944"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_009_KV_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_009_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_009",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1999",
+      "1970"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_009_KV_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_009_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_009",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1999",
+      "1970"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_009_KV_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_009_KV_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_009",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1944",
+    "non_target_values": [
+      "1999",
+      "1970"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_009_KV_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_009_KV_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_009",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1944",
+    "non_target_values": [
+      "1999",
+      "1970"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_009_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_009_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_009",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1999",
+      "1970"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_009_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_009_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_009",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1999",
+      "1970"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_009_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_009_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_009",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1944",
+    "non_target_values": [
+      "1999",
+      "1970"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_009_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_009_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_009",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1944",
+    "non_target_values": [
+      "1999",
+      "1970"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_009_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_009_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_009",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1999",
+      "1970"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_009_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_009_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_009",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1999",
+      "1970"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_009_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_009_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_009",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1944",
+    "non_target_values": [
+      "1999",
+      "1970"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_009_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_009_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_009",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1944",
+    "non_target_values": [
+      "1999",
+      "1970"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_010_KV_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_010_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_010",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2007",
+      "1921"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_010_KV_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_010_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_010",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2007",
+      "1921"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_010_KV_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_010_KV_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_010",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1942",
+    "non_target_values": [
+      "2007",
+      "1921"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_010_KV_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_010_KV_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_010",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1942",
+    "non_target_values": [
+      "2007",
+      "1921"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_010_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_010_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_010",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2007",
+      "1921"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_010_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_010_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_010",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2007",
+      "1921"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_010_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_010_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_010",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1942",
+    "non_target_values": [
+      "2007",
+      "1921"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_010_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_010_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_010",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1942",
+    "non_target_values": [
+      "2007",
+      "1921"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_010_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_010_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_010",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2007",
+      "1921"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_010_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_010_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_010",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "2007",
+      "1921"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_010_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_010_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_010",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1942",
+    "non_target_values": [
+      "2007",
+      "1921"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_010_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_010_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_010",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1942",
+    "non_target_values": [
+      "2007",
+      "1921"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_011_KV_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_011_KV_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_011",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1955",
+      "1938"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_011_KV_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_011_KV_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_011",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1955",
+      "1938"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_011_KV_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_011_KV_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_011",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1933",
+    "non_target_values": [
+      "1955",
+      "1938"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_011_KV_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_011_KV_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_011",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1933",
+    "non_target_values": [
+      "1955",
+      "1938"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_011_PROSE_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_011_PROSE_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_011",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1955",
+      "1938"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_011_PROSE_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_011_PROSE_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_011",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1955",
+      "1938"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_011_PROSE_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_011_PROSE_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_011",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1933",
+    "non_target_values": [
+      "1955",
+      "1938"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_011_PROSE_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_011_PROSE_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_011",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1933",
+    "non_target_values": [
+      "1955",
+      "1938"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_011_BULLET_basic_missing_MIDDLE": {
+    "id": "VTP_YEAR_011_BULLET_basic_missing_MIDDLE",
+    "base_id": "VTP_YEAR_011",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1955",
+      "1938"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_011_BULLET_basic_missing_ADJACENT": {
+    "id": "VTP_YEAR_011_BULLET_basic_missing_ADJACENT",
+    "base_id": "VTP_YEAR_011",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_missing",
+    "value": null,
+    "non_target_values": [
+      "1955",
+      "1938"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_011_BULLET_basic_present_MIDDLE": {
+    "id": "VTP_YEAR_011_BULLET_basic_present_MIDDLE",
+    "base_id": "VTP_YEAR_011",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "basic_present",
+    "value": "1933",
+    "non_target_values": [
+      "1955",
+      "1938"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_011_BULLET_basic_present_ADJACENT": {
+    "id": "VTP_YEAR_011_BULLET_basic_present_ADJACENT",
+    "base_id": "VTP_YEAR_011",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "basic_present",
+    "value": "1933",
+    "non_target_values": [
+      "1955",
+      "1938"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_012_KV_collision_present_MIDDLE": {
+    "id": "VTP_YEAR_012_KV_collision_present_MIDDLE",
+    "base_id": "VTP_YEAR_012",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "1966",
+    "non_target_values": [
+      "1966",
+      "1931"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_012_KV_collision_present_ADJACENT": {
+    "id": "VTP_YEAR_012_KV_collision_present_ADJACENT",
+    "base_id": "VTP_YEAR_012",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "1966",
+    "non_target_values": [
+      "1966",
+      "1931"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_012_PROSE_collision_present_MIDDLE": {
+    "id": "VTP_YEAR_012_PROSE_collision_present_MIDDLE",
+    "base_id": "VTP_YEAR_012",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "1966",
+    "non_target_values": [
+      "1966",
+      "1931"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_012_PROSE_collision_present_ADJACENT": {
+    "id": "VTP_YEAR_012_PROSE_collision_present_ADJACENT",
+    "base_id": "VTP_YEAR_012",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "1966",
+    "non_target_values": [
+      "1966",
+      "1931"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_012_BULLET_collision_present_MIDDLE": {
+    "id": "VTP_YEAR_012_BULLET_collision_present_MIDDLE",
+    "base_id": "VTP_YEAR_012",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "1966",
+    "non_target_values": [
+      "1966",
+      "1931"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_012_BULLET_collision_present_ADJACENT": {
+    "id": "VTP_YEAR_012_BULLET_collision_present_ADJACENT",
+    "base_id": "VTP_YEAR_012",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "1966",
+    "non_target_values": [
+      "1966",
+      "1931"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_013_KV_collision_present_MIDDLE": {
+    "id": "VTP_YEAR_013_KV_collision_present_MIDDLE",
+    "base_id": "VTP_YEAR_013",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "2024",
+    "non_target_values": [
+      "2024",
+      "1968"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_013_KV_collision_present_ADJACENT": {
+    "id": "VTP_YEAR_013_KV_collision_present_ADJACENT",
+    "base_id": "VTP_YEAR_013",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "2024",
+    "non_target_values": [
+      "2024",
+      "1968"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_013_PROSE_collision_present_MIDDLE": {
+    "id": "VTP_YEAR_013_PROSE_collision_present_MIDDLE",
+    "base_id": "VTP_YEAR_013",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "2024",
+    "non_target_values": [
+      "2024",
+      "1968"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_013_PROSE_collision_present_ADJACENT": {
+    "id": "VTP_YEAR_013_PROSE_collision_present_ADJACENT",
+    "base_id": "VTP_YEAR_013",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "2024",
+    "non_target_values": [
+      "2024",
+      "1968"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_013_BULLET_collision_present_MIDDLE": {
+    "id": "VTP_YEAR_013_BULLET_collision_present_MIDDLE",
+    "base_id": "VTP_YEAR_013",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "2024",
+    "non_target_values": [
+      "2024",
+      "1968"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_013_BULLET_collision_present_ADJACENT": {
+    "id": "VTP_YEAR_013_BULLET_collision_present_ADJACENT",
+    "base_id": "VTP_YEAR_013",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "2024",
+    "non_target_values": [
+      "2024",
+      "1968"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_014_KV_collision_present_MIDDLE": {
+    "id": "VTP_YEAR_014_KV_collision_present_MIDDLE",
+    "base_id": "VTP_YEAR_014",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "1909",
+    "non_target_values": [
+      "1909",
+      "1900"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_014_KV_collision_present_ADJACENT": {
+    "id": "VTP_YEAR_014_KV_collision_present_ADJACENT",
+    "base_id": "VTP_YEAR_014",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "1909",
+    "non_target_values": [
+      "1909",
+      "1900"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "VTP_YEAR_014_PROSE_collision_present_MIDDLE": {
+    "id": "VTP_YEAR_014_PROSE_collision_present_MIDDLE",
+    "base_id": "VTP_YEAR_014",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "1909",
+    "non_target_values": [
+      "1909",
+      "1900"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_014_PROSE_collision_present_ADJACENT": {
+    "id": "VTP_YEAR_014_PROSE_collision_present_ADJACENT",
+    "base_id": "VTP_YEAR_014",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "1909",
+    "non_target_values": [
+      "1909",
+      "1900"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "VTP_YEAR_014_BULLET_collision_present_MIDDLE": {
+    "id": "VTP_YEAR_014_BULLET_collision_present_MIDDLE",
+    "base_id": "VTP_YEAR_014",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "1909",
+    "non_target_values": [
+      "1909",
+      "1900"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_014_BULLET_collision_present_ADJACENT": {
+    "id": "VTP_YEAR_014_BULLET_collision_present_ADJACENT",
+    "base_id": "VTP_YEAR_014",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "1909",
+    "non_target_values": [
+      "1909",
+      "1900"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_015_KV_collision_present_MIDDLE": {
+    "id": "VTP_YEAR_015_KV_collision_present_MIDDLE",
+    "base_id": "VTP_YEAR_015",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "1905",
+    "non_target_values": [
+      "1905",
+      "1959"
+    ],
+    "support_spans": [
+      {
+        "start": 123,
+        "end": 127
+      }
+    ]
+  },
+  "VTP_YEAR_015_KV_collision_present_ADJACENT": {
+    "id": "VTP_YEAR_015_KV_collision_present_ADJACENT",
+    "base_id": "VTP_YEAR_015",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "1905",
+    "non_target_values": [
+      "1905",
+      "1959"
+    ],
+    "support_spans": [
+      {
+        "start": 123,
+        "end": 127
+      }
+    ]
+  },
+  "VTP_YEAR_015_PROSE_collision_present_MIDDLE": {
+    "id": "VTP_YEAR_015_PROSE_collision_present_MIDDLE",
+    "base_id": "VTP_YEAR_015",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "1905",
+    "non_target_values": [
+      "1905",
+      "1959"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_015_PROSE_collision_present_ADJACENT": {
+    "id": "VTP_YEAR_015_PROSE_collision_present_ADJACENT",
+    "base_id": "VTP_YEAR_015",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "1905",
+    "non_target_values": [
+      "1905",
+      "1959"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "VTP_YEAR_015_BULLET_collision_present_MIDDLE": {
+    "id": "VTP_YEAR_015_BULLET_collision_present_MIDDLE",
+    "base_id": "VTP_YEAR_015",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "collision_present",
+    "value": "1905",
+    "non_target_values": [
+      "1905",
+      "1959"
+    ],
+    "support_spans": [
+      {
+        "start": 134,
+        "end": 138
+      }
+    ]
+  },
+  "VTP_YEAR_015_BULLET_collision_present_ADJACENT": {
+    "id": "VTP_YEAR_015_BULLET_collision_present_ADJACENT",
+    "base_id": "VTP_YEAR_015",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "collision_present",
+    "value": "1905",
+    "non_target_values": [
+      "1905",
+      "1959"
+    ],
+    "support_spans": [
+      {
+        "start": 134,
+        "end": 138
+      }
+    ]
+  },
+  "VTP_YEAR_016_KV_otherfield_missing_MIDDLE": {
+    "id": "VTP_YEAR_016_KV_otherfield_missing_MIDDLE",
+    "base_id": "VTP_YEAR_016",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "2006",
+      "1928"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_016_KV_otherfield_missing_ADJACENT": {
+    "id": "VTP_YEAR_016_KV_otherfield_missing_ADJACENT",
+    "base_id": "VTP_YEAR_016",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "2006",
+      "1928"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_016_PROSE_otherfield_missing_MIDDLE": {
+    "id": "VTP_YEAR_016_PROSE_otherfield_missing_MIDDLE",
+    "base_id": "VTP_YEAR_016",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "2006",
+      "1928"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_016_PROSE_otherfield_missing_ADJACENT": {
+    "id": "VTP_YEAR_016_PROSE_otherfield_missing_ADJACENT",
+    "base_id": "VTP_YEAR_016",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "2006",
+      "1928"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_016_BULLET_otherfield_missing_MIDDLE": {
+    "id": "VTP_YEAR_016_BULLET_otherfield_missing_MIDDLE",
+    "base_id": "VTP_YEAR_016",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "2006",
+      "1928"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_016_BULLET_otherfield_missing_ADJACENT": {
+    "id": "VTP_YEAR_016_BULLET_otherfield_missing_ADJACENT",
+    "base_id": "VTP_YEAR_016",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "2006",
+      "1928"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_017_KV_otherfield_missing_MIDDLE": {
+    "id": "VTP_YEAR_017_KV_otherfield_missing_MIDDLE",
+    "base_id": "VTP_YEAR_017",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1939",
+      "1974"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_017_KV_otherfield_missing_ADJACENT": {
+    "id": "VTP_YEAR_017_KV_otherfield_missing_ADJACENT",
+    "base_id": "VTP_YEAR_017",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1939",
+      "1974"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_017_PROSE_otherfield_missing_MIDDLE": {
+    "id": "VTP_YEAR_017_PROSE_otherfield_missing_MIDDLE",
+    "base_id": "VTP_YEAR_017",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1939",
+      "1974"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_017_PROSE_otherfield_missing_ADJACENT": {
+    "id": "VTP_YEAR_017_PROSE_otherfield_missing_ADJACENT",
+    "base_id": "VTP_YEAR_017",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1939",
+      "1974"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_017_BULLET_otherfield_missing_MIDDLE": {
+    "id": "VTP_YEAR_017_BULLET_otherfield_missing_MIDDLE",
+    "base_id": "VTP_YEAR_017",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1939",
+      "1974"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_017_BULLET_otherfield_missing_ADJACENT": {
+    "id": "VTP_YEAR_017_BULLET_otherfield_missing_ADJACENT",
+    "base_id": "VTP_YEAR_017",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1939",
+      "1974"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_018_KV_otherfield_missing_MIDDLE": {
+    "id": "VTP_YEAR_018_KV_otherfield_missing_MIDDLE",
+    "base_id": "VTP_YEAR_018",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1944",
+      "1981"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_018_KV_otherfield_missing_ADJACENT": {
+    "id": "VTP_YEAR_018_KV_otherfield_missing_ADJACENT",
+    "base_id": "VTP_YEAR_018",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1944",
+      "1981"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_018_PROSE_otherfield_missing_MIDDLE": {
+    "id": "VTP_YEAR_018_PROSE_otherfield_missing_MIDDLE",
+    "base_id": "VTP_YEAR_018",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1944",
+      "1981"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_018_PROSE_otherfield_missing_ADJACENT": {
+    "id": "VTP_YEAR_018_PROSE_otherfield_missing_ADJACENT",
+    "base_id": "VTP_YEAR_018",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1944",
+      "1981"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_018_BULLET_otherfield_missing_MIDDLE": {
+    "id": "VTP_YEAR_018_BULLET_otherfield_missing_MIDDLE",
+    "base_id": "VTP_YEAR_018",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1944",
+      "1981"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_018_BULLET_otherfield_missing_ADJACENT": {
+    "id": "VTP_YEAR_018_BULLET_otherfield_missing_ADJACENT",
+    "base_id": "VTP_YEAR_018",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1944",
+      "1981"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_019_KV_otherfield_missing_MIDDLE": {
+    "id": "VTP_YEAR_019_KV_otherfield_missing_MIDDLE",
+    "base_id": "VTP_YEAR_019",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1951",
+      "1980"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_019_KV_otherfield_missing_ADJACENT": {
+    "id": "VTP_YEAR_019_KV_otherfield_missing_ADJACENT",
+    "base_id": "VTP_YEAR_019",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1951",
+      "1980"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_019_PROSE_otherfield_missing_MIDDLE": {
+    "id": "VTP_YEAR_019_PROSE_otherfield_missing_MIDDLE",
+    "base_id": "VTP_YEAR_019",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1951",
+      "1980"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_019_PROSE_otherfield_missing_ADJACENT": {
+    "id": "VTP_YEAR_019_PROSE_otherfield_missing_ADJACENT",
+    "base_id": "VTP_YEAR_019",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1951",
+      "1980"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_019_BULLET_otherfield_missing_MIDDLE": {
+    "id": "VTP_YEAR_019_BULLET_otherfield_missing_MIDDLE",
+    "base_id": "VTP_YEAR_019",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1951",
+      "1980"
+    ],
+    "support_spans": []
+  },
+  "VTP_YEAR_019_BULLET_otherfield_missing_ADJACENT": {
+    "id": "VTP_YEAR_019_BULLET_otherfield_missing_ADJACENT",
+    "base_id": "VTP_YEAR_019",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "otherfield_missing",
+    "value": null,
+    "non_target_values": [
+      "1951",
+      "1980"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_000_KV_multi_present_MIDDLE": {
+    "id": "PTR_SALARY_000_KV_multi_present_MIDDLE",
+    "base_id": "PTR_SALARY_000",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "170888",
+    "non_target_values": [
+      "170888",
+      "174621"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "PTR_SALARY_000_KV_multi_present_ADJACENT": {
+    "id": "PTR_SALARY_000_KV_multi_present_ADJACENT",
+    "base_id": "PTR_SALARY_000",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "170888",
+    "non_target_values": [
+      "170888",
+      "174621"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "PTR_SALARY_000_KV_multi_missing_MIDDLE": {
+    "id": "PTR_SALARY_000_KV_multi_missing_MIDDLE",
+    "base_id": "PTR_SALARY_000",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "170888",
+      "174621"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_000_KV_multi_missing_ADJACENT": {
+    "id": "PTR_SALARY_000_KV_multi_missing_ADJACENT",
+    "base_id": "PTR_SALARY_000",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "170888",
+      "174621"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_000_PROSE_multi_present_MIDDLE": {
+    "id": "PTR_SALARY_000_PROSE_multi_present_MIDDLE",
+    "base_id": "PTR_SALARY_000",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "170888",
+    "non_target_values": [
+      "170888",
+      "174621"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "PTR_SALARY_000_PROSE_multi_present_ADJACENT": {
+    "id": "PTR_SALARY_000_PROSE_multi_present_ADJACENT",
+    "base_id": "PTR_SALARY_000",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "170888",
+    "non_target_values": [
+      "170888",
+      "174621"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "PTR_SALARY_000_PROSE_multi_missing_MIDDLE": {
+    "id": "PTR_SALARY_000_PROSE_multi_missing_MIDDLE",
+    "base_id": "PTR_SALARY_000",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "170888",
+      "174621"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_000_PROSE_multi_missing_ADJACENT": {
+    "id": "PTR_SALARY_000_PROSE_multi_missing_ADJACENT",
+    "base_id": "PTR_SALARY_000",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "170888",
+      "174621"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_000_BULLET_multi_present_MIDDLE": {
+    "id": "PTR_SALARY_000_BULLET_multi_present_MIDDLE",
+    "base_id": "PTR_SALARY_000",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "170888",
+    "non_target_values": [
+      "170888",
+      "174621"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "PTR_SALARY_000_BULLET_multi_present_ADJACENT": {
+    "id": "PTR_SALARY_000_BULLET_multi_present_ADJACENT",
+    "base_id": "PTR_SALARY_000",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "170888",
+    "non_target_values": [
+      "170888",
+      "174621"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "PTR_SALARY_000_BULLET_multi_missing_MIDDLE": {
+    "id": "PTR_SALARY_000_BULLET_multi_missing_MIDDLE",
+    "base_id": "PTR_SALARY_000",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "170888",
+      "174621"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_000_BULLET_multi_missing_ADJACENT": {
+    "id": "PTR_SALARY_000_BULLET_multi_missing_ADJACENT",
+    "base_id": "PTR_SALARY_000",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "170888",
+      "174621"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_001_KV_multi_present_MIDDLE": {
+    "id": "PTR_SALARY_001_KV_multi_present_MIDDLE",
+    "base_id": "PTR_SALARY_001",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "163942",
+    "non_target_values": [
+      "106130",
+      "163942"
+    ],
+    "support_spans": [
+      {
+        "start": 141,
+        "end": 147
+      }
+    ]
+  },
+  "PTR_SALARY_001_KV_multi_present_ADJACENT": {
+    "id": "PTR_SALARY_001_KV_multi_present_ADJACENT",
+    "base_id": "PTR_SALARY_001",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "163942",
+    "non_target_values": [
+      "106130",
+      "163942"
+    ],
+    "support_spans": [
+      {
+        "start": 141,
+        "end": 147
+      }
+    ]
+  },
+  "PTR_SALARY_001_KV_multi_missing_MIDDLE": {
+    "id": "PTR_SALARY_001_KV_multi_missing_MIDDLE",
+    "base_id": "PTR_SALARY_001",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "106130",
+      "163942"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_001_KV_multi_missing_ADJACENT": {
+    "id": "PTR_SALARY_001_KV_multi_missing_ADJACENT",
+    "base_id": "PTR_SALARY_001",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "106130",
+      "163942"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_001_PROSE_multi_present_MIDDLE": {
+    "id": "PTR_SALARY_001_PROSE_multi_present_MIDDLE",
+    "base_id": "PTR_SALARY_001",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "163942",
+    "non_target_values": [
+      "106130",
+      "163942"
+    ],
+    "support_spans": [
+      {
+        "start": 158,
+        "end": 164
+      }
+    ]
+  },
+  "PTR_SALARY_001_PROSE_multi_present_ADJACENT": {
+    "id": "PTR_SALARY_001_PROSE_multi_present_ADJACENT",
+    "base_id": "PTR_SALARY_001",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "163942",
+    "non_target_values": [
+      "106130",
+      "163942"
+    ],
+    "support_spans": [
+      {
+        "start": 158,
+        "end": 164
+      }
+    ]
+  },
+  "PTR_SALARY_001_PROSE_multi_missing_MIDDLE": {
+    "id": "PTR_SALARY_001_PROSE_multi_missing_MIDDLE",
+    "base_id": "PTR_SALARY_001",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "106130",
+      "163942"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_001_PROSE_multi_missing_ADJACENT": {
+    "id": "PTR_SALARY_001_PROSE_multi_missing_ADJACENT",
+    "base_id": "PTR_SALARY_001",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "106130",
+      "163942"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_001_BULLET_multi_present_MIDDLE": {
+    "id": "PTR_SALARY_001_BULLET_multi_present_MIDDLE",
+    "base_id": "PTR_SALARY_001",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "163942",
+    "non_target_values": [
+      "106130",
+      "163942"
+    ],
+    "support_spans": [
+      {
+        "start": 154,
+        "end": 160
+      }
+    ]
+  },
+  "PTR_SALARY_001_BULLET_multi_present_ADJACENT": {
+    "id": "PTR_SALARY_001_BULLET_multi_present_ADJACENT",
+    "base_id": "PTR_SALARY_001",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "163942",
+    "non_target_values": [
+      "106130",
+      "163942"
+    ],
+    "support_spans": [
+      {
+        "start": 154,
+        "end": 160
+      }
+    ]
+  },
+  "PTR_SALARY_001_BULLET_multi_missing_MIDDLE": {
+    "id": "PTR_SALARY_001_BULLET_multi_missing_MIDDLE",
+    "base_id": "PTR_SALARY_001",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "106130",
+      "163942"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_001_BULLET_multi_missing_ADJACENT": {
+    "id": "PTR_SALARY_001_BULLET_multi_missing_ADJACENT",
+    "base_id": "PTR_SALARY_001",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "106130",
+      "163942"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_002_KV_multi_present_MIDDLE": {
+    "id": "PTR_SALARY_002_KV_multi_present_MIDDLE",
+    "base_id": "PTR_SALARY_002",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "197845",
+    "non_target_values": [
+      "197845",
+      "137562"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "PTR_SALARY_002_KV_multi_present_ADJACENT": {
+    "id": "PTR_SALARY_002_KV_multi_present_ADJACENT",
+    "base_id": "PTR_SALARY_002",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "197845",
+    "non_target_values": [
+      "197845",
+      "137562"
+    ],
+    "support_spans": [
+      {
+        "start": 116,
+        "end": 122
+      }
+    ]
+  },
+  "PTR_SALARY_002_KV_multi_missing_MIDDLE": {
+    "id": "PTR_SALARY_002_KV_multi_missing_MIDDLE",
+    "base_id": "PTR_SALARY_002",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "197845",
+      "137562"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_002_KV_multi_missing_ADJACENT": {
+    "id": "PTR_SALARY_002_KV_multi_missing_ADJACENT",
+    "base_id": "PTR_SALARY_002",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "197845",
+      "137562"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_002_PROSE_multi_present_MIDDLE": {
+    "id": "PTR_SALARY_002_PROSE_multi_present_MIDDLE",
+    "base_id": "PTR_SALARY_002",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "197845",
+    "non_target_values": [
+      "197845",
+      "137562"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "PTR_SALARY_002_PROSE_multi_present_ADJACENT": {
+    "id": "PTR_SALARY_002_PROSE_multi_present_ADJACENT",
+    "base_id": "PTR_SALARY_002",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "197845",
+    "non_target_values": [
+      "197845",
+      "137562"
+    ],
+    "support_spans": [
+      {
+        "start": 126,
+        "end": 132
+      }
+    ]
+  },
+  "PTR_SALARY_002_PROSE_multi_missing_MIDDLE": {
+    "id": "PTR_SALARY_002_PROSE_multi_missing_MIDDLE",
+    "base_id": "PTR_SALARY_002",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "197845",
+      "137562"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_002_PROSE_multi_missing_ADJACENT": {
+    "id": "PTR_SALARY_002_PROSE_multi_missing_ADJACENT",
+    "base_id": "PTR_SALARY_002",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "197845",
+      "137562"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_002_BULLET_multi_present_MIDDLE": {
+    "id": "PTR_SALARY_002_BULLET_multi_present_MIDDLE",
+    "base_id": "PTR_SALARY_002",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "197845",
+    "non_target_values": [
+      "197845",
+      "137562"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "PTR_SALARY_002_BULLET_multi_present_ADJACENT": {
+    "id": "PTR_SALARY_002_BULLET_multi_present_ADJACENT",
+    "base_id": "PTR_SALARY_002",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "197845",
+    "non_target_values": [
+      "197845",
+      "137562"
+    ],
+    "support_spans": [
+      {
+        "start": 127,
+        "end": 133
+      }
+    ]
+  },
+  "PTR_SALARY_002_BULLET_multi_missing_MIDDLE": {
+    "id": "PTR_SALARY_002_BULLET_multi_missing_MIDDLE",
+    "base_id": "PTR_SALARY_002",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "197845",
+      "137562"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_002_BULLET_multi_missing_ADJACENT": {
+    "id": "PTR_SALARY_002_BULLET_multi_missing_ADJACENT",
+    "base_id": "PTR_SALARY_002",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "197845",
+      "137562"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_003_KV_multi_present_MIDDLE": {
+    "id": "PTR_SALARY_003_KV_multi_present_MIDDLE",
+    "base_id": "PTR_SALARY_003",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "120841",
+    "non_target_values": [
+      "107866",
+      "120841"
+    ],
+    "support_spans": [
+      {
+        "start": 142,
+        "end": 148
+      }
+    ]
+  },
+  "PTR_SALARY_003_KV_multi_present_ADJACENT": {
+    "id": "PTR_SALARY_003_KV_multi_present_ADJACENT",
+    "base_id": "PTR_SALARY_003",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "120841",
+    "non_target_values": [
+      "107866",
+      "120841"
+    ],
+    "support_spans": [
+      {
+        "start": 142,
+        "end": 148
+      }
+    ]
+  },
+  "PTR_SALARY_003_KV_multi_missing_MIDDLE": {
+    "id": "PTR_SALARY_003_KV_multi_missing_MIDDLE",
+    "base_id": "PTR_SALARY_003",
+    "task": "salary",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "107866",
+      "120841"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_003_KV_multi_missing_ADJACENT": {
+    "id": "PTR_SALARY_003_KV_multi_missing_ADJACENT",
+    "base_id": "PTR_SALARY_003",
+    "task": "salary",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "107866",
+      "120841"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_003_PROSE_multi_present_MIDDLE": {
+    "id": "PTR_SALARY_003_PROSE_multi_present_MIDDLE",
+    "base_id": "PTR_SALARY_003",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "120841",
+    "non_target_values": [
+      "107866",
+      "120841"
+    ],
+    "support_spans": [
+      {
+        "start": 159,
+        "end": 165
+      }
+    ]
+  },
+  "PTR_SALARY_003_PROSE_multi_present_ADJACENT": {
+    "id": "PTR_SALARY_003_PROSE_multi_present_ADJACENT",
+    "base_id": "PTR_SALARY_003",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "120841",
+    "non_target_values": [
+      "107866",
+      "120841"
+    ],
+    "support_spans": [
+      {
+        "start": 159,
+        "end": 165
+      }
+    ]
+  },
+  "PTR_SALARY_003_PROSE_multi_missing_MIDDLE": {
+    "id": "PTR_SALARY_003_PROSE_multi_missing_MIDDLE",
+    "base_id": "PTR_SALARY_003",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "107866",
+      "120841"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_003_PROSE_multi_missing_ADJACENT": {
+    "id": "PTR_SALARY_003_PROSE_multi_missing_ADJACENT",
+    "base_id": "PTR_SALARY_003",
+    "task": "salary",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "107866",
+      "120841"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_003_BULLET_multi_present_MIDDLE": {
+    "id": "PTR_SALARY_003_BULLET_multi_present_MIDDLE",
+    "base_id": "PTR_SALARY_003",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "120841",
+    "non_target_values": [
+      "107866",
+      "120841"
+    ],
+    "support_spans": [
+      {
+        "start": 155,
+        "end": 161
+      }
+    ]
+  },
+  "PTR_SALARY_003_BULLET_multi_present_ADJACENT": {
+    "id": "PTR_SALARY_003_BULLET_multi_present_ADJACENT",
+    "base_id": "PTR_SALARY_003",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "120841",
+    "non_target_values": [
+      "107866",
+      "120841"
+    ],
+    "support_spans": [
+      {
+        "start": 155,
+        "end": 161
+      }
+    ]
+  },
+  "PTR_SALARY_003_BULLET_multi_missing_MIDDLE": {
+    "id": "PTR_SALARY_003_BULLET_multi_missing_MIDDLE",
+    "base_id": "PTR_SALARY_003",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "107866",
+      "120841"
+    ],
+    "support_spans": []
+  },
+  "PTR_SALARY_003_BULLET_multi_missing_ADJACENT": {
+    "id": "PTR_SALARY_003_BULLET_multi_missing_ADJACENT",
+    "base_id": "PTR_SALARY_003",
+    "task": "salary",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "107866",
+      "120841"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_000_KV_multi_present_MIDDLE": {
+    "id": "PTR_YEAR_000_KV_multi_present_MIDDLE",
+    "base_id": "PTR_YEAR_000",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "2000",
+    "non_target_values": [
+      "2000",
+      "1982"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "PTR_YEAR_000_KV_multi_present_ADJACENT": {
+    "id": "PTR_YEAR_000_KV_multi_present_ADJACENT",
+    "base_id": "PTR_YEAR_000",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "2000",
+    "non_target_values": [
+      "2000",
+      "1982"
+    ],
+    "support_spans": [
+      {
+        "start": 122,
+        "end": 126
+      }
+    ]
+  },
+  "PTR_YEAR_000_KV_multi_missing_MIDDLE": {
+    "id": "PTR_YEAR_000_KV_multi_missing_MIDDLE",
+    "base_id": "PTR_YEAR_000",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "2000",
+      "1982"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_000_KV_multi_missing_ADJACENT": {
+    "id": "PTR_YEAR_000_KV_multi_missing_ADJACENT",
+    "base_id": "PTR_YEAR_000",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "2000",
+      "1982"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_000_PROSE_multi_present_MIDDLE": {
+    "id": "PTR_YEAR_000_PROSE_multi_present_MIDDLE",
+    "base_id": "PTR_YEAR_000",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "2000",
+    "non_target_values": [
+      "2000",
+      "1982"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "PTR_YEAR_000_PROSE_multi_present_ADJACENT": {
+    "id": "PTR_YEAR_000_PROSE_multi_present_ADJACENT",
+    "base_id": "PTR_YEAR_000",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "2000",
+    "non_target_values": [
+      "2000",
+      "1982"
+    ],
+    "support_spans": [
+      {
+        "start": 132,
+        "end": 136
+      }
+    ]
+  },
+  "PTR_YEAR_000_PROSE_multi_missing_MIDDLE": {
+    "id": "PTR_YEAR_000_PROSE_multi_missing_MIDDLE",
+    "base_id": "PTR_YEAR_000",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "2000",
+      "1982"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_000_PROSE_multi_missing_ADJACENT": {
+    "id": "PTR_YEAR_000_PROSE_multi_missing_ADJACENT",
+    "base_id": "PTR_YEAR_000",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "2000",
+      "1982"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_000_BULLET_multi_present_MIDDLE": {
+    "id": "PTR_YEAR_000_BULLET_multi_present_MIDDLE",
+    "base_id": "PTR_YEAR_000",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "2000",
+    "non_target_values": [
+      "2000",
+      "1982"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "PTR_YEAR_000_BULLET_multi_present_ADJACENT": {
+    "id": "PTR_YEAR_000_BULLET_multi_present_ADJACENT",
+    "base_id": "PTR_YEAR_000",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "2000",
+    "non_target_values": [
+      "2000",
+      "1982"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "PTR_YEAR_000_BULLET_multi_missing_MIDDLE": {
+    "id": "PTR_YEAR_000_BULLET_multi_missing_MIDDLE",
+    "base_id": "PTR_YEAR_000",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "2000",
+      "1982"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_000_BULLET_multi_missing_ADJACENT": {
+    "id": "PTR_YEAR_000_BULLET_multi_missing_ADJACENT",
+    "base_id": "PTR_YEAR_000",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "2000",
+      "1982"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_001_KV_multi_present_MIDDLE": {
+    "id": "PTR_YEAR_001_KV_multi_present_MIDDLE",
+    "base_id": "PTR_YEAR_001",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "1918",
+    "non_target_values": [
+      "1942",
+      "1918"
+    ],
+    "support_spans": [
+      {
+        "start": 148,
+        "end": 152
+      }
+    ]
+  },
+  "PTR_YEAR_001_KV_multi_present_ADJACENT": {
+    "id": "PTR_YEAR_001_KV_multi_present_ADJACENT",
+    "base_id": "PTR_YEAR_001",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "1918",
+    "non_target_values": [
+      "1942",
+      "1918"
+    ],
+    "support_spans": [
+      {
+        "start": 148,
+        "end": 152
+      }
+    ]
+  },
+  "PTR_YEAR_001_KV_multi_missing_MIDDLE": {
+    "id": "PTR_YEAR_001_KV_multi_missing_MIDDLE",
+    "base_id": "PTR_YEAR_001",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "1942",
+      "1918"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_001_KV_multi_missing_ADJACENT": {
+    "id": "PTR_YEAR_001_KV_multi_missing_ADJACENT",
+    "base_id": "PTR_YEAR_001",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "1942",
+      "1918"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_001_PROSE_multi_present_MIDDLE": {
+    "id": "PTR_YEAR_001_PROSE_multi_present_MIDDLE",
+    "base_id": "PTR_YEAR_001",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "1918",
+    "non_target_values": [
+      "1942",
+      "1918"
+    ],
+    "support_spans": [
+      {
+        "start": 165,
+        "end": 169
+      }
+    ]
+  },
+  "PTR_YEAR_001_PROSE_multi_present_ADJACENT": {
+    "id": "PTR_YEAR_001_PROSE_multi_present_ADJACENT",
+    "base_id": "PTR_YEAR_001",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "1918",
+    "non_target_values": [
+      "1942",
+      "1918"
+    ],
+    "support_spans": [
+      {
+        "start": 165,
+        "end": 169
+      }
+    ]
+  },
+  "PTR_YEAR_001_PROSE_multi_missing_MIDDLE": {
+    "id": "PTR_YEAR_001_PROSE_multi_missing_MIDDLE",
+    "base_id": "PTR_YEAR_001",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "1942",
+      "1918"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_001_PROSE_multi_missing_ADJACENT": {
+    "id": "PTR_YEAR_001_PROSE_multi_missing_ADJACENT",
+    "base_id": "PTR_YEAR_001",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "1942",
+      "1918"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_001_BULLET_multi_present_MIDDLE": {
+    "id": "PTR_YEAR_001_BULLET_multi_present_MIDDLE",
+    "base_id": "PTR_YEAR_001",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "1918",
+    "non_target_values": [
+      "1942",
+      "1918"
+    ],
+    "support_spans": [
+      {
+        "start": 161,
+        "end": 165
+      }
+    ]
+  },
+  "PTR_YEAR_001_BULLET_multi_present_ADJACENT": {
+    "id": "PTR_YEAR_001_BULLET_multi_present_ADJACENT",
+    "base_id": "PTR_YEAR_001",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "1918",
+    "non_target_values": [
+      "1942",
+      "1918"
+    ],
+    "support_spans": [
+      {
+        "start": 161,
+        "end": 165
+      }
+    ]
+  },
+  "PTR_YEAR_001_BULLET_multi_missing_MIDDLE": {
+    "id": "PTR_YEAR_001_BULLET_multi_missing_MIDDLE",
+    "base_id": "PTR_YEAR_001",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "1942",
+      "1918"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_001_BULLET_multi_missing_ADJACENT": {
+    "id": "PTR_YEAR_001_BULLET_multi_missing_ADJACENT",
+    "base_id": "PTR_YEAR_001",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "1942",
+      "1918"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_002_KV_multi_present_MIDDLE": {
+    "id": "PTR_YEAR_002_KV_multi_present_MIDDLE",
+    "base_id": "PTR_YEAR_002",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "2021",
+    "non_target_values": [
+      "2021",
+      "1947"
+    ],
+    "support_spans": [
+      {
+        "start": 123,
+        "end": 127
+      }
+    ]
+  },
+  "PTR_YEAR_002_KV_multi_present_ADJACENT": {
+    "id": "PTR_YEAR_002_KV_multi_present_ADJACENT",
+    "base_id": "PTR_YEAR_002",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "2021",
+    "non_target_values": [
+      "2021",
+      "1947"
+    ],
+    "support_spans": [
+      {
+        "start": 123,
+        "end": 127
+      }
+    ]
+  },
+  "PTR_YEAR_002_KV_multi_missing_MIDDLE": {
+    "id": "PTR_YEAR_002_KV_multi_missing_MIDDLE",
+    "base_id": "PTR_YEAR_002",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "2021",
+      "1947"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_002_KV_multi_missing_ADJACENT": {
+    "id": "PTR_YEAR_002_KV_multi_missing_ADJACENT",
+    "base_id": "PTR_YEAR_002",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "2021",
+      "1947"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_002_PROSE_multi_present_MIDDLE": {
+    "id": "PTR_YEAR_002_PROSE_multi_present_MIDDLE",
+    "base_id": "PTR_YEAR_002",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "2021",
+    "non_target_values": [
+      "2021",
+      "1947"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "PTR_YEAR_002_PROSE_multi_present_ADJACENT": {
+    "id": "PTR_YEAR_002_PROSE_multi_present_ADJACENT",
+    "base_id": "PTR_YEAR_002",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "2021",
+    "non_target_values": [
+      "2021",
+      "1947"
+    ],
+    "support_spans": [
+      {
+        "start": 133,
+        "end": 137
+      }
+    ]
+  },
+  "PTR_YEAR_002_PROSE_multi_missing_MIDDLE": {
+    "id": "PTR_YEAR_002_PROSE_multi_missing_MIDDLE",
+    "base_id": "PTR_YEAR_002",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "2021",
+      "1947"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_002_PROSE_multi_missing_ADJACENT": {
+    "id": "PTR_YEAR_002_PROSE_multi_missing_ADJACENT",
+    "base_id": "PTR_YEAR_002",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "2021",
+      "1947"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_002_BULLET_multi_present_MIDDLE": {
+    "id": "PTR_YEAR_002_BULLET_multi_present_MIDDLE",
+    "base_id": "PTR_YEAR_002",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "2021",
+    "non_target_values": [
+      "2021",
+      "1947"
+    ],
+    "support_spans": [
+      {
+        "start": 134,
+        "end": 138
+      }
+    ]
+  },
+  "PTR_YEAR_002_BULLET_multi_present_ADJACENT": {
+    "id": "PTR_YEAR_002_BULLET_multi_present_ADJACENT",
+    "base_id": "PTR_YEAR_002",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "2021",
+    "non_target_values": [
+      "2021",
+      "1947"
+    ],
+    "support_spans": [
+      {
+        "start": 134,
+        "end": 138
+      }
+    ]
+  },
+  "PTR_YEAR_002_BULLET_multi_missing_MIDDLE": {
+    "id": "PTR_YEAR_002_BULLET_multi_missing_MIDDLE",
+    "base_id": "PTR_YEAR_002",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "2021",
+      "1947"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_002_BULLET_multi_missing_ADJACENT": {
+    "id": "PTR_YEAR_002_BULLET_multi_missing_ADJACENT",
+    "base_id": "PTR_YEAR_002",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "2021",
+      "1947"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_003_KV_multi_present_MIDDLE": {
+    "id": "PTR_YEAR_003_KV_multi_present_MIDDLE",
+    "base_id": "PTR_YEAR_003",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "1958",
+    "non_target_values": [
+      "1935",
+      "1958"
+    ],
+    "support_spans": [
+      {
+        "start": 148,
+        "end": 152
+      }
+    ]
+  },
+  "PTR_YEAR_003_KV_multi_present_ADJACENT": {
+    "id": "PTR_YEAR_003_KV_multi_present_ADJACENT",
+    "base_id": "PTR_YEAR_003",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "1958",
+    "non_target_values": [
+      "1935",
+      "1958"
+    ],
+    "support_spans": [
+      {
+        "start": 148,
+        "end": 152
+      }
+    ]
+  },
+  "PTR_YEAR_003_KV_multi_missing_MIDDLE": {
+    "id": "PTR_YEAR_003_KV_multi_missing_MIDDLE",
+    "base_id": "PTR_YEAR_003",
+    "task": "year",
+    "template": "KV",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "1935",
+      "1958"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_003_KV_multi_missing_ADJACENT": {
+    "id": "PTR_YEAR_003_KV_multi_missing_ADJACENT",
+    "base_id": "PTR_YEAR_003",
+    "task": "year",
+    "template": "KV",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "1935",
+      "1958"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_003_PROSE_multi_present_MIDDLE": {
+    "id": "PTR_YEAR_003_PROSE_multi_present_MIDDLE",
+    "base_id": "PTR_YEAR_003",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "1958",
+    "non_target_values": [
+      "1935",
+      "1958"
+    ],
+    "support_spans": [
+      {
+        "start": 165,
+        "end": 169
+      }
+    ]
+  },
+  "PTR_YEAR_003_PROSE_multi_present_ADJACENT": {
+    "id": "PTR_YEAR_003_PROSE_multi_present_ADJACENT",
+    "base_id": "PTR_YEAR_003",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "1958",
+    "non_target_values": [
+      "1935",
+      "1958"
+    ],
+    "support_spans": [
+      {
+        "start": 165,
+        "end": 169
+      }
+    ]
+  },
+  "PTR_YEAR_003_PROSE_multi_missing_MIDDLE": {
+    "id": "PTR_YEAR_003_PROSE_multi_missing_MIDDLE",
+    "base_id": "PTR_YEAR_003",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "1935",
+      "1958"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_003_PROSE_multi_missing_ADJACENT": {
+    "id": "PTR_YEAR_003_PROSE_multi_missing_ADJACENT",
+    "base_id": "PTR_YEAR_003",
+    "task": "year",
+    "template": "PROSE",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "1935",
+      "1958"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_003_BULLET_multi_present_MIDDLE": {
+    "id": "PTR_YEAR_003_BULLET_multi_present_MIDDLE",
+    "base_id": "PTR_YEAR_003",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_present",
+    "value": "1958",
+    "non_target_values": [
+      "1935",
+      "1958"
+    ],
+    "support_spans": [
+      {
+        "start": 161,
+        "end": 165
+      }
+    ]
+  },
+  "PTR_YEAR_003_BULLET_multi_present_ADJACENT": {
+    "id": "PTR_YEAR_003_BULLET_multi_present_ADJACENT",
+    "base_id": "PTR_YEAR_003",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_present",
+    "value": "1958",
+    "non_target_values": [
+      "1935",
+      "1958"
+    ],
+    "support_spans": [
+      {
+        "start": 161,
+        "end": 165
+      }
+    ]
+  },
+  "PTR_YEAR_003_BULLET_multi_missing_MIDDLE": {
+    "id": "PTR_YEAR_003_BULLET_multi_missing_MIDDLE",
+    "base_id": "PTR_YEAR_003",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "MIDDLE",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "1935",
+      "1958"
+    ],
+    "support_spans": []
+  },
+  "PTR_YEAR_003_BULLET_multi_missing_ADJACENT": {
+    "id": "PTR_YEAR_003_BULLET_multi_missing_ADJACENT",
+    "base_id": "PTR_YEAR_003",
+    "task": "year",
+    "template": "BULLET",
+    "placement": "ADJACENT",
+    "group": "multi_missing",
+    "value": null,
+    "non_target_values": [
+      "1935",
+      "1958"
+    ],
+    "support_spans": []
+  }
+}

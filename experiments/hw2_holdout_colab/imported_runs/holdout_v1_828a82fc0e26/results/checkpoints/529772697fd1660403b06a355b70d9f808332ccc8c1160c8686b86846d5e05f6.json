@@ -1,0 +1,42 @@
+{
+  "key": "529772697fd1660403b06a355b70d9f808332ccc8c1160c8686b86846d5e05f6",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Mernellum Lumxeltor Institute\n\nTarget document:\nOrganization: Mernellum Lumxeltor Institute\nActivity: acoustic research\nRegion: northern district\nRecorded founding year: 1958\n\nQuestion: What is the recorded founding year for Mernellum Lumxeltor Institute?\nCandidate value: 1958"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    50,
+    61140,
+    151645
+  ],
+  "raw_output": "SUPPORTED",
+  "input_tokens": 154,
+  "output_tokens": 3,
+  "generation_seconds": 0.09857554699920001,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:44:01.679527+00:00",
+  "system_error": null,
+  "record_hash": "b0141338d2b6aea6507b58cbb44c3fa6c9343218cddfb968f29cde3bd3debc1d"
+}

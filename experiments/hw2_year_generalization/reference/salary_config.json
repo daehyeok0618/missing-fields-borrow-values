@@ -1,0 +1,45 @@
+{
+  "run_id": "run_20261031_hw1_main_v2",
+  "model": {
+    "id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "cache_dir": "/home/cv/SSD0/jang/nlp/.cache/huggingface/hub",
+    "dtype": "float16",
+    "attention": "sdpa",
+    "batch_size": 16
+  },
+  "generation": {
+    "do_sample": false,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "repetition_penalty": 1.1,
+    "max_new_tokens": 96,
+    "use_cache": true
+  },
+  "data": {
+    "dev_bases": 12,
+    "main_bases": 96,
+    "dev_seed": 2026103101,
+    "main_seed": 2026103102,
+    "templates": ["KV", "PROSE", "BULLET"],
+    "orders": ["AB", "BA"],
+    "placements": ["MIDDLE", "ADJACENT"],
+    "target_tokens": 2000,
+    "length_tolerance": 64,
+    "middle_fraction_bounds": [0.45, 0.55],
+    "calls_per_base": 66,
+    "dev_calls": 792,
+    "main_calls": 6336
+  },
+  "analysis": {
+    "bootstrap_seed": 2026103103,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_unit": "base_id; all templates and conditions kept together",
+    "ci": "95% percentile, paired, pointwise",
+    "h1": "delta_attr CI lower bound > 0",
+    "h2": "delta_C AND delta_type CI lower bounds > 0",
+    "denominator": "all planned requests; invalid selection indicators are zero",
+    "primary_scope": "MISSING S1/S2 only, balanced templates/orders/placements"
+  },
+  "system_instruction": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested salary for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated amount in USD as digits without currency symbols or separators. Do not infer, estimate, or invent a missing amount. Return only the JSON object, without explanation or Markdown."
+}

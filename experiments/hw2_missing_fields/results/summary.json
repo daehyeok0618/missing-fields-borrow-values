@@ -1,0 +1,335 @@
+{
+  "context_absent_count_primary": 7,
+  "context_absent_sparse_under_20": true,
+  "controls": {
+    "N0": {
+      "ci95_high": 0.9956597222222223,
+      "ci95_low": 0.9817708333333334,
+      "correct": 1140,
+      "estimate": 0.9895833333333334,
+      "n": 1152
+    },
+    "PRESENT": {
+      "ci95_high": 0.9956597222222222,
+      "ci95_low": 0.9774305555555557,
+      "correct": 2276,
+      "estimate": 0.9878472222222223,
+      "n": 2304
+    },
+    "T0": {
+      "ci95_high": 1.0,
+      "ci95_low": 1.0,
+      "correct": 288,
+      "estimate": 1.0,
+      "n": 288
+    },
+    "T1": {
+      "ci95_high": 1.0,
+      "ci95_low": 1.0,
+      "correct": 288,
+      "estimate": 1.0,
+      "n": 288
+    }
+  },
+  "h1_supported": true,
+  "h2_supported": true,
+  "invalid_types": {
+    "malformed_json": 1
+  },
+  "n_base": 96,
+  "n_requests": 6336,
+  "new_model_inference": true,
+  "parser_replay_mismatches": 0,
+  "primary": {
+    "delta_C": {
+      "bootstrap_repetitions": 2000,
+      "ci95_high": 0.1875,
+      "ci95_low": 0.13368055555555555,
+      "estimate": 0.15972222222222224,
+      "metric": "delta_C",
+      "n_base": 96,
+      "role": "PRIMARY",
+      "subset": "ALL"
+    },
+    "delta_U": {
+      "bootstrap_repetitions": 2000,
+      "ci95_high": 0.00954861111111111,
+      "ci95_low": 0.0,
+      "estimate": 0.004340277777777777,
+      "metric": "delta_U",
+      "n_base": 96,
+      "role": "SECONDARY",
+      "subset": "ALL"
+    },
+    "delta_attr": {
+      "bootstrap_repetitions": 2000,
+      "ci95_high": 0.19227430555555558,
+      "ci95_low": 0.14366319444444445,
+      "estimate": 0.1675347222222222,
+      "metric": "delta_attr",
+      "n_base": 96,
+      "role": "PRIMARY",
+      "subset": "ALL"
+    },
+    "delta_type": {
+      "bootstrap_repetitions": 2000,
+      "ci95_high": 0.18489583333333334,
+      "ci95_low": 0.12760416666666666,
+      "estimate": 0.15538194444444445,
+      "metric": "delta_type",
+      "n_base": 96,
+      "role": "PRIMARY",
+      "subset": "ALL"
+    },
+    "forward_switch": {
+      "bootstrap_repetitions": 2000,
+      "ci95_high": 0.01736111111111111,
+      "ci95_low": 0.003472222222222222,
+      "estimate": 0.00954861111111111,
+      "metric": "forward_switch",
+      "n_base": 96,
+      "role": "SECONDARY",
+      "subset": "ALL"
+    },
+    "reverse_switch": {
+      "bootstrap_repetitions": 2000,
+      "ci95_high": 0.0,
+      "ci95_low": 0.0,
+      "estimate": 0.0,
+      "metric": "reverse_switch",
+      "n_base": 96,
+      "role": "SECONDARY",
+      "subset": "ALL"
+    }
+  },
+  "primary_requests": 2304,
+  "protocol_unchanged": true,
+  "runtime": {
+    "completed": 6336,
+    "cuda_build": "13.0",
+    "device": "cuda:0",
+    "finished_utc": "2026-11-13T04:41:41.462312+00:00",
+    "generation_seconds": 2653.5820439959975,
+    "generation_seconds_this_process": 2653.5820439959975,
+    "gpu": "Tesla T4",
+    "gpu_total_bytes": 15637086208,
+    "input_tokens": 12707194,
+    "model_load_seconds": 9.111656638999989,
+    "new_requests": 6336,
+    "output_tokens": 58401,
+    "parse_errors": {
+      "malformed_json": 1
+    },
+    "peak_allocated_bytes": 6232746496,
+    "peak_reserved_bytes": 10305404928,
+    "process_seconds": 2713.591399457,
+    "python": "3.13.16",
+    "requests": 6336,
+    "setup_hash": "46349299e98a770fb87b41df867b65dc394d2ddecba247210dc5a8f83e6d13de",
+    "split": "main",
+    "started_utc": "2026-11-13T03:56:27.870926+00:00",
+    "status": "COMPLETE",
+    "strict_valid": 6335,
+    "system_errors": 0,
+    "torch": "2.14.1+cu130",
+    "transformers": "4.57.6",
+    "truncated": 0
+  },
+  "status": "COMPLETE",
+  "strict_valid": 6335,
+  "truncated": 0,
+  "zero_event_notes": [
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "INVALID",
+      "family": "MISSING",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "MIDDLE",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "INVALID",
+      "family": "MISSING",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "ADJACENT",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "DONOR_MATCH",
+      "family": "N0",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "MIDDLE",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "CONTEXT_ABSENT",
+      "family": "N0",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "MIDDLE",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "INVALID",
+      "family": "N0",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "MIDDLE",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "CONTEXT_ABSENT",
+      "family": "N0",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "ADJACENT",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "INVALID",
+      "family": "N0",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "ADJACENT",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "ABSTAIN",
+      "family": "PRESENT",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "MIDDLE",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "DONOR_MATCH",
+      "family": "PRESENT",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "MIDDLE",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "CONTEXT_ABSENT",
+      "family": "PRESENT",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "MIDDLE",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "ABSTAIN",
+      "family": "PRESENT",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "ADJACENT",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "DONOR_MATCH",
+      "family": "PRESENT",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "ADJACENT",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "OTHER_IN_CONTEXT",
+      "family": "PRESENT",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "ADJACENT",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "CONTEXT_ABSENT",
+      "family": "PRESENT",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "ADJACENT",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "INVALID",
+      "family": "PRESENT",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": "ADJACENT",
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "DONOR_MATCH",
+      "family": "T0",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": null,
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "OTHER_IN_CONTEXT",
+      "family": "T0",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": null,
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "CONTEXT_ABSENT",
+      "family": "T0",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": null,
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "INVALID",
+      "family": "T0",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": null,
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "ABSTAIN",
+      "family": "T1",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": null,
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "DONOR_MATCH",
+      "family": "T1",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": null,
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "OTHER_IN_CONTEXT",
+      "family": "T1",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": null,
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "CONTEXT_ABSENT",
+      "family": "T1",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": null,
+      "zero_event_bases": 96
+    },
+    {
+      "base_any_event_one_sided_95_upper": 0.03072367683353283,
+      "category": "INVALID",
+      "family": "T1",
+      "note": "Upper bound is for at least one event in a base cluster, not per-request risk.",
+      "placement": null,
+      "zero_event_bases": 96
+    }
+  ]
+}

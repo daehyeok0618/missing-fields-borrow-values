@@ -1,0 +1,42 @@
+{
+  "key": "bf5c86118308e547efc85ce8a5c62f66aa088b4c91a9094e051516305bcd386e",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Torlumxel Merkellum Institute\n\nTarget document:\nOrganization: Torlumxel Merkellum Institute\nActivity: acoustic research\nRegion: northern district\nRecorded annual pay: $129256\n\nQuestion: What amount is stated as annual pay for Torlumxel Merkellum Institute?\nCandidate value: 129256"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    50,
+    61140,
+    151645
+  ],
+  "raw_output": "SUPPORTED",
+  "input_tokens": 162,
+  "output_tokens": 3,
+  "generation_seconds": 0.12315667700022459,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:27:10.302805+00:00",
+  "system_error": null,
+  "record_hash": "3e365214dffdcea5a81caaab55eb8f8b2e224a799f1929d2b0f87f971c9bc204"
+}

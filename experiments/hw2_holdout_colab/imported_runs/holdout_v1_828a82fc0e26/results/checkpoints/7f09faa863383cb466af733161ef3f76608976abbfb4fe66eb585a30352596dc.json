@@ -1,0 +1,40 @@
+{
+  "key": "7f09faa863383cb466af733161ef3f76608976abbfb4fe66eb585a30352596dc",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested salary for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated amount in USD as digits without currency symbols or separators. Do not infer, estimate, or invent a missing amount. Return only the JSON object, without explanation or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Documents and background:\n\n<document id=\"Belzorgil Gilrinnel Institute\">\nOrganization: Belzorgil Gilrinnel Institute\nActivity: acoustic research\nRegion: northern district\nRecorded salary: $183532\n</document>\n\nQuestion: What is the recorded salary for Belzorgil Gilrinnel Institute?"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 96,
+  "generated_token_ids": [
+    4913,
+    957,
+    788,
+    5201,
+    16,
+    23,
+    18,
+    20,
+    18,
+    17,
+    9207,
+    151645
+  ],
+  "raw_output": "{\"value\": \"$183532\"}",
+  "input_tokens": 203,
+  "output_tokens": 12,
+  "generation_seconds": 0.38160059599977103,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:35:25.423199+00:00",
+  "system_error": null,
+  "record_hash": "14f1995262a3f13f9de8203072012a4bffe39bf382844e611b81fe26c0d10c9a"
+}

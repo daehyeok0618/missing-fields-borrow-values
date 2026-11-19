@@ -1,0 +1,42 @@
+{
+  "key": "5595474b20339737b399a3ab802f8fa992fd766962e683eb8d3db5519db2eda6",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Belzorrin Xelnelkel Institute\n\nTarget document:\nOrganization memo: Belzorrin Xelnelkel Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded budget: $171053\n- Recorded revenue: $181308\n\nQuestion: What is the recorded salary for Belzorrin Xelnelkel Institute?\nCandidate value: 171053"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    88673,
+    61140,
+    151645
+  ],
+  "raw_output": "UNSUPPORTED",
+  "input_tokens": 171,
+  "output_tokens": 3,
+  "generation_seconds": 0.09925188499983051,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:29:20.350527+00:00",
+  "system_error": null,
+  "record_hash": "786a94541504965a6d00d8e5f410d1054c57d1db8710a3252e2716d3ae95539f"
+}

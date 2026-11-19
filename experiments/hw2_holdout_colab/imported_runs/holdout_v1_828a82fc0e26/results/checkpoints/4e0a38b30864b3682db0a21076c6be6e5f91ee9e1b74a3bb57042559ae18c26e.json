@@ -1,0 +1,42 @@
+{
+  "key": "4e0a38b30864b3682db0a21076c6be6e5f91ee9e1b74a3bb57042559ae18c26e",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "standard_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Belzorgil Gilrinnel Institute\n\nTarget document:\nBelzorgil Gilrinnel Institute specializes in acoustic research and operates in the northern district. Its recorded operating budget is $172784. Its recorded annual remuneration is $146878.\n\nQuestion: What amount is stated as annual pay for Belzorgil Gilrinnel Institute?\nCandidate value: 146878"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    50,
+    61140,
+    151645
+  ],
+  "raw_output": "SUPPORTED",
+  "input_tokens": 172,
+  "output_tokens": 3,
+  "generation_seconds": 0.09965355600070325,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:36:03.587866+00:00",
+  "system_error": null,
+  "record_hash": "b42bda712a068d163ae89d4ec5ec4ce3a1e14efea31fc6a1f1b2ac017dec62d7"
+}

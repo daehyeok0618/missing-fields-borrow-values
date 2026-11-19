@@ -1,0 +1,54 @@
+{
+  "before_any_development_or_main_model_output": true,
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 96,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "repetition_penalty": 1.1,
+    "use_cache": true
+  },
+  "hashes": {
+    "audit/protocol_v1_before_currency_format_fix.zip": "ddb191a4a07ba213ed2699ca226676ba87ffbdfe61e9da3cc463d4721f1052d1",
+    "config.json": "8870bfed5439bfd0eab47da871828baccb0d705eef47269c6cc4a310291f7cc9",
+    "data/backgrounds.jsonl": "a1133f17de00150bb3fa3c73336bd6a1cfa5c4cc8bea39eb0a62578de358444f",
+    "data/data_audit.json": "69b86931c5ce8af95523a0ed357b46606a7d01ce7fe9c9717a4e542958c1cd3c",
+    "data/dev_bases.jsonl": "d022ddf82016faa97066623773ecf734554c8d84d1111c753cd6bc33a2242307",
+    "data/dev_requests.jsonl": "5752258b1aef3a510d41947d94ce703bd92396deb8174bc89d3f4145886ea538",
+    "data/main_bases.jsonl": "e9b636fa4ec666c6377cc1bca53ddeec6a8e866d146429899501dcc3fc0fe278",
+    "data/main_requests.jsonl": "ccaf3e10d27da63d16302b244f6e9c721d6270ee22a28b88c84a60bbad640966",
+    "data/static_checks.json": "b6fb2bf429af210dd6186ea6966d69716d998972c910b9ade11d3c46a1f7dd52",
+    "experiment_spec.md": "714c41a51ace3d97060bb5a63d2605a155a7cf844440f9248b1b543a67419abd",
+    "requirements_frozen.txt": "b5257ddd5482206274949a6d4f202b39bc14760cd7ca09b3996022bc5d11e740",
+    "scripts/__init__.py": "1c2a46407a9ed879e8631d10da669c18de755fa1b4b317cbd30c7faff82649c6",
+    "scripts/analyze.py": "34989edd3e44583eadfebe40c97b54053b6a11c7c643cc3874a19a37175180e8",
+    "scripts/check_and_lock.py": "38e7fba3013ec0390184ec311e14d4a12d7dbb0534017d91365caebfc91fb9d9",
+    "scripts/common.py": "4bb45fd6e41bce333c51a061f60547152d869fee76fd6d585474e10db5d959d0",
+    "scripts/infer.py": "44e60865ea8240971e6f892c0901640e2a6fa0bbcaef41ab6a06d33c1d2f1584",
+    "scripts/prepare.py": "342c3e3c2e3753a2f68c1f714f467da375717e03902d1b6c55e8d82389bbfa53",
+    "source/alice_gutenberg_11.txt": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+    "source/design_references.json": "500ac2aaae99304cc736d1f9545eda47174188f924803ff6efe95f322ebd56a5",
+    "source/filtered_paragraphs.jsonl": "eaff3044a52fc59e9699f30dece28eea81dee60c35b6cb859e98a90ed20337ba",
+    "source/source_manifest.json": "97650d1c4d93bf448fbdf0a0cc333db52cdd1ccadfbd07dfd57294b41585baee"
+  },
+  "hypotheses": {
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 2026103103,
+    "bootstrap_unit": "base_id; all templates and conditions kept together",
+    "ci": "95% percentile, paired, pointwise",
+    "denominator": "all planned requests; invalid selection indicators are zero",
+    "h1": "delta_attr CI lower bound > 0",
+    "h2": "delta_C AND delta_type CI lower bounds > 0",
+    "primary_scope": "MISSING S1/S2 only, balanced templates/orders/placements"
+  },
+  "locked_utc": "2026-10-31T05:03:31.051569+00:00",
+  "model": {
+    "attention": "sdpa",
+    "batch_size": 16,
+    "cache_dir": "/home/cv/SSD0/jang/nlp/.cache/huggingface/hub",
+    "dtype": "float16",
+    "id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+  },
+  "status": "LOCKED"
+}

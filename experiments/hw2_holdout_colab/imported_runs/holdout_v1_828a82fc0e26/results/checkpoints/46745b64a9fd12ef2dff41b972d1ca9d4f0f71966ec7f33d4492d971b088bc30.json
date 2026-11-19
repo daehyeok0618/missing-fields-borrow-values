@@ -1,0 +1,42 @@
+{
+  "key": "46745b64a9fd12ef2dff41b972d1ca9d4f0f71966ec7f33d4492d971b088bc30",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Kelgilvel Gilkelmer Institute\n\nTarget document:\nOrganization: Kelgilvel Gilkelmer Institute\nActivity: acoustic research\nRegion: northern district\n\nQuestion: What is the recorded founding year for Kelgilvel Gilkelmer Institute?\nCandidate value: 1975"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    88673,
+    61140,
+    151645
+  ],
+  "raw_output": "UNSUPPORTED",
+  "input_tokens": 137,
+  "output_tokens": 3,
+  "generation_seconds": 0.10351402899868845,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:26:58.415111+00:00",
+  "system_error": null,
+  "record_hash": "ff572d1a31ce1a64ccd57074ffdea272cf826b8fc61ae8a8f15f2563d096d97d"
+}

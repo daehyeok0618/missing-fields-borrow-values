@@ -1,0 +1,40 @@
+{
+  "key": "488f5bc23837eb87a05b02aa0b9b9a67c34ad03ae526da6a6424a44684ef5fcf",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested salary for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated amount in USD as digits without currency symbols or separators. Do not infer, estimate, or invent a missing amount. Return only the JSON object, without explanation or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Documents and background:\n\n<document id=\"Torlumxel Merkellum Institute\">\nOrganization: Torlumxel Merkellum Institute\nActivity: acoustic research\nRegion: northern district\nRecorded salary: $129256\n</document>\n\nQuestion: What is the recorded salary for Torlumxel Merkellum Institute?"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 96,
+  "generated_token_ids": [
+    4913,
+    957,
+    788,
+    5201,
+    16,
+    17,
+    24,
+    17,
+    20,
+    21,
+    9207,
+    151645
+  ],
+  "raw_output": "{\"value\": \"$129256\"}",
+  "input_tokens": 206,
+  "output_tokens": 12,
+  "generation_seconds": 0.3807578550004109,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:27:07.491763+00:00",
+  "system_error": null,
+  "record_hash": "8105c25953ad980f85d844727d2948112321035ac922fcf224d0ebf65ae8ad36"
+}

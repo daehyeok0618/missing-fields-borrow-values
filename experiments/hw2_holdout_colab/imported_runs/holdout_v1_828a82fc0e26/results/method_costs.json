@@ -1,0 +1,944 @@
+{
+  "_current_physical_total": {
+    "calls": 2794,
+    "parent_reused_calls": 0,
+    "current_calls": 2794,
+    "input_tokens": 2600753,
+    "output_tokens": 22056,
+    "generation_seconds": 1144.6252426539631,
+    "truncated": 0
+  },
+  "development": {
+    "standard": {
+      "n_inputs": 480,
+      "unique": {
+        "calls": 480,
+        "parent_reused_calls": 480,
+        "current_calls": 0,
+        "input_tokens": 960254,
+        "output_tokens": 5511,
+        "generation_seconds": 356.53014975999736,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 480,
+        "parent_reused_calls": 480,
+        "current_calls": 0,
+        "input_tokens": 960254,
+        "output_tokens": 5511,
+        "generation_seconds": 356.53014975999736,
+        "truncated": 0
+      }
+    },
+    "target_only": {
+      "n_inputs": 480,
+      "unique": {
+        "calls": 240,
+        "parent_reused_calls": 240,
+        "current_calls": 0,
+        "input_tokens": 47620,
+        "output_tokens": 2388,
+        "generation_seconds": 79.01320001299791,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 480,
+        "parent_reused_calls": 480,
+        "current_calls": 0,
+        "input_tokens": 95240,
+        "output_tokens": 4776,
+        "generation_seconds": 158.02640002599583,
+        "truncated": 0
+      }
+    },
+    "target_only_presence": {
+      "n_inputs": 480,
+      "unique": {
+        "calls": 240,
+        "parent_reused_calls": 240,
+        "current_calls": 0,
+        "input_tokens": 47620,
+        "output_tokens": 2388,
+        "generation_seconds": 79.01320001299791,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 480,
+        "parent_reused_calls": 480,
+        "current_calls": 0,
+        "input_tokens": 95240,
+        "output_tokens": 4776,
+        "generation_seconds": 158.02640002599583,
+        "truncated": 0
+      }
+    },
+    "id_selection": {
+      "n_inputs": 480,
+      "unique": {
+        "calls": 168,
+        "parent_reused_calls": 168,
+        "current_calls": 0,
+        "input_tokens": 29014,
+        "output_tokens": 610,
+        "generation_seconds": 20.65468329099849,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 336,
+        "parent_reused_calls": 336,
+        "current_calls": 0,
+        "input_tokens": 58028,
+        "output_tokens": 1220,
+        "generation_seconds": 41.30936658199698,
+        "truncated": 0
+      }
+    },
+    "standard_gate_constrained": {
+      "n_inputs": 480,
+      "unique": {
+        "calls": 692,
+        "parent_reused_calls": 692,
+        "current_calls": 0,
+        "input_tokens": 993014,
+        "output_tokens": 6147,
+        "generation_seconds": 378.1097681729914,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 882,
+        "parent_reused_calls": 882,
+        "current_calls": 0,
+        "input_tokens": 1022474,
+        "output_tokens": 6717,
+        "generation_seconds": 397.4207203839849,
+        "truncated": 0
+      }
+    },
+    "target_only_gate_constrained": {
+      "n_inputs": 480,
+      "unique": {
+        "calls": 409,
+        "parent_reused_calls": 388,
+        "current_calls": 21,
+        "input_tokens": 73896,
+        "output_tokens": 2895,
+        "generation_seconds": 96.02515479499561,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 818,
+        "parent_reused_calls": 776,
+        "current_calls": 42,
+        "input_tokens": 147792,
+        "output_tokens": 5790,
+        "generation_seconds": 192.05030958999123,
+        "truncated": 0
+      }
+    },
+    "id_gate_constrained": {
+      "n_inputs": 480,
+      "unique": {
+        "calls": 305,
+        "parent_reused_calls": 305,
+        "current_calls": 0,
+        "input_tokens": 50508,
+        "output_tokens": 1021,
+        "generation_seconds": 34.483324840993646,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 610,
+        "parent_reused_calls": 610,
+        "current_calls": 0,
+        "input_tokens": 101016,
+        "output_tokens": 2042,
+        "generation_seconds": 68.96664968198729,
+        "truncated": 0
+      }
+    },
+    "target_only_routed_gate_constrained": {
+      "n_inputs": 480,
+      "unique": {
+        "calls": 322,
+        "parent_reused_calls": 316,
+        "current_calls": 6,
+        "input_tokens": 58243,
+        "output_tokens": 2358,
+        "generation_seconds": 78.43813314899512,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 644,
+        "parent_reused_calls": 632,
+        "current_calls": 12,
+        "input_tokens": 116486,
+        "output_tokens": 4716,
+        "generation_seconds": 156.87626629799024,
+        "truncated": 0
+      }
+    },
+    "field_parser": {
+      "n_inputs": 480,
+      "unique": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      }
+    },
+    "alias_field_parser": {
+      "n_inputs": 480,
+      "unique": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      }
+    },
+    "always_abstain": {
+      "n_inputs": 480,
+      "unique": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      }
+    }
+  },
+  "holdout_canonical": {
+    "standard": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 576,
+        "parent_reused_calls": 0,
+        "current_calls": 576,
+        "input_tokens": 1152300,
+        "output_tokens": 6665,
+        "generation_seconds": 424.81220063599176,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 576,
+        "parent_reused_calls": 0,
+        "current_calls": 576,
+        "input_tokens": 1152300,
+        "output_tokens": 6665,
+        "generation_seconds": 424.81220063599176,
+        "truncated": 0
+      }
+    },
+    "target_only": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 288,
+        "parent_reused_calls": 0,
+        "current_calls": 288,
+        "input_tokens": 58104,
+        "output_tokens": 2969,
+        "generation_seconds": 98.12478710099276,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 576,
+        "parent_reused_calls": 0,
+        "current_calls": 576,
+        "input_tokens": 116208,
+        "output_tokens": 5938,
+        "generation_seconds": 196.24957420198552,
+        "truncated": 0
+      }
+    },
+    "target_only_presence": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 288,
+        "parent_reused_calls": 0,
+        "current_calls": 288,
+        "input_tokens": 58104,
+        "output_tokens": 2969,
+        "generation_seconds": 98.12478710099276,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 576,
+        "parent_reused_calls": 0,
+        "current_calls": 576,
+        "input_tokens": 116208,
+        "output_tokens": 5938,
+        "generation_seconds": 196.24957420198552,
+        "truncated": 0
+      }
+    },
+    "id_selection": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 240,
+        "parent_reused_calls": 0,
+        "current_calls": 240,
+        "input_tokens": 42035,
+        "output_tokens": 830,
+        "generation_seconds": 27.921838995989674,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 480,
+        "parent_reused_calls": 0,
+        "current_calls": 480,
+        "input_tokens": 84070,
+        "output_tokens": 1660,
+        "generation_seconds": 55.84367799197935,
+        "truncated": 0
+      }
+    },
+    "standard_gate_constrained": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 839,
+        "parent_reused_calls": 0,
+        "current_calls": 839,
+        "input_tokens": 1193780,
+        "output_tokens": 7454,
+        "generation_seconds": 452.2319233509934,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 1082,
+        "parent_reused_calls": 0,
+        "current_calls": 1082,
+        "input_tokens": 1232182,
+        "output_tokens": 8183,
+        "generation_seconds": 477.6428360819973,
+        "truncated": 0
+      }
+    },
+    "target_only_gate_constrained": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 506,
+        "parent_reused_calls": 0,
+        "current_calls": 506,
+        "input_tokens": 92426,
+        "output_tokens": 3623,
+        "generation_seconds": 120.81537833599577,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 1012,
+        "parent_reused_calls": 0,
+        "current_calls": 1012,
+        "input_tokens": 184852,
+        "output_tokens": 7246,
+        "generation_seconds": 241.63075667199155,
+        "truncated": 0
+      }
+    },
+    "id_gate_constrained": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 415,
+        "parent_reused_calls": 0,
+        "current_calls": 415,
+        "input_tokens": 69767,
+        "output_tokens": 1355,
+        "generation_seconds": 46.024446541987345,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 830,
+        "parent_reused_calls": 0,
+        "current_calls": 830,
+        "input_tokens": 139534,
+        "output_tokens": 2710,
+        "generation_seconds": 92.04889308397469,
+        "truncated": 0
+      }
+    },
+    "target_only_routed_gate_constrained": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 448,
+        "parent_reused_calls": 0,
+        "current_calls": 448,
+        "input_tokens": 81967,
+        "output_tokens": 3265,
+        "generation_seconds": 108.8350359380056,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 896,
+        "parent_reused_calls": 0,
+        "current_calls": 896,
+        "input_tokens": 163934,
+        "output_tokens": 6530,
+        "generation_seconds": 217.6700718760112,
+        "truncated": 0
+      }
+    },
+    "field_parser": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      }
+    },
+    "alias_field_parser": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      }
+    },
+    "always_abstain": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      }
+    }
+  },
+  "holdout_paraphrase": {
+    "standard": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 576,
+        "parent_reused_calls": 0,
+        "current_calls": 576,
+        "input_tokens": 1154724,
+        "output_tokens": 6333,
+        "generation_seconds": 415.72004802796437,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 576,
+        "parent_reused_calls": 0,
+        "current_calls": 576,
+        "input_tokens": 1154724,
+        "output_tokens": 6333,
+        "generation_seconds": 415.72004802796437,
+        "truncated": 0
+      }
+    },
+    "target_only": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 288,
+        "parent_reused_calls": 0,
+        "current_calls": 288,
+        "input_tokens": 58548,
+        "output_tokens": 2705,
+        "generation_seconds": 89.5062974499906,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 576,
+        "parent_reused_calls": 0,
+        "current_calls": 576,
+        "input_tokens": 117096,
+        "output_tokens": 5410,
+        "generation_seconds": 179.0125948999812,
+        "truncated": 0
+      }
+    },
+    "target_only_presence": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 288,
+        "parent_reused_calls": 0,
+        "current_calls": 288,
+        "input_tokens": 58548,
+        "output_tokens": 2705,
+        "generation_seconds": 89.5062974499906,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 576,
+        "parent_reused_calls": 0,
+        "current_calls": 576,
+        "input_tokens": 117096,
+        "output_tokens": 5410,
+        "generation_seconds": 179.0125948999812,
+        "truncated": 0
+      }
+    },
+    "id_selection": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 240,
+        "parent_reused_calls": 0,
+        "current_calls": 240,
+        "input_tokens": 42479,
+        "output_tokens": 796,
+        "generation_seconds": 27.352578951022224,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 480,
+        "parent_reused_calls": 0,
+        "current_calls": 480,
+        "input_tokens": 84958,
+        "output_tokens": 1592,
+        "generation_seconds": 54.70515790204445,
+        "truncated": 0
+      }
+    },
+    "standard_gate_constrained": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 830,
+        "parent_reused_calls": 0,
+        "current_calls": 830,
+        "input_tokens": 1195210,
+        "output_tokens": 7095,
+        "generation_seconds": 442.30388922496786,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 1062,
+        "parent_reused_calls": 0,
+        "current_calls": 1062,
+        "input_tokens": 1232311,
+        "output_tokens": 7791,
+        "generation_seconds": 466.6409787379689,
+        "truncated": 0
+      }
+    },
+    "target_only_gate_constrained": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 459,
+        "parent_reused_calls": 0,
+        "current_calls": 459,
+        "input_tokens": 85779,
+        "output_tokens": 3218,
+        "generation_seconds": 107.45263889000125,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 918,
+        "parent_reused_calls": 0,
+        "current_calls": 918,
+        "input_tokens": 171558,
+        "output_tokens": 6436,
+        "generation_seconds": 214.9052777800025,
+        "truncated": 0
+      }
+    },
+    "id_gate_constrained": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 398,
+        "parent_reused_calls": 0,
+        "current_calls": 398,
+        "input_tokens": 67806,
+        "output_tokens": 1270,
+        "generation_seconds": 43.95215263002683,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 796,
+        "parent_reused_calls": 0,
+        "current_calls": 796,
+        "input_tokens": 135612,
+        "output_tokens": 2540,
+        "generation_seconds": 87.90430526005366,
+        "truncated": 0
+      }
+    },
+    "target_only_routed_gate_constrained": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 403,
+        "parent_reused_calls": 0,
+        "current_calls": 403,
+        "input_tokens": 75606,
+        "output_tokens": 2874,
+        "generation_seconds": 95.9887542680026,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 806,
+        "parent_reused_calls": 0,
+        "current_calls": 806,
+        "input_tokens": 151212,
+        "output_tokens": 5748,
+        "generation_seconds": 191.9775085360052,
+        "truncated": 0
+      }
+    },
+    "field_parser": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      }
+    },
+    "alias_field_parser": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      }
+    },
+    "always_abstain": {
+      "n_inputs": 576,
+      "unique": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      }
+    }
+  },
+  "holdout_all": {
+    "standard": {
+      "n_inputs": 1152,
+      "unique": {
+        "calls": 1152,
+        "parent_reused_calls": 0,
+        "current_calls": 1152,
+        "input_tokens": 2307024,
+        "output_tokens": 12998,
+        "generation_seconds": 840.5322486639561,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 1152,
+        "parent_reused_calls": 0,
+        "current_calls": 1152,
+        "input_tokens": 2307024,
+        "output_tokens": 12998,
+        "generation_seconds": 840.5322486639561,
+        "truncated": 0
+      }
+    },
+    "target_only": {
+      "n_inputs": 1152,
+      "unique": {
+        "calls": 576,
+        "parent_reused_calls": 0,
+        "current_calls": 576,
+        "input_tokens": 116652,
+        "output_tokens": 5674,
+        "generation_seconds": 187.63108455098336,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 1152,
+        "parent_reused_calls": 0,
+        "current_calls": 1152,
+        "input_tokens": 233304,
+        "output_tokens": 11348,
+        "generation_seconds": 375.2621691019667,
+        "truncated": 0
+      }
+    },
+    "target_only_presence": {
+      "n_inputs": 1152,
+      "unique": {
+        "calls": 576,
+        "parent_reused_calls": 0,
+        "current_calls": 576,
+        "input_tokens": 116652,
+        "output_tokens": 5674,
+        "generation_seconds": 187.63108455098336,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 1152,
+        "parent_reused_calls": 0,
+        "current_calls": 1152,
+        "input_tokens": 233304,
+        "output_tokens": 11348,
+        "generation_seconds": 375.2621691019667,
+        "truncated": 0
+      }
+    },
+    "id_selection": {
+      "n_inputs": 1152,
+      "unique": {
+        "calls": 480,
+        "parent_reused_calls": 0,
+        "current_calls": 480,
+        "input_tokens": 84514,
+        "output_tokens": 1626,
+        "generation_seconds": 55.2744179470119,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 960,
+        "parent_reused_calls": 0,
+        "current_calls": 960,
+        "input_tokens": 169028,
+        "output_tokens": 3252,
+        "generation_seconds": 110.5488358940238,
+        "truncated": 0
+      }
+    },
+    "standard_gate_constrained": {
+      "n_inputs": 1152,
+      "unique": {
+        "calls": 1669,
+        "parent_reused_calls": 0,
+        "current_calls": 1669,
+        "input_tokens": 2388990,
+        "output_tokens": 14549,
+        "generation_seconds": 894.5358125759612,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 2144,
+        "parent_reused_calls": 0,
+        "current_calls": 2144,
+        "input_tokens": 2464493,
+        "output_tokens": 15974,
+        "generation_seconds": 944.2838148199662,
+        "truncated": 0
+      }
+    },
+    "target_only_gate_constrained": {
+      "n_inputs": 1152,
+      "unique": {
+        "calls": 965,
+        "parent_reused_calls": 0,
+        "current_calls": 965,
+        "input_tokens": 178205,
+        "output_tokens": 6841,
+        "generation_seconds": 228.26801722599703,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 1930,
+        "parent_reused_calls": 0,
+        "current_calls": 1930,
+        "input_tokens": 356410,
+        "output_tokens": 13682,
+        "generation_seconds": 456.53603445199406,
+        "truncated": 0
+      }
+    },
+    "id_gate_constrained": {
+      "n_inputs": 1152,
+      "unique": {
+        "calls": 813,
+        "parent_reused_calls": 0,
+        "current_calls": 813,
+        "input_tokens": 137573,
+        "output_tokens": 2625,
+        "generation_seconds": 89.97659917201418,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 1626,
+        "parent_reused_calls": 0,
+        "current_calls": 1626,
+        "input_tokens": 275146,
+        "output_tokens": 5250,
+        "generation_seconds": 179.95319834402835,
+        "truncated": 0
+      }
+    },
+    "target_only_routed_gate_constrained": {
+      "n_inputs": 1152,
+      "unique": {
+        "calls": 851,
+        "parent_reused_calls": 0,
+        "current_calls": 851,
+        "input_tokens": 157573,
+        "output_tokens": 6139,
+        "generation_seconds": 204.8237902060082,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 1702,
+        "parent_reused_calls": 0,
+        "current_calls": 1702,
+        "input_tokens": 315146,
+        "output_tokens": 12278,
+        "generation_seconds": 409.6475804120164,
+        "truncated": 0
+      }
+    },
+    "field_parser": {
+      "n_inputs": 1152,
+      "unique": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      }
+    },
+    "alias_field_parser": {
+      "n_inputs": 1152,
+      "unique": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      }
+    },
+    "always_abstain": {
+      "n_inputs": 1152,
+      "unique": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      },
+      "logical": {
+        "calls": 0,
+        "parent_reused_calls": 0,
+        "current_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "generation_seconds": 0,
+        "truncated": 0
+      }
+    }
+  },
+  "_note": "Do not add methods or overlapping split totals. Unique costs share caches; logical costs repeat a request per input that needs it. Both include recorded historical time and exclude CPU work/model load. Neither is end-to-end latency."
+}

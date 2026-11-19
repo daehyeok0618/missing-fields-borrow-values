@@ -1,0 +1,35 @@
+{
+  "key": "dd2a3cce6261a3e7fc4cfa1425e88e7b492ef8f91dda438811708e172e1aea34",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract information only about the organization named in the question. Use only explicitly stated facts about that organization in the provided documents. A fact about a different organization is not evidence about the requested organization. If no document states the requested founding year for the named organization, return exactly {\"value\": null}. If it is stated, return a JSON object with exactly one key, \"value\", whose value is a JSON string containing the stated year as digits. Do not infer, estimate, or invent a missing year. Return only the JSON object, without explanation or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Documents and background:\n\n<document id=\"Fenwynquil Zorporlum Institute\">\nOrganization memo: Fenwynquil Zorporlum Institute\n- Activity: acoustic research\n- Region: northern district\n- Recorded audit year: 1942\n- Recorded review year: 1951\n</document>\n\nQuestion: What is the recorded founding year for Fenwynquil Zorporlum Institute?"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 96,
+  "generated_token_ids": [
+    4913,
+    957,
+    788,
+    330,
+    2921,
+    9207,
+    151645
+  ],
+  "raw_output": "{\"value\": \"null\"}",
+  "input_tokens": 209,
+  "output_tokens": 7,
+  "generation_seconds": 0.2109746099995391,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:38:58.083416+00:00",
+  "system_error": null,
+  "record_hash": "c20dd4ac702806e1104b1ffdef6e00361b9b7f24da9a9801b7d81765984c6f0c"
+}

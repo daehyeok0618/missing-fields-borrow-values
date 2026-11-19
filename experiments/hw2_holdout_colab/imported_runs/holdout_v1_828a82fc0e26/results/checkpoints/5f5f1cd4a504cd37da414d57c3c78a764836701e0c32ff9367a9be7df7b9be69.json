@@ -1,0 +1,30 @@
+{
+  "key": "5f5f1cd4a504cd37da414d57c3c78a764836701e0c32ff9367a9be7df7b9be69",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "id_selection",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Select a numeric occurrence that explicitly states the field asked in the question for the target organization. Each bracketed ID marks the numeric occurrence immediately after it. A number describing another field does not answer the question. If the requested field is not explicitly stated, select NONE. Return exactly one listed ID or NONE. Do not return a number, JSON, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Selnelkel Jornelzor Institute\n\nTarget document:\nOrganization: Selnelkel Jornelzor Institute\nActivity: acoustic research\nRegion: northern district\nRecorded budget: $[n01]196146\n\nQuestion: What is the recorded salary for Selnelkel Jornelzor Institute?\nAllowed outputs: n01, NONE"
+    }
+  ],
+  "mode": "free",
+  "label_sequences": null,
+  "max_new_tokens": 16,
+  "generated_token_ids": [
+    45425,
+    151645
+  ],
+  "raw_output": "NONE",
+  "input_tokens": 168,
+  "output_tokens": 2,
+  "generation_seconds": 0.06287397099913505,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:31:57.228058+00:00",
+  "system_error": null,
+  "record_hash": "d2a13092e15a4faf15d644af11480602f6498ee6c6dc587636ae8af89471b1a6"
+}

@@ -1,0 +1,42 @@
+{
+  "key": "a35c3e0da1181336fa23e7c8243cd62ea05f2942182bdf68637e58b45d5d09fb",
+  "setup_hash": "e9c4e13f2739c28a6bc4ab30739dbe8cf1b3630407924ab2c83064f8c6472f10",
+  "stage": "target_only_gate_constrained",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Decide whether the target document explicitly assigns the candidate value to the target organization for the field asked in the question. A value for another field is not support. Return SUPPORTED only if this exact relationship is stated. Otherwise return UNSUPPORTED. Return exactly one of these two words without JSON, evidence, explanation, or Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Target organization: Fenhorgil Kellumsel Institute\n\nTarget document:\nOrganization memo: Fenhorgil Kellumsel Institute\n- Activity: acoustic research\n- Region: northern district\n\nQuestion: What is the recorded founding year for Fenhorgil Kellumsel Institute?\nCandidate value: 1985"
+    }
+  ],
+  "mode": "constrained",
+  "label_sequences": {
+    "SUPPORTED": [
+      50,
+      61140,
+      151645
+    ],
+    "UNSUPPORTED": [
+      88673,
+      61140,
+      151645
+    ]
+  },
+  "max_new_tokens": 12,
+  "generated_token_ids": [
+    88673,
+    61140,
+    151645
+  ],
+  "raw_output": "UNSUPPORTED",
+  "input_tokens": 146,
+  "output_tokens": 3,
+  "generation_seconds": 0.10779359200023464,
+  "truncated": false,
+  "finished_utc": "2026-11-10T05:26:57.862214+00:00",
+  "system_error": null,
+  "record_hash": "06ab9c80de63841c8dd8b0bf69699e2af739db9d6c8af7195a5bb2fd8c15c8ff"
+}

@@ -1,0 +1,13 @@
+{
+  "development_inputs": 480,
+  "new_development_gate_calls_exact_if_reuse": 21,
+  "holdout_inputs": 1152,
+  "holdout_bases": 16,
+  "holdout_unique_candidate_calls": 2208,
+  "holdout_total_calls_upper_bound": 4416,
+  "reuse_total_new_calls_upper_bound": 4437,
+  "refresh_total_new_calls_upper_bound": 6192,
+  "maximum_candidate_prompt_tokens": 2013,
+  "holdout_history_request_hits": 0,
+  "note": "Development reuse count is exact. Holdout gate candidates are unknown until inference; counts are conservative bounds, not runtime estimates."
+}
