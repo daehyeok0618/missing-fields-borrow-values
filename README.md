@@ -55,7 +55,7 @@ against the number printed in the paper; it stops with an error if any value dif
 
 We ran all of these steps in a fresh clone with a new virtual environment (Python 3.13 and the pinned
 packages). Each step took under five seconds. All regenerated result files (CSV, JSON, JSONL) were
-byte-identical to the released ones, and `paper_tables.py` confirmed all 45 values. Figure files are
+byte-identical to the released ones, and `paper_tables.py` confirmed all 52 values. Figure files are
 redrawn with the same content, but their bytes can differ (embedded metadata and font subsets).
 
 ## Re-run the model (Colab T4)

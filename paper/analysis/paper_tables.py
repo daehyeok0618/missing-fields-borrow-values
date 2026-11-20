@@ -209,6 +209,32 @@ def analysis_numbers():
                f"{100 * float(r['ci95_high']):.1f}")
         check(f"6.3 Year N0 donor {placement}", got, exp)
         print(f"  6.3 Founding Year N0 {placement:<9} donor value {got[0]}/{got[1]} = {got[2]}% [{got[3]}, {got[4]}]")
+    # Founding Year primary inputs by placement (strict categories): donor values with the queried or the
+    # competing label, null or "null" outputs, and context-absent outputs, all over the inputs of one placement.
+    year = [r for r in request_level(YEAR) if r["family"] == "MISSING"]
+    donor_rate = {}
+    for placement, exp in (("MIDDLE", (1152, 1014, 88, "88.0", "7.6", "3.6", "0.8")),
+                           ("ADJACENT", (1152, 781, 68, "67.8", "5.9", "21.4", "4.9"))):
+        sel = [r for r in year if r["placement"] == placement]
+        n = len(sel)
+        donors = [r for r in sel if r["category"] == "DONOR_MATCH"]
+        queried = sum(digits(r["parse"]["value"]) == digits(r["v1" if r["assignment"] == "S1" else "v2"])
+                      for r in donors)
+        competing = sum(digits(r["parse"]["value"]) == digits(r["v2" if r["assignment"] == "S1" else "v1"])
+                        for r in donors)
+        if queried + competing != len(donors):
+            raise SystemExit(f"6.3 Year {placement}: a donor match carries neither donor value")
+        null = sum(is_null(r) for r in sel)
+        absent = sum(r["category"] == "CONTEXT_ABSENT" for r in sel)
+        got = (n, queried, competing, f"{100 * queried / n:.1f}", f"{100 * competing / n:.1f}",
+               f"{100 * null / n:.1f}", f"{100 * absent / n:.1f}")
+        check(f"6.3 Year primary {placement}", got, exp)
+        donor_rate[placement] = len(donors) / n
+        print(f"  6.3 Founding Year {placement:<9} of {n} inputs: queried-label donor {queried} ({got[3]}%), "
+              f"competing-label donor {competing} ({got[4]}%), null or \"null\" {got[5]}%, context-absent {got[6]}%")
+    drop = 100 * (donor_rate["MIDDLE"] - donor_rate["ADJACENT"])
+    check("6.3 Year drop in donor matching", f"{drop:.0f}", "22")
+    print(f"  6.3 Founding Year drop in donor matching from Middle to Adjacent: {drop:.2f} points")
 
     # 6.4 probe error decomposition (basic Missing condition)
     count = Counter()
@@ -221,6 +247,58 @@ def analysis_numbers():
     check("6.4 basic Missing decomposition", (errors, removed_by_routing, removed_by_presence), (79, 43, 36))
     print(f"  6.4 basic Missing: Standard errors {errors}; routing removes {removed_by_routing}; "
           f"presence check removes the remaining {removed_by_presence}")
+
+    # 6.4 paired accuracy differences with 95% bootstrap intervals (all holdout inputs of one task)
+    for task, key in (("Salary", "salary"), ("Founding Year", "year")):
+        for (method, reference), label, nd, exp in (
+                (("standard_gate_constrained", "standard"), "Standard+V - Standard", 1,
+                 {"salary": ("30.9", "27.8", "34.0"), "year": ("40.6", "38.5", "42.4")}),
+                (("target_only_routed_gate_constrained", "standard_gate_constrained"), "R+P+V - Standard+V", 2,
+                 {"salary": ("0.35", "0.00", "1.04"), "year": ("0.00", "0.00", "0.00")})):
+            diff, lo, hi = probe_contrast(key, method, reference)
+            if (method, reference) == ("standard_gate_constrained", "standard"):
+                # this pair is also written by the probe analysis; the recomputation must reproduce it exactly
+                (r,) = rows(PROBE / "paired_contrasts.csv", split="holdout_all", task=key, group="all_conditions",
+                            mode="decision", policy="semantic", method=method, reference=reference, metric="accuracy")
+                if (diff, lo, hi) != tuple(float(r[k]) for k in ("difference_method_minus_reference", "ci_low",
+                                                                 "ci_high")):
+                    raise SystemExit(f"6.4 {task} {label}: recomputation differs from paired_contrasts.csv")
+            got = tuple(f"{100 * x:.{nd}f}" for x in (diff, lo, hi))
+            check(f"6.4 {task} {label}", got, exp[key])
+            print(f"  6.4 {task:<14} {label}: {got[0]} points [{got[1]}, {got[2]}]")
+
+
+def probe_contrast(task, method, reference, group="all_conditions", mode="decision", policy="semantic"):
+    """Accuracy difference method - reference on the probe holdout with its 95% bootstrap interval.
+
+    Uses the probe analysis code and its bootstrap seed for (task, group, mode, policy), so the draws are the
+    ones behind paired_contrasts.csv; that file stores only some pairs (R+P+V - Standard+V is not among them).
+    """
+    import numpy as np
+    sys.path.insert(0, str(ROOT))
+    from experiments.hw2_holdout_colab import statistics as st
+    from experiments.hw2_holdout_colab.common import digest, read_jsonl
+    from experiments.hw2_holdout_colab.protocol import PROTOCOL
+    run = PROBE.parent
+    gold = json.loads((run / "gold.json").read_text())
+    records = [r for r in read_jsonl(run / "decisions.jsonl") if r["task"] == task and r["split"].startswith("holdout_")
+               and (group == "all_conditions" or r["group"] == group)]
+    clusters = sorted({(r["task"], r["base_id"]) for r in records})
+    lookup = {c: i for i, c in enumerate(clusters)}
+    seed = PROTOCOL["bootstrap_seed"] ^ int(digest([task, group, mode, policy])[:8], 16)
+    weights = st.weights_for(clusters, PROTOCOL["bootstrap_repetitions"], seed)
+
+    def accuracy(m):
+        counts = np.zeros((len(clusters), 2), dtype=int)
+        for r in records:
+            flags = st.indicators(r, gold[r["id"]], m, policy, mode)
+            counts[lookup[(r["task"], r["base_id"])]] += [flags["correct"], flags["n"]]
+        total, resampled = counts.sum(axis=0), weights @ counts
+        return float(total[0] / total[1]), resampled[:, 0] / resampled[:, 1]
+
+    (a, draws_a), (b, draws_b) = accuracy(method), accuracy(reference)
+    lo, hi = map(float, np.percentile(draws_a - draws_b, [2.5, 97.5]))
+    return a - b, lo, hi
 
 
 PARTS = {"main": table_main, "outcomes": table_outcomes, "probe": table_probe, "analysis": analysis_numbers}
